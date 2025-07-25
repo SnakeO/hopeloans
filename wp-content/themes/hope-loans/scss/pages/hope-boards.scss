@@ -1,0 +1,82 @@
+/* 
+===========================
+	PAGE: HOPE BOARDS
+===========================
+*/
+
+.half-half-button button,
+.three-quarters-button button,
+.one-quarter-button button,
+.two-thirds-button button,
+.one-third-button button,
+.two-thirds-button button.vc_general.vc_btn3,
+.one-third-button button.vc_general.vc_btn3 {
+	font-family: Oswald;
+	line-height: 12px; 
+	letter-spacing: 1px; 
+}
+
+.one-third-button.vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-icon-right:not(.vc_btn3-o-empty) .vc_btn3-icon,
+.two-thirds-button.vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-icon-right:not(.vc_btn3-o-empty) .vc_btn3-icon 
+{
+	margin-left: 2px; 
+}
+
+.half-half-button {
+	width: 48%; 
+	margin: 2px 1%; 
+	float: left; 
+}
+
+.three-quarters-button {
+	width: 70%; 
+	margin: 2px 1% 10px 4%; 
+	float: left; 
+}
+
+.one-quarter-button {
+	width: 20%; 
+	margin: 2px 4% 10px 1%; 
+	float: left; 
+}
+
+.two-thirds-button {
+	width: 61%; 
+	margin: 2px 1% 10px 4%; 
+	float: left; 
+}
+
+.one-third-button {
+	width: 28%; 
+	margin: 2px 4% 10px 1%; 
+	float: left; 
+}
+
+
+
+
+@media (min-width: 768px) and (max-width:1199px) {
+
+	.vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-icon-left .vc_btn3-icon, 
+	.vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-icon-right .vc_btn3-icon 
+	{
+		display: none; 
+	}
+
+	.vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-size-xs 
+	{
+		padding: 8px 2px; 
+	}
+
+	.half-half-button button,
+	.three-quarters-button button,
+	.one-quarter-button button,
+	.two-thirds-button button,
+	.one-third-button button,
+	.two-thirds-button button.vc_general.vc_btn3,
+	.one-third-button button.vc_general.vc_btn3 
+	{
+		letter-spacing: 0.5px; 
+	}
+
+}

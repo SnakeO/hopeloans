@@ -1,0 +1,1 @@
+ <h2>Custom Login Page by <img style="width:140px;margin-right:10px;vertical-align: text-bottom;" src="<?php echo SEED_CL_PLUGIN_URL ?>admin/seedprod-logo-black.png"> <span class="seed_cl_version" style="font-size: 10px;"> Version <?php echo SEED_CL_VERSION; ?></span></h2>

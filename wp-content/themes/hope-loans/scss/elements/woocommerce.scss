@@ -1,0 +1,9 @@
+.woocommerce-info {
+	
+	border-top-color: $yellow_orange;
+	background-color: white;
+
+	&:before {
+		color: $yellow_orange;
+	}
+}

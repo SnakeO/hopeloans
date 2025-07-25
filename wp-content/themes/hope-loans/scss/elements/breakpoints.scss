@@ -1,0 +1,38 @@
+/* 
+==================
+	BREAKPOINTS
+==================
+*/
+
+@mixin breakpoint_helper($point) 
+{
+	@if $point == desktop {
+		@media ( min-width: 1200px ) { @content ; }
+	}
+	@else if $point == tablet-landscape {
+		@media ( min-width: 992px ) and ( max-width: 1199px )  { @content ; }
+	}
+	@else if $point == tablet {
+		@media ( min-width: 769px ) and ( max-width: 991px ) { @content ; }
+	}
+	@else if $point == mobile { /* mobile-portrait */
+		@media ( max-width: 768px ) { @content ; }
+	}
+	@else if $point == tiny { /* this is only used to override mobile rules on super small screens */
+		@media ( max-width: 460px ) { @content ; }
+	}
+}
+
+@mixin breakpoint($points...) 
+{
+	@each $point in $points {
+		@include breakpoint_helper($point);
+	}
+}
+
+@mixin breakpoints($points...)
+{
+	@each $point in $points {
+		@include breakpoint_helper($point);
+	}
+}

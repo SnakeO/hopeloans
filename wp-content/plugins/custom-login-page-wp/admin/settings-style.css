@@ -1,0 +1,46 @@
+/* This is place for css you need to execute on the settings page. This file will only load on the menu pages you've define in the config file. */
+
+.seed_cl .seed_cl_version{
+	font-size:10px;
+}
+
+.seed_cl .mceLayout{
+	background-color:#fff;
+}
+
+.seed_cl .highlight{
+	background-color:#FCF8E3;
+}
+
+/* Theme Page */
+.seed_cl .grid a img{
+	border:1px solid #ddd;
+}
+.seed_cl .pagination{
+	display:inline-block;
+}
+.seed_cl .pagination li{
+	display:inline;
+}
+.seed_cl .pagination .disabled{
+	display:none;
+}
+
+.seed_cl_loading{
+	position: absolute;
+	background: rgba(255, 255, 255, 0.72);
+	width: 300px;
+	left: 1px;
+	text-align: center;
+	padding: 20px 0;
+	bottom: 0;
+	font-size: 18px;
+	color: #000;
+}
+
+
+
+
+
+
+

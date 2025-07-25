@@ -1,0 +1,100 @@
+Version 2.1.0
+-------------
+- Added new element "TS Google Maps Curveline"
+- Map marker picker for built-in markers for relevant Google map elements has been switched to a faster icon picker
+- Google maps elements will now also be loading the "geometry" library when requesting the API file from Google
+- Restored overlay edit output via infowindow or browser console due to change in how Google returns overlay coordinates
+- Increased optional vertical infowindow offset from -50/+50 to -100/+100 pixels
+- Fixed negative infowindow offset values getting treated as positive values by switching from "parseInt()" to "parseFloat()" when retrieving value
+- Fixed cannot read property "replace" of undefined in "jquery.vcsc.gomapplus.min.js" file when loading map markers via JSON with missing "group" parameter
+- Dropped usage of "vc_generate_dependencies_attributes" function for all custom parameters (deprecated in Visual Composer since v4.8.0)
+- Fixed link to documentation website within the general plugin settings
+- All external links within settings section now open in a new tab/window
+- Made underlying JS backend routines backwards compatible to noUiSlider script v9.0.0 (currently using v9.2.0)
+- Fixed "Undefined variable: VISUAL_COMPOSER_EXTENSIONS" warnings on plugin settings page
+- Fixed "Trying to get property of non-object" warnings on plugin settings page
+- Improved settings validation routine and error output
+
+Version 2.0.2
+-------------
+- Added option to "TS Google Maps PLUS" + "TS Google Maps SINGLE" elements to control if and how Google POI's should be provided
+- Added option to "TS Google Maps Overlay" element to draw polyline segments as geodesic lines
+- Renamed a utilized JS function in order to prevent conflict with different function of same name in BuddyPress plugin, causing random "pos" text strings in tinyMCE editor
+- Added new preloader animation style
+- Internal noUiSlider script has been updated from v8.2.1 to v9.2.0
+- Updated EN/DE .po/.mo language files
+
+Version 2.0.1
+-------------
+- Added option to "TS Google Maps PLUS" + "TS Google Maps Single" elements to define custom float breakpoint for SumoSelect selectboxes
+- Added option to "TS Google Maps PLUS" element to define maximum zoom level for group filter routine
+- Updated external links to new domains for demo and support websites
+- Updated some internal JS routines to make plugin compatible with "Composium - Visual Composer Extensions Addon" plugin (v5.1.x)
+- Plugin will now check for 3rd party "Elements for Users - Addon for Visual Composer" plugin to correctly register elements with that plugin as well
+- Updated EN/DE .po/.mo language files
+
+Version 2.0.0
+-------------
+- Added option to "TS Google Maps PLUS" element to show/hide location search bar based on screen width
+- Added option to "TS Google Maps PLUS" element to show/hide Snazzy Maps style selector based on screen width
+- Added option to "TS Google Maps PLUS" element to provide search input for Snazzy Maps style selector
+- Added option to "TS Google Maps PLUS" element to show/hide group filter selector based on screen width
+- Added option to "TS Google Maps PLUS" element to provide search input for group filter selector
+- Added option to "TS Google Maps PLUS" element to show/hide location selector based on screen width
+- Added option to "TS Google Maps PLUS" element to provide search input for location selector
+- Added option to "TS Google Maps PLUS" element to show a more detailed location listing below the map
+- Added option to "TS Google Maps PLUS" element to pre-filter map upon initial rendering by any existing group(s)
+- Added option to "TS Google Maps PLUS" element to pre-filter map with dynamic URL parameters (will override any prefilters set in element settings)
+- Added option to "TS Google Maps PLUS" element to show preloader animation during map rendering and filter processes (useful for large marker counts)
+- Added option to "TS Google Maps PLUS" and "TS Google Maps Single" elements to use custom infowindow style
+- Added option to "TS Google Maps PLUS" element to use multiple groups for each marker/overlay
+- Added option to "TS Google Maps PLUS" element to select from 10 pre-defined marker clusterer styles
+- Added option to "TS Google Maps PLUS" element to define custom clusterer marker icon(s) for up to 5 levels
+- Added option to "TS Google Maps PLUS" element to support placeholder item in marker selection box (including option to translate/change placeholder text)
+- Added option to "TS Google Maps PLUS" and "TS Google Maps Single" to define marker size for all custom markers (media library and external)
+- Added option to "TS Google Maps PLUS" and "TS Google Maps Single" elements to show/hide fullscreen control button
+- Added option to "TS Google Maps PLUS" and "TS Google Maps Single" elements to automatically add markers based on user searches to the (optional) marker select box
+- Added option to "TS Google Maps PLUS" and "TS Google Maps Single" elements to prevent the automatic creation of an infowindow for markers based on user search
+- Added option to "TS Google Maps PLUS" and "TS Google Maps Single" elements to exclude the automatic addition of Google links for infowindows of markers based on user search
+- Added option to "TS Google Maps Marker" and "TS Google Maps Overlay" sub-elements to assign a custom ID to every marker/overlay
+- Added option to "TS Google Maps PLUS" element to select markers and/or overlays via external links/triggers (with specific syntax; see manual)
+- "TS Google Map PLUS" now also supports overlays als option in the group filter and "zoom to" selectors
+- Optional JSON data feed for "TS Google Maps PLUS" element now support parameters for custom marker icon size (icon_width + icon_height)
+- Added option to advanced link picker parameter to set REL attribute for link and pull REL setting from default VC link picker when switching
+- Added option to plugin settings to allows usage of "TS Google Maps PLUS" element in nested levels with more then 2 sub-levels (not recommended as not officially supported by VC)
+- Underlying script now attempts to check if map is embedded in native Visual Composer tabs/tour/accordion element and will trigger map to rerender whenever a section with a map is made visible
+- Internal SumoSelect script has been updated from v2.1.0 to v3.0.2
+- Internal isMobile.js device type detections has been updated from v0.3.5 to v0.4.0
+- Fixed occasional "Uncaught RangeError: Maximum call stack size exceeded" JS error when saving plugin settings
+- Updated or corrected internal links that used invalid or outdated URLs
+- Added full German translation for all element settings panels
+- Added partial Spanish translation for all element settings panels
+- Added option to prevent loading of available translation file if so desired
+- Other CSS + JS Improvements
+
+Version 1.1.2
+-------------
+- Added support for placeholder item in marker selection box (including option to translate/change placeholder text)
+
+Version 1.1.1
+-------------
+- Fixed missing marker clusterer icons for "TS Google Maps PLUS" element due to change in GitHub hosting
+
+Version 1.1.0
+-------------
+- Added new element "TS Google Maps SINGLE" (single marker map)
+- Added blank, letter and number markers to "TS Google Maps PLUS + SINGLE" elements
+- Added 150+ other markers in multiple categories to "TS Google Maps PLUS + SINGLE" element
+- Added option to "TS Google Maps PLUS + SINGLE" elements to use external path to marker image
+- Fixed issue in "TS Google Maps PLUS" element where using the group filter did not correctly zoom/scale map
+- Added new advanced link picker parameter that used page/post ID instead of fixed link (useful if permalinks change frequently)
+- Adjustments for Visual Composer v4.9.x (switch to vc_lean_map() whenever possible)
+- Internal Envato requests switched from wp_remote_get() to direct cURL requests
+- Internal noUiSlider script has been updated from v7.1.0 to v8.2.1
+- Fixed issue where internal version check routines treat VC v4.10/4.10.0 as v4.1.0 instead
+- Added option to plugin settings to store a Google Maps API key to be used when loading the maps API file from Google
+- Other CSS + JS Improvements
+
+Version 1.0.0
+-------------
+- Initial Release

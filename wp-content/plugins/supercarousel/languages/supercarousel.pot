@@ -1,0 +1,1168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Super Carousel 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-15 13:50+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Taraprasad Swain <swain.tara@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: config.php:19
+msgid "Are you sure?"
+msgstr ""
+
+#: config.php:20
+msgid "Saving..."
+msgstr ""
+
+#: config.php:21
+msgid "Loading..."
+msgstr ""
+
+#: config.php:22
+msgid "Checking..."
+msgstr ""
+
+#: config.php:23
+msgid "Saved"
+msgstr ""
+
+#: config.php:24
+msgid "Font Style"
+msgstr ""
+
+#: config.php:25
+msgid "Font Weight"
+msgstr ""
+
+#: config.php:26
+msgid "Font"
+msgstr ""
+
+#: config.php:27
+msgid "Font Color"
+msgstr ""
+
+#: config.php:28
+msgid "Top"
+msgstr ""
+
+#: config.php:29 config.php:51 admin/views/supercarousel-addedit.php:808
+msgid "Left"
+msgstr ""
+
+#: config.php:30
+msgid "Middle"
+msgstr ""
+
+#: config.php:31
+msgid "Bottom"
+msgstr ""
+
+#: config.php:32
+msgid "Vertical Align"
+msgstr ""
+
+#: config.php:33
+msgid "Normal"
+msgstr ""
+
+#: config.php:34
+msgid "Italic"
+msgstr ""
+
+#: config.php:35
+msgid "Inherit"
+msgstr ""
+
+#: config.php:36
+msgid "Auto"
+msgstr ""
+
+#: config.php:37
+msgid "None"
+msgstr ""
+
+#: config.php:38
+msgid "Word Spacing"
+msgstr ""
+
+#: config.php:39
+msgid "Height"
+msgstr ""
+
+#: config.php:40
+msgid "Line Height"
+msgstr ""
+
+#: config.php:41
+msgid "Letter Spacing"
+msgstr ""
+
+#: config.php:42
+msgid "Text Transform"
+msgstr ""
+
+#: config.php:43
+msgid "Uppercase"
+msgstr ""
+
+#: config.php:44
+msgid "Lowercase"
+msgstr ""
+
+#: config.php:45
+msgid "Capitalize"
+msgstr ""
+
+#: config.php:46
+msgid "Text Decoration"
+msgstr ""
+
+#: config.php:47
+msgid "Underline"
+msgstr ""
+
+#: config.php:48
+msgid "Overline"
+msgstr ""
+
+#: config.php:49
+msgid "Line Through"
+msgstr ""
+
+#: config.php:50
+msgid "Text Align"
+msgstr ""
+
+#: config.php:52 admin/views/supercarousel-addedit.php:809
+msgid "Right"
+msgstr ""
+
+#: config.php:53
+msgid "Center"
+msgstr ""
+
+#: config.php:54
+msgid "Justify"
+msgstr ""
+
+#: config.php:55
+msgid "Text Shadow"
+msgstr ""
+
+#: config.php:56
+msgid "Box Shadow"
+msgstr ""
+
+#: config.php:57
+msgid "Scale"
+msgstr ""
+
+#: config.php:58
+msgid "Gray Scale"
+msgstr ""
+
+#: config.php:59
+msgid "Opacity"
+msgstr ""
+
+#: config.php:60
+msgid "Margin"
+msgstr ""
+
+#: config.php:61
+msgid "Padding"
+msgstr ""
+
+#: config.php:62
+msgid "Border Radius"
+msgstr ""
+
+#: config.php:63
+msgid "Background Color"
+msgstr ""
+
+#: config.php:64
+msgid "Overlay Color"
+msgstr ""
+
+#: config.php:65
+msgid "Border"
+msgstr ""
+
+#: config.php:66
+msgid "Border Left"
+msgstr ""
+
+#: config.php:67
+msgid "Border Right"
+msgstr ""
+
+#: config.php:68 config.php:76
+msgid "Border Top"
+msgstr ""
+
+#: config.php:69
+msgid "Border Bottom"
+msgstr ""
+
+#: config.php:70
+msgid "Position"
+msgstr ""
+
+#: config.php:71
+msgid "Outline"
+msgstr ""
+
+#: config.php:72
+msgid "Solid"
+msgstr ""
+
+#: config.php:73
+msgid "Dotted"
+msgstr ""
+
+#: config.php:74
+msgid "Dashed"
+msgstr ""
+
+#: config.php:75
+msgid "Double"
+msgstr ""
+
+#: config.php:77
+msgid "Transition"
+msgstr ""
+
+#: config.php:78
+msgid "Click Action"
+msgstr ""
+
+#: config.php:79
+msgid "Self Lightbox"
+msgstr ""
+
+#: config.php:80
+msgid "Self Link"
+msgstr ""
+
+#: config.php:81
+msgid "Permalink"
+msgstr ""
+
+#: config.php:82
+msgid "Featured Image Lightbox"
+msgstr ""
+
+#: config.php:83
+msgid "Featured Image Link"
+msgstr ""
+
+#: config.php:84
+msgid "Video Link"
+msgstr ""
+
+#: config.php:85
+msgid "Video Lightbox"
+msgstr ""
+
+#: config.php:86
+msgid "Image Lightbox"
+msgstr ""
+
+#: config.php:87
+msgid "Image Link"
+msgstr ""
+
+#: config.php:88
+msgid "Item Lightbox"
+msgstr ""
+
+#: config.php:89
+msgid "Item Link"
+msgstr ""
+
+#: config.php:90
+msgid "Custom Link"
+msgstr ""
+
+#: config.php:91
+msgid "Custom Function"
+msgstr ""
+
+#: config.php:92
+msgid "Enter Link Here"
+msgstr ""
+
+#: config.php:93
+msgid "Same Window"
+msgstr ""
+
+#: config.php:94 admin/views/supercarousel-image-addedit.php:65
+msgid "New Window"
+msgstr ""
+
+#: config.php:95
+msgid "Custom Function Callback"
+msgstr ""
+
+#: config.php:96
+msgid "This click action overrides each element's click action"
+msgstr ""
+
+#: config.php:97
+msgid "Image Size"
+msgstr ""
+
+#: config.php:98
+msgid "Image Tag"
+msgstr ""
+
+#: config.php:99
+msgid "Leave empty if custom tag is not used"
+msgstr ""
+
+#: config.php:100
+msgid "String Limit"
+msgstr ""
+
+#: config.php:101
+msgid "Separator"
+msgstr ""
+
+#: config.php:102
+msgid "String Prepend"
+msgstr ""
+
+#: config.php:103
+msgid "String Append"
+msgstr ""
+
+#: config.php:104
+msgid "Meta Name"
+msgstr ""
+
+#: config.php:105 admin/views/supercarousel-addedit.php:1202
+msgid "Wrapper Class"
+msgstr ""
+
+#: config.php:106
+msgid "Label"
+msgstr ""
+
+#: config.php:107
+msgid "Custom HTML"
+msgstr ""
+
+#: config.php:108
+msgid "Display"
+msgstr ""
+
+#: config.php:109
+msgid "Default"
+msgstr ""
+
+#: config.php:110
+msgid "HQ Default"
+msgstr ""
+
+#: config.php:111
+msgid "MQ Default"
+msgstr ""
+
+#: config.php:112
+msgid "SD Default"
+msgstr ""
+
+#: config.php:113
+msgid "Max Res Default"
+msgstr ""
+
+#: config.php:114
+msgid "Thumbnail"
+msgstr ""
+
+#: config.php:115
+msgid "Medium"
+msgstr ""
+
+#: config.php:116
+msgid "Full"
+msgstr ""
+
+#: config.php:117
+msgid "Large"
+msgstr ""
+
+#: config.php:118
+msgid "Small"
+msgstr ""
+
+#: config.php:119
+msgid "Element Name"
+msgstr ""
+
+#: config.php:120
+msgid "Category"
+msgstr ""
+
+#: config.php:121
+msgid "Copyright"
+msgstr ""
+
+#: config.php:122
+msgid "Author"
+msgstr ""
+
+#: config.php:123
+msgid "Please enter YouTube PlayList URL"
+msgstr ""
+
+#: config.php:124
+msgid "Please enter YouTube API Key"
+msgstr ""
+
+#: config.php:125
+msgid "Invalid YouTube Playlist URL"
+msgstr ""
+
+#: config.php:126
+msgid "Invalid API Key OR PlayList URL"
+msgstr ""
+
+#: config.php:127 admin/class-supercarousel-adminpage.php:370
+#: admin/class-supercarousel-adminpage.php:377
+msgid "Awesome, looks good."
+msgstr ""
+
+#: config.php:128
+msgid "Please enter Flickr Group / Album URL"
+msgstr ""
+
+#: config.php:129
+msgid "Please enter Flickr API Key"
+msgstr ""
+
+#: config.php:130
+msgid "Invalid Flickr Group / Album URL"
+msgstr ""
+
+#: config.php:131
+msgid "Min"
+msgstr ""
+
+#: config.php:132
+msgid "Max"
+msgstr ""
+
+#: config.php:133 admin/views/supercarousel-addedit.php:574
+#: admin/views/supercarousel-addedit.php:584
+#: admin/views/supercarousel-addedit.php:610
+#: admin/views/supercarousel-addedit.php:620
+#: admin/views/supercarousel-addedit.php:648
+#: admin/views/supercarousel-addedit.php:658
+#: admin/views/supercarousel-addedit.php:684
+#: admin/views/supercarousel-addedit.php:694
+msgid "Visible"
+msgstr ""
+
+#: config.php:134 admin/views/supercarousel-addedit.php:575
+#: admin/views/supercarousel-addedit.php:611
+#: admin/views/supercarousel-addedit.php:649
+#: admin/views/supercarousel-addedit.php:685
+msgid "Fix Width"
+msgstr ""
+
+#: config.php:135 admin/views/supercarousel-addedit.php:576
+#: admin/views/supercarousel-addedit.php:612
+#: admin/views/supercarousel-addedit.php:650
+#: admin/views/supercarousel-addedit.php:686
+msgid "Fix Height"
+msgstr ""
+
+#: config.php:136
+msgid "Remove"
+msgstr ""
+
+#: admin/class-supercarousel-adminpage.php:366
+msgid "Invalid Flickr URL"
+msgstr ""
+
+#: admin/class-supercarousel-adminpage.php:373
+msgid "Invalid User Id or Album"
+msgstr ""
+
+#: admin/class-supercarousel-adminpage.php:380
+msgid "Invalid Group Id"
+msgstr ""
+
+#: admin/class-supercarousel-adminpage.php:384
+msgid "Invalid API Key"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:95
+#: admin/class-supercarousel-importer.php:106
+msgid "Super Carousel Templates"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:95
+msgid "Import Templates from a JSON file"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:190
+msgid "Return to File Upload"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:212
+msgid "Import Super Carousel Templates"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:231
+msgid ""
+"Howdy! Upload Super Template JSON file and we&#8217;ll import the desired "
+"data. You&#8217;ll have a chance to review the data prior to import."
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:232
+msgid ""
+"Choose a JSON (.json) file to upload, then click Upload file and import."
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:248
+#: admin/class-supercarousel-importer.php:254
+#: admin/class-supercarousel-importer.php:263
+#: admin/class-supercarousel-importer.php:270
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:254
+msgid "The file did not upload properly. Please try again."
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:263
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:270
+msgid "The path is not a file, please try again."
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:355
+msgid "What would you like to import?"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:357
+msgid "All Templates"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:358
+msgid "Specific Templates"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:362
+msgid "Select the Templates to import"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:364
+msgid "Select All"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:365
+msgid "Select None"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:371
+#: admin/views/supercarousel-addedit.php:351
+msgid "Template Name"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:385
+msgid "Additional Settings"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:388
+msgid "Override existing templates"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:390
+msgid ""
+"If you uncheck this box, templates will be skipped if they currently exist."
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:393
+msgid ""
+"Caution! Importing all templates with the override option will replace the "
+"existing templates."
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:396
+msgid "Import Selected Templates"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:409
+msgid "The posted data does not appear intact. Please try again."
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:419
+msgid "There do not appear to be any options to import. Did you select any?"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:440
+#, php-format
+msgid "Skipped template `%s` because it currently exists."
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:448
+#, php-format
+msgid ""
+"Failed to import template `%s`; it does not appear to be in the import file."
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:453
+msgid "All done. That was easy."
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:453
+msgid "Have fun!"
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:465
+msgid ""
+"Sorry, there has been an error. This file may not contain data or is corrupt."
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:470
+#, php-format
+msgid ""
+"This JSON file (version %s) is not supported by this version of the "
+"importer. Please update the plugin on the source, or download an older "
+"version of the plugin to this installation."
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:475
+#, php-format
+msgid ""
+"This JSON file (version %s) is from a newer version of this plugin and may "
+"not be compatible. Please update this plugin."
+msgstr ""
+
+#: admin/class-supercarousel-importer.php:480
+msgid ""
+"Sorry, there has been an error. This file appears valid, but does not seem "
+"to have any options."
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:40
+msgid "Super Carousel Title"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:48
+msgid "Image"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:51
+msgid "Content"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:54
+msgid "Post"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:57
+msgid "YouTube"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:60
+msgid "Feeds"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:63
+msgid "Flickr"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:70
+msgid "Expert Mode"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:76
+msgid "Super Image:"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:83
+#: admin/views/supercarousel-addedit.php:107
+msgid "Select"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:100
+msgid "Super Content:"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:126
+#: admin/views/supercarousel-addedit.php:195
+#: admin/views/supercarousel-addedit.php:237
+#: admin/views/supercarousel-addedit.php:262
+#: admin/views/supercarousel-addedit.php:324
+msgid "Limit:"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:140
+msgid "Filter By:"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:143
+msgid "Enter any post type, taxonomy, tag or title"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:166
+msgid "Order By:"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:188
+#: admin/views/supercarousel-addedit.php:275
+msgid "ASC"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:189
+#: admin/views/supercarousel-addedit.php:276
+msgid "DESC"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:209
+msgid "YouTube Playlist URL:"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:215
+msgid "playlistid"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:220
+#: admin/views/supercarousel-addedit.php:307
+msgid "API Key:"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:226
+#: admin/views/supercarousel-addedit.php:313
+msgid "API Key"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:228
+#: admin/views/supercarousel-addedit.php:315
+msgid "Where do I get the API Key?"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:230
+#: admin/views/supercarousel-addedit.php:317
+msgid "Test API and URL"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:251
+msgid "Feeds URL:"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:282
+msgid "Custom Image Tag:"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:296
+msgid "Flickr Album / Group URL:"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:302
+msgid "userid"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:302
+msgid "albumid"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:340
+msgid "Preview"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:347
+msgid "Load Template"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:356
+msgid "Load"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:357
+#: admin/views/supercarousel-addedit.php:550
+#: admin/views/supercarousel-content-addedit.php:61
+#: admin/views/supercarousel-image-addedit.php:92
+msgid "Save"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:360
+#: admin/views/supercarousel-addedit.php:547
+#: admin/views/supercarousel-content-addedit.php:58
+#: admin/views/supercarousel-image-addedit.php:89
+#: admin/views/supercarousel-listing.php:24
+msgid "Delete"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:372
+msgid "Properties"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:376
+#: admin/views/supercarousel-addedit.php:822
+msgid "Slide"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:378
+#: admin/views/supercarousel-addedit.php:384
+#: admin/views/supercarousel-addedit.php:390
+msgid "No Property"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:382
+msgid "Element"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:388
+msgid "Element Hover"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:397
+msgid "Elements"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:418
+msgid "HTML"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:439
+msgid "Global CSS"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:452
+msgid "Variables"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:516
+msgid ""
+"To use the fix height carousel, it must have one image tag with \"super_image"
+"\" class.eg. &lt;img src=\"{image_large}\" class=\"super_image\" /&gt;"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:530
+#: admin/views/supercarousel-content-addedit.php:53
+#: admin/views/supercarousel-image-addedit.php:84
+msgid "Save Changes"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:559
+msgid "Responsive"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:590
+#: admin/views/supercarousel-addedit.php:596
+#: admin/views/supercarousel-addedit.php:626
+#: admin/views/supercarousel-addedit.php:632
+#: admin/views/supercarousel-addedit.php:664
+#: admin/views/supercarousel-addedit.php:670
+#: admin/views/supercarousel-addedit.php:700
+#: admin/views/supercarousel-addedit.php:706
+msgid "eg. 200px"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:784
+msgid "Add Custom Option"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:785
+msgid "There must be an image selected to use fix height carousel."
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:794
+msgid "Animation"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:802
+msgid "Direction"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:816
+msgid "Effect"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:823
+msgid "Focus"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:824
+msgid "Fade"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:833
+msgid "Easing"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:853
+msgid "Easing Time"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:866
+msgid "Steps"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:881
+#: admin/views/supercarousel-addedit.php:1028
+#: admin/views/supercarousel-addedit.php:1184
+msgid "Note:"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:881
+msgid ""
+"Easing Time is calculated in milliseconds, Step is the number of slides it "
+"will move in one go. <br />If you want full-width scroll, just put \"0\" in "
+"Step(s) box"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:891
+msgid "Automatic"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:899
+msgid "Auto Play"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:905
+#: admin/views/supercarousel-addedit.php:932
+#: admin/views/supercarousel-addedit.php:946
+#: admin/views/supercarousel-addedit.php:973
+#: admin/views/supercarousel-addedit.php:989
+#: admin/views/supercarousel-addedit.php:1016
+#: admin/views/supercarousel-addedit.php:1053
+#: admin/views/supercarousel-addedit.php:1101
+#: admin/views/supercarousel-addedit.php:1115
+#: admin/views/supercarousel-addedit.php:1131
+#: admin/views/supercarousel-addedit.php:1145
+#: admin/views/supercarousel-addedit.php:1161
+#: admin/views/supercarousel-addedit.php:1175
+msgid "No"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:906
+#: admin/views/supercarousel-addedit.php:933
+#: admin/views/supercarousel-addedit.php:947
+#: admin/views/supercarousel-addedit.php:974
+#: admin/views/supercarousel-addedit.php:990
+#: admin/views/supercarousel-addedit.php:1017
+#: admin/views/supercarousel-addedit.php:1054
+#: admin/views/supercarousel-addedit.php:1102
+#: admin/views/supercarousel-addedit.php:1116
+#: admin/views/supercarousel-addedit.php:1132
+#: admin/views/supercarousel-addedit.php:1146
+#: admin/views/supercarousel-addedit.php:1162
+#: admin/views/supercarousel-addedit.php:1176
+msgid "Yes"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:913
+msgid "Pause Time"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:926
+msgid "Pause Over"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:940
+msgid "Auto Scroll"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:956
+msgid "Scroll Speed"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:967
+msgid "Auto Height"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:983
+msgid "Randomize"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:997
+msgid "Slide Gap"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:1010
+msgid "Hidden Carousel"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:1028
+msgid ""
+"Pause Time is calculated in miliseconds. Slide Gap is calculated in pixels."
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:1029
+msgid ""
+"Pause time must always greater than easing time.<br />Continuous Scroll "
+"overwrites autoplay settings."
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:1039
+msgid "Navigation"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:1047
+msgid "Next / Prev"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:1061
+msgid "Arrow Style"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:1095
+msgid "Arrow Outside"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:1109
+msgid "Circular"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:1125
+msgid "Mouse Wheel"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:1139
+msgid "Touch Swipe"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:1155
+msgid "Keyboard"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:1169
+msgid "Pagination"
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:1184
+msgid "Keyboard enables next/prev/up/down arrow keys and numeric keys."
+msgstr ""
+
+#: admin/views/supercarousel-addedit.php:1194
+msgid "Miscellaneous"
+msgstr ""
+
+#: admin/views/supercarousel-content-addedit.php:26
+msgid "Content Title"
+msgstr ""
+
+#: admin/views/supercarousel-content-addedit.php:31
+msgid "Super Content"
+msgstr ""
+
+#: admin/views/supercarousel-content-addedit.php:40
+msgid "Excerpt"
+msgstr ""
+
+#: admin/views/supercarousel-content-addedit.php:70
+#: admin/views/supercarousel-listing.php:19
+msgid "Categories"
+msgstr ""
+
+#: admin/views/supercarousel-content-addedit.php:81
+msgid "Category Name Here"
+msgstr ""
+
+#: admin/views/supercarousel-content-addedit.php:86
+msgid "Add"
+msgstr ""
+
+#: admin/views/supercarousel-content-addedit.php:87
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/supercarousel-image-addedit.php:30
+msgid "Carousel Title"
+msgstr ""
+
+#: admin/views/supercarousel-image-addedit.php:37
+msgid "Add Images"
+msgstr ""
+
+#: admin/views/supercarousel-image-addedit.php:40
+msgid "Expand"
+msgstr ""
+
+#: admin/views/supercarousel-image-addedit.php:54
+msgid "Change Image"
+msgstr ""
+
+#: admin/views/supercarousel-image-addedit.php:61
+msgid "Lightbox URL"
+msgstr ""
+
+#: admin/views/supercarousel-image-addedit.php:62
+msgid "Link URL"
+msgstr ""
+
+#: admin/views/supercarousel-listing.php:10
+msgid "ID"
+msgstr ""
+
+#: admin/views/supercarousel-listing.php:11
+msgid "Name"
+msgstr ""
+
+#: admin/views/supercarousel-listing.php:15
+msgid "Short Code"
+msgstr ""
+
+#: admin/views/supercarousel-listing.php:23
+msgid "Manage"
+msgstr ""
+
+#: admin/views/supercarousel-listing.php:73
+msgid "<span class=\"dashicons dashicons-arrow-left-alt2\"></span>"
+msgstr ""
+
+#: admin/views/supercarousel-listing.php:74
+msgid "<span class=\"dashicons dashicons-arrow-right-alt2\"></span>"
+msgstr ""
+
+#: admin/views/supercarousel-page.php:6
+msgid "Edit"
+msgstr ""
+
+#: admin/views/supercarousel-page.php:9
+msgid "Add New"
+msgstr ""
+
+#: admin/views/supercarousel-page.php:13
+msgid "&lt;&lt; Back to Listing"
+msgstr ""
+
+#: includes/class-supercarousel-vc.php:35
+#: includes/class-supercarousel-vc.php:45 includes/cornerstone/controls.php:19
+#: includes/cornerstone/definition.php:10
+msgid "Super Carousel"
+msgstr ""
+
+#: includes/class-supercarousel-vc.php:36
+msgid "Place Super Carousel"
+msgstr ""
+
+#: includes/class-supercarousel-vc.php:41
+msgid "Media"
+msgstr ""
+
+#: includes/class-supercarousel-vc.php:50
+msgid "Select your Super Carousel."
+msgstr ""
+
+#: includes/cornerstone/controls.php:20
+msgid "Select Super Carousel"
+msgstr ""

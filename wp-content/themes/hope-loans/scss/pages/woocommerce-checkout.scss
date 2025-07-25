@@ -1,0 +1,55 @@
+.woocommerce-checkout {
+
+	h1.entry-title {
+		@include red-heading-text();
+		margin-top: 20px;
+	}
+
+	#place_order {
+		@include red-button();
+	}
+
+	input[type="text"], 
+	input[type="number"], 
+	input[type="tel"],
+	input[type="email"],
+	select,
+	textarea {
+		@include blue-input-text();
+	}
+
+	.entry-content,
+	.comment-content {
+
+		table tr {
+
+			th, td {
+				border: none;
+			}
+
+		} 
+	}
+
+	#is_in_honor_of_field {
+
+		input {
+			margin: 10px 0 0 0;
+		}
+
+		span {
+			margin-left: 22px;
+		}
+	}
+
+	#payment {
+		background: transparent;
+	}
+
+	.payment_box {
+		background: white !important;
+
+		&:before {
+			border: white !important;
+		}
+	}
+}

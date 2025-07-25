@@ -1,0 +1,65 @@
+body.story {
+
+	/* I'm so sorry. We are targeting an obscure div here  */
+	& > div > div > div > div > div > article > div > div > div {
+		padding: 0 !important;
+	}
+
+	& > .container {
+		width: 100% !important;
+		padding: 0 !important;
+		margin: 0 !important;
+
+		#header-strip {
+			background-repeat: no-repeat !important;
+			background-position: center center !important;
+			margin-bottom: 0;
+
+			.vc_column-inner  {
+				padding: 35px;
+
+				h2 {
+					color: white;
+					font-size: 49px;
+
+					@include breakpoint(mobile) {
+						font-size: 53px;
+					}
+				}
+			}
+		}
+
+		.vc_row-full-width.vc_clearfix {
+			display: none;
+		}
+		
+		#story-row {
+			background: transparent url(/wp-content/themes/hope-loans/img/story/bg.jpg) no-repeat top center;
+			background-size: cover;
+			padding: 33px 80px 80px 80px;
+			margin-bottom: 0;
+
+			@include breakpoint(tiny) {
+				padding: 20px 0 80px 0;
+			}
+
+			h1 {
+				color: $hope-project-agriculture;
+				text-shadow: 1px 1px 1px black;
+
+				@include breakpoint(mobile) {
+					text-align: center;
+					margin-top: 25px;
+					font-size: 68px;
+				}
+			}
+
+			.story-body-block {
+				margin-top: 35px;
+				padding: 35px;
+				background: rgba(255, 255, 255, 0.73);
+				border-radius: 5px;
+			}
+		}
+	}
+}

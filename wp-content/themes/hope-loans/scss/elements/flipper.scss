@@ -1,0 +1,51 @@
+.flip-clock-wrapper {
+
+	margin: 0;
+	display: flex;
+	justify-content: center;
+
+	ul.flip {
+		width: 43px;
+		margin: 3px;
+		float: none;
+
+		@include breakpoint(tablet) {
+			/* margin: 3px 1px; */
+		}
+
+		li {
+			padding-left: 0;
+			margin-top: 0;
+
+			&:before {
+				display: none;
+			}
+
+			a {
+				line-height: 1.3;
+
+				div {
+					.inn {
+						color: #00b6c8;
+						font-family: Oswald;
+						font-weight: 100;
+					}
+
+					&.up {
+
+						.shadow {}
+						.inn {}
+					}
+
+					&.down {
+
+						.shadow {}
+						.inn {
+							background-color: #555;
+						}
+					}
+				}
+			}
+		}
+	}
+}

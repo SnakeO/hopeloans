@@ -1,0 +1,552 @@
+/* 
+========================
+	HOPE PROJECT GRID
+========================
+*/
+
+form[name=wpv-filter-1496-TCPID104],
+form[name=wpv-filter-1597-TCPID104],
+.js-wpv-filter-form {
+	margin-bottom: 40px;
+	background-color: white;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+/* Filters */
+.hope-campaign-filter-sort,
+.hope-project-filter-sort {
+	display: inline-block;
+	width: 40%;
+	vertical-align: bottom;
+
+	label.sortby {
+		margin-right: 10px;
+
+		@include breakpoint(tablet-landscape,tablet,mobile) {
+			display: block;
+		}
+	}
+
+	select {
+		border: 1px solid #CCCCCC;
+		border-radius: 0;
+		font-style: italic;
+		color: black;
+		background: white;
+		-webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+		-moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+		box-shadow: inset 2px 2px 2px 0px #dddddd;
+		padding: 3px 40px;
+		margin-right: 10px;
+		-webkit-appearance: none;
+		height: 35px;
+
+		@include breakpoint(tablet,mobile) {
+			display: block;
+			margin: auto;
+			margin-top: 12px;
+			min-width: 172px;
+		}
+	}
+}
+
+.hope-campaign-filter-keywords,
+.hope-project-filter-keywords {
+	display: inline-block;
+	width: 40%;
+	margin-bottom: 0;
+	vertical-align: bottom;
+
+	input {
+		-webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+		-moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+		box-shadow: inset 2px 2px 2px 0px #dddddd;
+		border-radius: 0;
+		font-style: italic;
+		color: black;
+		height: 35px;
+	}
+}
+	
+
+.hope-campaign-filter-categories,
+.hope-project-filter-categories {
+
+	padding: 130px 60px 10px 60px;
+	display: flex;
+	justify-content: space-around;
+
+	& > label {
+		display: none;
+	}
+
+	.checkbox {
+
+		margin: 0;
+		width: 100%;
+
+		input.default {
+			display:inline-block !important;
+			margin-left: 15px;
+		}
+
+		input {
+			display:none;
+		}
+		 
+		/*input[type=checkbox] + label.btn*/
+		label {
+			padding: 28px 20px;
+			margin: 5px auto;
+			display: inline-block;
+			text-transform: uppercase;
+			font-weight: 900;
+			letter-spacing: 2px;
+			font-size: 14px;
+			outline: none;
+			position: relative;
+			-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			transition: all 0.3s;
+			background: #cb4e4e;
+			color: #fff;
+			border: none;
+			cursor: pointer;
+			width: 90%;
+			text-align: center;
+			background: white;
+		}
+
+		label[for=campaign_category-health],
+		label[for=project_category-health] {
+
+			color: $hope-project-health;
+
+			&:before {
+				content: ' ';
+				width: 30px;
+				height: 30px;
+				background-image: url(/wp-content/uploads/2017/08/proj-cat-health-small.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				display: block;
+				position: absolute;
+				left: calc(50% - 15px);
+				top: -40px;
+			}
+
+			&:hover,
+			&.health,
+			&.Health,
+			&.checked {
+				background-color: $hope-project-health;
+				color: white;
+			}
+		}
+
+		label[for=campaign_category-education],
+		label[for=project_category-education] {
+
+			color: $hope-project-education;
+
+			&:before {
+				content: ' ';
+				width: 30px;
+				height: 30px;
+				background-image: url(/wp-content/uploads/2017/08/proj-cat-education-small.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				display: block;
+				position: absolute;
+				left: calc(50% - 15px);
+				top: -40px;
+			}
+
+			&:hover,
+			&.education,
+			&.Education,
+			&.checked {
+				background-color: $hope-project-education;
+				color: white;
+			}
+		}
+
+		label[for=campaign_category-clean-water],
+		label[for=project_category-clean-water] {
+
+			color: $hope-project-clean-water;
+
+			&:before {
+				content: ' ';
+				width: 30px;
+				height: 30px;
+				background-image: url(/wp-content/uploads/2017/08/proj-cat-clean-water-small.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				display: block;
+				position: absolute;
+				left: calc(50% - 15px);
+				top: -40px;
+			}
+
+			&:hover,
+			&.clean-water,
+			&.Clean.Water,
+			&.checked {
+				background-color: $hope-project-clean-water;
+				color: white;
+			}
+		}
+
+		label[for=campaign_category-agriculture],
+		label[for=project_category-agriculture] {
+
+			color: $hope-project-agriculture;
+
+			&:before {
+				content: ' ';
+				width: 30px;
+				height: 30px;
+				background-image: url(/wp-content/uploads/2017/08/proj-cat-agriculture-small.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				display: block;
+				position: absolute;
+				left: calc(50% - 15px);
+				top: -40px;
+			}
+
+			&:hover,
+			&.agriculture,
+			&.Agriculture,
+			&.checked {
+				background-color: $hope-project-agriculture;
+				color: white;
+			}
+		}
+	}
+
+	@include breakpoint(mobile) {
+		display: block;
+		padding: 130px 30px 10px 30px;
+
+		@include breakpoint(tiny) {
+			padding: 130px 10px 10px 10px;
+		}
+
+		.checkbox {
+			margin: 0;
+			width: 50%;
+			display: inline-block;
+			margin-bottom: 60px;
+
+			@include breakpoint(tiny) {
+				width: 100%;
+			}
+		}
+	}
+}
+
+/* Items */
+
+.vc_row.hope-campaign,
+.vc_row.hope-project {
+
+	& > div {
+
+		position: relative;
+		border: 1px solid #c7b299; 
+		background: rgba(255,255,255,0.75); 
+
+		&.complete {
+			.fund-btns div {
+				display: none;
+			}
+		}
+
+		.imagery {
+
+			position: relative;
+			max-width: 297px;
+			margin: auto;
+
+			.campaign_category_icon,
+			.project_category_icon {
+				position: absolute; 
+				top: 6px;
+				right: 6px;
+
+				&.education {
+					width: 30px;
+				}
+
+				&.agriculture {
+					height: 35px;
+				}
+
+				&.clean-water {
+					height: 30px;
+				}
+
+				&.health {
+					height: 27px;
+				}
+			}
+
+			.hope-campaign-progressbar,
+			.hope-project-progressbar {
+				display: block;
+				position: absolute;
+				width: 100%;
+				bottom: -1px;
+				left: 0;
+				background-color: rgba(175, 149, 127, 0.74);
+				border-top: 1px solid #B0A587;
+
+				.inner.bar {
+					width: 65%;
+					display: block;
+					position: relative;
+					padding: 2px 10px 2px 0;
+					min-height: 20px;	
+
+					&:after {
+						content: ' ';
+						display: block;
+						width: 0;
+						height: 0;
+						border-style: solid;
+						border-width: 20px 12px 0 0;
+						position: absolute;
+						right: -12px;
+						top: 0;
+					}
+				}
+
+				.message {
+					color: white;
+					width: 100%;
+					position: absolute;
+					left: 0;
+					top: 2px;
+					font-weight: bold;
+					text-align: center;
+					text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.63);
+				}
+
+				&.complete {
+
+					.inner.bar {
+						width: 100%;
+						text-align: center;
+
+						&:after {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+		
+		.info {
+			padding: 10px;
+
+			@include breakpoint(desktop) {
+				min-height: 188px;
+			}
+
+			@include breakpoint(tablet-landscape) {
+				min-height: 251px;
+			}
+
+			@include breakpoint(tablet) {
+				min-height: 285px;
+			}
+
+			@include breakpoint(mobile) {
+				max-width: 297px;
+				margin: auto;
+				padding: 10px 0;
+			}
+		}
+
+		h4 {
+			text-transform: uppercase;
+			font-size: 16px; 
+
+			@include breakpoint(mobile) {
+				text-align: center;
+			}
+		}
+
+		h6 {
+			font-family: Lato; 
+			font-size: 13px; 
+			font-weight: 700; 
+			text-transform: uppercase; 
+			color: #483b39;
+
+			@include breakpoint(mobile) {
+				text-align: center;
+			}
+		}
+
+		p {
+			font-family: Lato;
+			font-size: 14px;
+			line-height: 16px;  
+			font-weight: 400; 
+			color: #483b39;
+		}
+
+		.fund-btns {
+
+			min-height: 43px;
+
+			& > .wpb_column > .vc_column-inner > .wpb_wrapper {
+				max-width: 320px;
+				margin: auto;
+			}
+
+			.fund-btn {
+
+				margin-bottom: 10px;
+				margin-left: 5px;
+
+				a {
+					padding: 8px !important;
+
+					@include breakpoint(tablet) {
+						padding: 8px 0 !important;
+					}
+				}
+				
+			}
+		}
+
+		& > .vc_column-inner {
+			padding: 0;
+		}
+
+	}
+
+	&.user-fundraiser {
+
+		.project_category_icon {
+			display: none;
+		}
+
+
+		.fund-btns {
+
+			margin-left: 0;
+			margin-right: 0;
+
+			.fund-btns-col {	
+
+				.vc_column-inner  {
+					padding-right: 0;
+					padding-left: 0;
+				}
+				
+				.fund-btn {
+					margin-left: 10px !important;
+				}
+			}
+		}
+	}
+}
+
+.hope-campaign-education,
+.hope-project-education,
+.completed-project-education {
+
+	.hope-project-progressbar .inner.bar,
+	.hope-campaign-progressbar .inner.bar {
+		background-color: $hope-project-education;
+
+		&:after {
+			border-color: $hope-project-education transparent transparent transparent;
+		}
+	}
+
+	h4, h4 a {
+		color: $hope-project-education; 
+	}
+
+	.fund-btn button, .fund-btn a {
+		background-color: $hope-project-education !important;
+	}
+}
+
+.hope-campaign-health,
+.hope-project-health,
+.completed-project-health {
+
+	.hope-project-progressbar .inner.bar,
+	.hope-campaign-progressbar .inner.bar {
+		background-color: $hope-project-health;
+
+		&:after {
+			border-color: $hope-project-health transparent transparent transparent;
+		}
+	}
+
+	h4, h4 a {
+		color: $hope-project-health; 
+	}
+
+	.fund-btn button, .fund-btn a {
+		background-color: $hope-project-health !important;
+	}
+}
+
+
+.hope-campaign-clean-water,
+.hope-project-clean-water,
+.completed-project-clean-water { 
+
+	.hope-project-progressbar .inner.bar,
+	.hope-campaign-progressbar .inner.bar {
+		background-color: $hope-project-clean-water;
+
+		&:after {
+			border-color: $hope-project-clean-water transparent transparent transparent;
+		}
+	}
+
+	h4, h4 a {
+		color: $hope-project-clean-water; 
+	}
+
+	.fund-btn button, .fund-btn a {
+		background-color: $hope-project-clean-water !important;
+	}
+}
+
+.hope-campaign-agriculture,
+.hope-project-agriculture,
+.completed-project-agriculture {
+
+	.hope-project-progressbar .inner.bar,
+	.hope-campaign-progressbar .inner.bar {
+		background-color: $hope-project-agriculture;
+
+		&:after {
+			border-color: $hope-project-agriculture transparent transparent transparent;
+		}
+	}
+
+	h4, h4 a {
+		color: $hope-project-agriculture; 
+	}
+
+	.fund-btn button, .fund-btn a {
+		background-color: $hope-project-agriculture !important;
+	}
+}
+
+.js-wpv-view-layout {
+	padding-bottom: 40px;
+}

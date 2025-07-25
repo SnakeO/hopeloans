@@ -1,0 +1,11 @@
+.woocommerce-order-received {
+	
+	ul.woocommerce-order-overview {
+
+		li {
+			&:before {
+				display: none;
+			}
+		}
+	}
+}

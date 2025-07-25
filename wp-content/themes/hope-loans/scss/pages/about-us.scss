@@ -1,0 +1,63 @@
+/* 
+========================
+	PAGE: ABOUT US
+========================
+*/
+
+
+
+/* BIG RED BUTTON HOVER: CHANGE TO GREEN */
+.page-id-23 .vc_btn3.vc_btn3-color-danger.vc_btn3-style-flat:focus, 
+.page-id-23 .vc_btn3.vc_btn3-color-danger.vc_btn3-style-flat:hover, 
+.page-id-23 .vc_btn3.vc_btn3-color-danger:focus, 
+.page-id-23 .vc_btn3.vc_btn3-color-danger:hover {
+	background-color: #0d7978;
+}
+
+/* BIG BLUE BUTTON HOVER: CHANGE TO ORANGE */
+.vc_btn3.vc_btn3-color-primary.vc_btn3-style-flat:focus, 
+.vc_btn3.vc_btn3-color-primary.vc_btn3-style-flat:hover, 
+.vc_btn3.vc_btn3-color-primary:focus, 
+.vc_btn3.vc_btn3-color-primary:hover { 
+	background-color: #f3733a;
+}
+
+
+
+.page-id-23 .dotted-top {
+	border-top: 3px dotted #c7b299;
+}
+
+
+.page-id-23 .infinite .vc_column-inner {
+	background-position: 50% 0% !important;
+	background-repeat: repeat-y !important;
+}
+
+
+.dotted-top-off-left {
+	background-image: url(/wp-content/uploads/2017/08/dotted-top-off-left.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.entry-content ul>li:before, .comment-content ul>li:before {
+	font-size: 1em;
+	line-height: 1.6;
+}
+
+.about-solutions-list ul { margin-left: 25%; }
+
+@media (min-width: 768px) and (max-width:991px) {
+
+	.about-solutions-list ul { 
+		margin-left: 0; 
+	}
+
+	.entry-content ul>li, 
+	.comment-content ul>li {
+		line-height: 1.2;
+		margin-top: 8px;
+	}
+
+}

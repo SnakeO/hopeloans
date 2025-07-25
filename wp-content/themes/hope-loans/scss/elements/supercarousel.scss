@@ -1,0 +1,152 @@
+.supercrsl {
+
+	
+	&.supercarousel1569	/* hope projects - education */,
+	&.supercarousel1576	/* hope projects - health */,
+	&.supercarousel1578	/* hope projects - clean water */,
+	&.supercarousel1580	/* hope projects - agriculture */,
+	&.supercarousel1741 /* give page */ {
+
+		.supercarousel_wrapper .supercarousel {
+
+			& > div {
+				
+				.super_imagewrap {
+
+					.super_overlay0 {
+
+						/* category icon */
+						.superoverlayelement1 {
+							position: absolute;
+							width: 40px;
+							background: none;
+							top: 40px;
+							right: 0;
+						}
+					}
+				}
+
+				.superelement1 {
+
+					.hope-campaign-progressbar,
+					.hope-project-progressbar {
+						display: block;
+						position: absolute;
+						width: 100%;
+						bottom: -10px;
+						left: 0;
+						background-color: rgba(175, 149, 127, 0.74);
+						border-top: 1px solid #B0A587;
+						overflow: hidden;
+
+						.inner.bar {
+							width: 65%;
+							display: inline-block;
+							position: relative;
+							top: -4px;
+							padding: 2px 10px 2px 0;
+							min-height: 19px;
+
+							&:after {
+								content: ' ';
+								display: inline-block;
+								width: 0;
+								height: 0;
+								border-style: solid;
+								border-width: 20px 12px 0 0;
+								position: absolute;
+								right: -12px;
+								top: 0;
+							}
+						}
+
+						.message {
+							color: white;
+							width: 100%;
+							position: absolute;
+							font-size: 12px;
+							left: 0;
+							top: 1px;
+							font-weight: bold;
+							text-align: center;
+							text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.63);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.hope-campaign-progressbar.education .inner.bar,
+	.hope-project-progressbar.education .inner.bar {
+		background-color: $hope-project-education;
+
+		&:after {
+			border-color: $hope-project-education transparent transparent transparent;
+		}
+	}
+
+	.hope-campaign-progressbar.health .inner.bar,
+	.hope-project-progressbar.health .inner.bar {
+		background-color: $hope-project-health;
+
+		&:after {
+			border-color: $hope-project-health transparent transparent transparent;
+		}
+	}
+
+	.hope-campaign-progressbar.clean-water .inner.bar,
+	.hope-project-progressbar.clean-water .inner.bar {
+		background-color: $hope-project-clean-water;
+
+		&:after {
+			border-color: $hope-project-clean-water transparent transparent transparent;
+		}
+	}
+
+	.hope-campaign-progressbar.agriculture .inner.bar,
+	.hope-project-progressbar.agriculture .inner.bar {
+		background-color: $hope-project-agriculture;
+
+		&:after {
+			border-color: $hope-project-agriculture transparent transparent transparent;
+		}
+	}
+
+
+	&.supercarousel1569	/* hope projects - education */ {
+	
+	}
+
+	&.supercarousel1576	/* hope projects - health */ {
+	
+		.superoverlayelement1 {
+			top: 46px !important;
+		}
+	}
+
+	&.supercarousel1578	/* hope projects - clean water */ {
+		
+		.superoverlayelement1 {
+			top: 53px !important;
+		}
+	}
+
+	&.supercarousel1580	/* hope projects - agriculture */ {
+		
+		.superoverlayelement1 {
+			top: 53px !important;
+		}
+	}
+
+	&.supercarousel1741 /* give */ {
+
+		.hope-campaign-progressbar .inner.bar {
+			font-size: 9px !important;
+		}
+
+		.superoverlayelement1 {
+			width: 33px !important;
+		}
+	}
+}

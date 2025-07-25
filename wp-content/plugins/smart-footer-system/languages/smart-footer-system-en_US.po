@@ -1,0 +1,1232 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Smart Footer System\n"
+"POT-Creation-Date: 2017-05-05 15:21+0200\n"
+"PO-Revision-Date: 2017-05-05 15:22+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: smart-footer-system.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/Backend.class.php:71
+msgid "Cannot insert post"
+msgstr "Cannot insert post"
+
+#: inc/Backend.class.php:80
+msgid "Post haven't meta"
+msgstr "Post haven't meta"
+
+#: inc/Backend.class.php:107 inc/backend/accordion/accordion.php:4
+#: inc/backend/banner/banner.php:24 inc/backend/keyring/keyring.php:4
+#: inc/backend/metabox-footer.php:3 inc/backend/normal/normal.php:4
+#: inc/backend/slideup/slideup.php:4
+msgid "Settings"
+msgstr "Settings"
+
+#: inc/Backend.class.php:123
+msgid "Settings updated!"
+msgstr "Settings updated!"
+
+#. Plugin Name of the plugin/theme
+#: inc/PostType.class.php:25 inc/PostType.class.php:37
+#: inc/PostType.class.php:78 inc/backend/admin-page.php:10
+msgid "Smart Footer System"
+msgstr "Smart Footer System"
+
+#: inc/PostType.class.php:26 inc/backend/settings/archive.php:9
+#: inc/backend/settings/single.php:9
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/PostType.class.php:27
+msgctxt "text-domain"
+msgid "Add New Footer"
+msgstr "Add New Footer"
+
+#: inc/PostType.class.php:28
+msgid "Add New Footer"
+msgstr "Add New Footer"
+
+#: inc/PostType.class.php:29
+msgid "Edit Footer"
+msgstr "Edit Footer"
+
+#: inc/PostType.class.php:30
+msgid "Footers"
+msgstr "Footers"
+
+#: inc/PostType.class.php:31 inc/backend/metabox-post-types.php:17
+msgid "New Footer"
+msgstr "New Footer"
+
+#: inc/PostType.class.php:32
+msgid "View Footer"
+msgstr "View Footer"
+
+#: inc/PostType.class.php:33
+msgid "Search Footers"
+msgstr "Search Footers"
+
+#: inc/PostType.class.php:34
+msgid "No footers found"
+msgstr "No footers found"
+
+#: inc/PostType.class.php:35
+msgid "No footers found in trash"
+msgstr "No footers found in trash"
+
+#: inc/PostType.class.php:36
+msgid "Parent footer"
+msgstr "Parent footer"
+
+#: inc/PostType.class.php:84
+msgid "Smart Footer System - Footer Settings"
+msgstr "Smart Footer System - Footer Settings"
+
+#: inc/backend/accordion/accordion.php:10
+msgid "Type"
+msgstr "Type"
+
+#: inc/backend/accordion/accordion.php:11 inc/backend/slideup/close.php:14
+#: inc/backend/slideup/open.php:14
+msgid "Icon"
+msgstr "Icon"
+
+#: inc/backend/accordion/accordion.php:12 inc/backend/banner/banner.php:26
+#: inc/backend/slideup/close.php:5 inc/backend/slideup/open.php:5
+msgid "Text"
+msgstr "Text"
+
+#: inc/backend/accordion/accordion.php:13 inc/backend/banner/banner.php:28
+#: inc/backend/slideup/slideup.php:19
+msgid "Font"
+msgstr "Font"
+
+#: inc/backend/accordion/font.php:5 inc/backend/banner/font.php:6
+#: inc/backend/banner/font.php:72 inc/backend/banner/font.php:138
+#: inc/backend/slideup/font.php:5
+msgid "Define a font-style."
+msgstr "Define a font-style."
+
+#: inc/backend/accordion/font.php:5 inc/backend/banner/font.php:6
+#: inc/backend/banner/font.php:72 inc/backend/banner/font.php:138
+#: inc/backend/slideup/font.php:5
+msgid "Font style"
+msgstr "Font style"
+
+#: inc/backend/accordion/font.php:17 inc/backend/banner/font.php:18
+#: inc/backend/banner/font.php:84 inc/backend/banner/font.php:150
+#: inc/backend/slideup/font.php:17
+msgid "Define a font-weight."
+msgstr "Define a font-weight."
+
+#: inc/backend/accordion/font.php:17 inc/backend/banner/font.php:18
+#: inc/backend/banner/font.php:84 inc/backend/banner/font.php:150
+#: inc/backend/slideup/font.php:17
+msgid "Font weight"
+msgstr "Font weight"
+
+#: inc/backend/accordion/font.php:30 inc/backend/banner/font.php:31
+#: inc/backend/banner/font.php:97 inc/backend/banner/font.php:163
+#: inc/backend/slideup/font.php:30
+msgid "Define a font-size."
+msgstr "Define a font-size."
+
+#: inc/backend/accordion/font.php:30 inc/backend/banner/font.php:31
+#: inc/backend/banner/font.php:97 inc/backend/banner/font.php:163
+#: inc/backend/slideup/font.php:30
+msgid "Font size"
+msgstr "Font size"
+
+#: inc/backend/accordion/font.php:42 inc/backend/banner/font.php:43
+#: inc/backend/banner/font.php:109 inc/backend/banner/font.php:175
+#: inc/backend/slideup/font.php:42
+msgid "Define a line-height."
+msgstr "Define a line-height."
+
+#: inc/backend/accordion/font.php:42 inc/backend/banner/font.php:43
+#: inc/backend/banner/font.php:109 inc/backend/banner/font.php:175
+#: inc/backend/slideup/font.php:42
+msgid "Line height"
+msgstr "Line height"
+
+#: inc/backend/accordion/icon.php:5
+msgid ""
+"Define an icon to show on your handle footer in order to open your footer "
+"content."
+msgstr ""
+"Define an icon to show on your handle footer in order to open your footer "
+"content."
+
+#: inc/backend/accordion/icon.php:5
+msgid "Open Icon"
+msgstr "Open Icon"
+
+#: inc/backend/accordion/icon.php:14
+msgid ""
+"Define an icon to show on your handle footer in order to close your footer "
+"content."
+msgstr ""
+"Define an icon to show on your handle footer in order to close your footer "
+"content."
+
+#: inc/backend/accordion/icon.php:14
+msgid "Close Icon"
+msgstr "Close Icon"
+
+#: inc/backend/accordion/icon.php:23
+msgid "Set a color for your icon."
+msgstr "Set a color for your icon."
+
+#: inc/backend/accordion/icon.php:23
+msgid "Icon Color"
+msgstr "Icon Color"
+
+#: inc/backend/accordion/text.php:5
+msgid "Optionally set a custom text on the left of the icon."
+msgstr "Optionally set a custom text on the left of the icon."
+
+#: inc/backend/accordion/text.php:5
+msgid "Left text"
+msgstr "Left text"
+
+#: inc/backend/accordion/text.php:13
+msgid "Optionally set a custom text on the right of the icon."
+msgstr "Optionally set a custom text on the right of the icon."
+
+#: inc/backend/accordion/text.php:13
+msgid "Right text"
+msgstr "Right text"
+
+#: inc/backend/accordion/text.php:21
+msgid "Set a color for your text."
+msgstr "Set a color for your text."
+
+#: inc/backend/accordion/text.php:21 inc/backend/banner/background.php:63
+#: inc/backend/banner/text.php:21
+msgid "Color"
+msgstr "Color"
+
+#: inc/backend/accordion/type.php:5
+msgid ""
+"With this option you can select two different ways to show your accordion "
+"footer"
+msgstr ""
+"With this option you can select two different ways to show your accordion "
+"footer"
+
+#: inc/backend/accordion/type.php:5
+msgid "Accordion type"
+msgstr "Accordion type"
+
+#: inc/backend/accordion/type.php:9 inc/backend/metabox-footer.php:16
+#: inc/backend/slideup/general.php:20 inc/backend/slideup/style.php:9
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/backend/accordion/type.php:10
+msgid "Half moon"
+msgstr "Half moon"
+
+#: inc/backend/admin-page.php:11
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: inc/backend/banner/background.php:5
+msgid "You can load an image to set as background image of the banner box."
+msgstr "You can load an image to set as background image of the banner box."
+
+#: inc/backend/banner/background.php:5
+msgid "Image"
+msgstr "Image"
+
+#: inc/backend/banner/background.php:17
+msgid "Choose what size to give the image."
+msgstr "Choose what size to give the image."
+
+#: inc/backend/banner/background.php:17
+msgid "Image size"
+msgstr "Image size"
+
+#: inc/backend/banner/background.php:31
+msgid "Set the position of the background image."
+msgstr "Set the position of the background image."
+
+#: inc/backend/banner/background.php:31
+msgid "Image position"
+msgstr "Image position"
+
+#: inc/backend/banner/background.php:49 inc/backend/general/background.php:49
+msgid ""
+"If your image is too small you can use the repeat option to replicate it."
+msgstr ""
+"If your image is too small you can use the repeat option to replicate it."
+
+#: inc/backend/banner/background.php:49
+msgid "Image repeat"
+msgstr "Image repeat"
+
+#: inc/backend/banner/background.php:63
+msgid "Define a background color if you don’t need of an image."
+msgstr "Define a background color if you don’t need of an image."
+
+#: inc/backend/banner/background.php:72
+msgid "Set a hover color of the banner box."
+msgstr "Set a hover color of the banner box."
+
+#: inc/backend/banner/background.php:72 inc/backend/banner/text.php:29
+msgid "Hover color"
+msgstr "Hover color"
+
+#: inc/backend/banner/background.php:81
+msgid "Define an overlay color."
+msgstr "Define an overlay color."
+
+#: inc/backend/banner/background.php:81
+msgid "Overlay color"
+msgstr "Overlay color"
+
+#: inc/backend/banner/banner.php:4
+msgid "Desktop"
+msgstr "Desktop"
+
+#: inc/backend/banner/banner.php:7
+msgid "Mobile"
+msgstr "Mobile"
+
+#: inc/backend/banner/banner.php:25 inc/backend/general/general.php:14
+msgid "Background"
+msgstr "Background"
+
+#: inc/backend/banner/banner.php:27
+msgid "Button"
+msgstr "Button"
+
+#: inc/backend/banner/banner.php:30
+msgid "Copy to mobile"
+msgstr "Copy to mobile"
+
+#: inc/backend/banner/button.php:5
+msgid "Insert a text for your button."
+msgstr "Insert a text for your button."
+
+#: inc/backend/banner/button.php:5
+msgid "Text button"
+msgstr "Text button"
+
+#: inc/backend/banner/button.php:13
+msgid "Choose an icon to open the banner box (optional)."
+msgstr "Choose an icon to open the banner box (optional)."
+
+#: inc/backend/banner/button.php:14
+msgid "Open icon"
+msgstr "Open icon"
+
+#: inc/backend/banner/button.php:24
+msgid "Choose an icon to close the banner box (optional)."
+msgstr "Choose an icon to close the banner box (optional)."
+
+#: inc/backend/banner/button.php:25
+msgid "Close icon"
+msgstr "Close icon"
+
+#: inc/backend/banner/button.php:35
+msgid "Define a background color (optional)."
+msgstr "Define a background color (optional)."
+
+#: inc/backend/banner/button.php:35 inc/backend/slideup/close.php:24
+#: inc/backend/slideup/open.php:24
+msgid "Background color"
+msgstr "Background color"
+
+#: inc/backend/banner/button.php:43
+msgid "Set a different color for the hover color."
+msgstr "Set a different color for the hover color."
+
+#: inc/backend/banner/button.php:43
+msgid "Background hover color"
+msgstr "Background hover color"
+
+#: inc/backend/banner/button.php:52
+msgid "Set a border color."
+msgstr "Set a border color."
+
+#: inc/backend/banner/button.php:52
+msgid "Border color"
+msgstr "Border color"
+
+#: inc/backend/banner/button.php:61
+msgid "Define an hover color of the button border."
+msgstr "Define an hover color of the button border."
+
+#: inc/backend/banner/button.php:61
+msgid "Border hover color"
+msgstr "Border hover color"
+
+#: inc/backend/banner/button.php:70
+msgid "Set a color for the text."
+msgstr "Set a color for the text."
+
+#: inc/backend/banner/button.php:70 inc/backend/slideup/close.php:40
+#: inc/backend/slideup/open.php:40
+msgid "Text color"
+msgstr "Text color"
+
+#: inc/backend/banner/button.php:79
+msgid "Choose an hover color for the text."
+msgstr "Choose an hover color for the text."
+
+#: inc/backend/banner/button.php:79
+msgid "Text hover color"
+msgstr "Text hover color"
+
+#: inc/backend/banner/button.php:87
+msgid "Define the size of the button."
+msgstr "Define the size of the button."
+
+#: inc/backend/banner/button.php:87
+msgid "Size"
+msgstr "Size"
+
+#: inc/backend/banner/button.php:99
+msgid "Choose the button shape."
+msgstr "Choose the button shape."
+
+#: inc/backend/banner/button.php:99 inc/backend/slideup/style.php:29
+msgid "Shape"
+msgstr "Shape"
+
+#: inc/backend/banner/font.php:1
+msgid "Title font"
+msgstr "Title font"
+
+#: inc/backend/banner/font.php:55 inc/backend/banner/font.php:121
+msgid "Define a margin bottom"
+msgstr "Define a margin bottom"
+
+#: inc/backend/banner/font.php:55 inc/backend/banner/font.php:121
+msgid "Margin bottom"
+msgstr "Margin bottom"
+
+#: inc/backend/banner/font.php:67
+msgid "Subtitle font"
+msgstr "Subtitle font"
+
+#: inc/backend/banner/font.php:133
+msgid "Button font"
+msgstr "Button font"
+
+#: inc/backend/banner/general.php:5
+msgid "From this option you can set a vertical padding inside the banner box."
+msgstr "From this option you can set a vertical padding inside the banner box."
+
+#: inc/backend/banner/general.php:5
+msgid "Vertical padding"
+msgstr "Vertical padding"
+
+#: inc/backend/banner/general.php:19
+msgid "Feel free to set a horizontal padding to the banner box."
+msgstr "Feel free to set a horizontal padding to the banner box."
+
+#: inc/backend/banner/general.php:19
+msgid "Horizontal padding"
+msgstr "Horizontal padding"
+
+#: inc/backend/banner/general.php:33
+msgid ""
+"With this select you can choose a different content alignment of the title, "
+"description and button."
+msgstr ""
+"With this select you can choose a different content alignment of the title, "
+"description and button."
+
+#: inc/backend/banner/general.php:33
+msgid "Content alignment"
+msgstr "Content alignment"
+
+#: inc/backend/banner/general.php:47
+msgid "Set an animation speed opening of the footer."
+msgstr "Set an animation speed opening of the footer."
+
+#: inc/backend/banner/general.php:48 inc/backend/slideup/general.php:79
+msgid "Animation Speed"
+msgstr "Animation Speed"
+
+#: inc/backend/banner/general.php:55 inc/backend/slideup/general.php:86
+msgid "No Animation"
+msgstr "No Animation"
+
+#: inc/backend/banner/general.php:56 inc/backend/slideup/general.php:87
+msgid "Very Slow"
+msgstr "Very Slow"
+
+#: inc/backend/banner/general.php:57 inc/backend/slideup/general.php:88
+msgid "Slow"
+msgstr "Slow"
+
+#: inc/backend/banner/general.php:58 inc/backend/slideup/general.php:89
+msgid "Medium"
+msgstr "Medium"
+
+#: inc/backend/banner/general.php:59 inc/backend/slideup/general.php:90
+msgid "Fast"
+msgstr "Fast"
+
+#: inc/backend/banner/general.php:60 inc/backend/slideup/general.php:91
+msgid "Very fast"
+msgstr "Very fast"
+
+#: inc/backend/banner/general.php:71
+msgid ""
+"Switch on this option if you want to auto show the banner after x seconds."
+msgstr ""
+"Switch on this option if you want to auto show the banner after x seconds."
+
+#: inc/backend/banner/general.php:71
+msgid "Auto show"
+msgstr "Auto show"
+
+#: inc/backend/banner/general.php:79 inc/backend/banner/general.php:95
+msgid "Set time in seconds"
+msgstr "Set time in seconds"
+
+#: inc/backend/banner/general.php:79
+msgid "Auto show after (seconds)"
+msgstr "Auto show after (seconds)"
+
+#: inc/backend/banner/general.php:87
+msgid ""
+"Switch on this option if you want to auto hide the banner after x seconds."
+msgstr ""
+"Switch on this option if you want to auto hide the banner after x seconds."
+
+#: inc/backend/banner/general.php:87
+msgid "Auto hide"
+msgstr "Auto hide"
+
+#: inc/backend/banner/general.php:95
+msgid "Auto hide after (seconds)"
+msgstr "Auto hide after (seconds)"
+
+#: inc/backend/banner/general.php:103
+msgid ""
+"Select this option if you want that the banner box appear on the end scroll "
+"of the page."
+msgstr ""
+"Select this option if you want that the banner box appear on the end scroll "
+"of the page."
+
+#: inc/backend/banner/general.php:103
+msgid "Open on end scroll"
+msgstr "Open on end scroll"
+
+#: inc/backend/banner/text.php:5
+msgid "Set a Title text for your banner footer (optional)."
+msgstr "Set a Title text for your banner footer (optional)."
+
+#: inc/backend/banner/text.php:5
+msgid "Title"
+msgstr "Title"
+
+#: inc/backend/banner/text.php:13
+msgid "Set a Subtitle text for your banner footer (optional)."
+msgstr "Set a Subtitle text for your banner footer (optional)."
+
+#: inc/backend/banner/text.php:13
+msgid "Subtitle"
+msgstr "Subtitle"
+
+#: inc/backend/banner/text.php:21
+msgid "Define a color for Title and Subtitle (optional)."
+msgstr "Define a color for Title and Subtitle (optional)."
+
+#: inc/backend/banner/text.php:29
+msgid "Set a hover color for Title and Subtitle (optional)."
+msgstr "Set a hover color for Title and Subtitle (optional)."
+
+#: inc/backend/general/advanced.php:5
+msgid ""
+"If you want to personalize more your footer you can use this input to insert "
+"your custom css."
+msgstr ""
+"If you want to personalize more your footer you can use this input to insert "
+"your custom css."
+
+#: inc/backend/general/advanced.php:6
+msgid "Custom Css"
+msgstr "Custom Css"
+
+#: inc/backend/general/background.php:5
+msgid "You can define a background image selecting by media."
+msgstr "You can define a background image selecting by media."
+
+#: inc/backend/general/background.php:5
+msgid "Bakground Content Image"
+msgstr "Bakground Content Image"
+
+#: inc/backend/general/background.php:17
+msgid "Choose the size of your image."
+msgstr "Choose the size of your image."
+
+#: inc/backend/general/background.php:17
+msgid "Bakground Content Image Size"
+msgstr "Bakground Content Image Size"
+
+#: inc/backend/general/background.php:31
+msgid "Set the position for your image."
+msgstr "Set the position for your image."
+
+#: inc/backend/general/background.php:31
+msgid "Background Content Image Position"
+msgstr "Background Content Image Position"
+
+#: inc/backend/general/background.php:49
+msgid "Background Content Image Repeat"
+msgstr "Background Content Image Repeat"
+
+#: inc/backend/general/background.php:63
+msgid ""
+"Use this option to set a custom background color of the main content. "
+"Default value is transparent."
+msgstr ""
+"Use this option to set a custom background color of the main content. "
+"Default value is transparent."
+
+#: inc/backend/general/background.php:63
+msgid "Background Content Color"
+msgstr "Background Content Color"
+
+#: inc/backend/general/background.php:71
+msgid "You can also set a custom overlay color from this option."
+msgstr "You can also set a custom overlay color from this option."
+
+#: inc/backend/general/background.php:71
+msgid "Background Content Overlay Color"
+msgstr "Background Content Overlay Color"
+
+#: inc/backend/general/border.php:5
+msgid "Define a border size"
+msgstr "Define a border size"
+
+#: inc/backend/general/border.php:5
+msgid "Border size"
+msgstr "Border size"
+
+#: inc/backend/general/border.php:17
+msgid "You can also set type for your border"
+msgstr "You can also set type for your border"
+
+#: inc/backend/general/border.php:17
+msgid "Border Type"
+msgstr "Border Type"
+
+#: inc/backend/general/border.php:34
+msgid "You can also set a color for border"
+msgstr "You can also set a color for border"
+
+#: inc/backend/general/border.php:34
+msgid "Border Color"
+msgstr "Border Color"
+
+#: inc/backend/general/display.php:5
+msgid "If you want to hide your footer on desktop switch on this option."
+msgstr "If you want to hide your footer on desktop switch on this option."
+
+#: inc/backend/general/display.php:5
+msgid "Hide on desktop"
+msgstr "Hide on desktop"
+
+#: inc/backend/general/display.php:13
+msgid "If you want to hide your footer on tablet switch on this option."
+msgstr "If you want to hide your footer on tablet switch on this option."
+
+#: inc/backend/general/display.php:13
+msgid "Hide on tablet"
+msgstr "Hide on tablet"
+
+#: inc/backend/general/display.php:21
+msgid "If you want to hide your footer on mobile switch on this option."
+msgstr "If you want to hide your footer on mobile switch on this option."
+
+#: inc/backend/general/display.php:21
+msgid "Hide on mobile"
+msgstr "Hide on mobile"
+
+#: inc/backend/general/general.php:4 inc/backend/settings/settings.php:4
+msgid "General"
+msgstr "General"
+
+#: inc/backend/general/general.php:7
+msgid "Advanced"
+msgstr "Advanced"
+
+#: inc/backend/general/general.php:15
+msgid "Border"
+msgstr "Border"
+
+#: inc/backend/general/general.php:16
+msgid "Padding"
+msgstr "Padding"
+
+#: inc/backend/general/general.php:17
+msgid "Display"
+msgstr "Display"
+
+#: inc/backend/general/padding.php:5
+msgid "Set a vertical padding of the footer content."
+msgstr "Set a vertical padding of the footer content."
+
+#: inc/backend/general/padding.php:5
+msgid "Vertical Content padding"
+msgstr "Vertical Content padding"
+
+#: inc/backend/general/padding.php:24
+msgid "Set a horizontal padding of the footer content."
+msgstr "Set a horizontal padding of the footer content."
+
+#: inc/backend/general/padding.php:24
+msgid "Horizontal Content padding"
+msgstr "Horizontal Content padding"
+
+#: inc/backend/keyring/general.php:29
+msgid "Set a type of animation in order to show different styles."
+msgstr "Set a type of animation in order to show different styles."
+
+#: inc/backend/keyring/general.php:29
+msgid "Animation type"
+msgstr "Animation type"
+
+#: inc/backend/keyring/general.php:41
+msgid "Define the position to change with other types."
+msgstr "Define the position to change with other types."
+
+#: inc/backend/keyring/general.php:41
+msgid "Animation position"
+msgstr "Animation position"
+
+#: inc/backend/metabox-footer.php:14
+msgid "Footer Type"
+msgstr "Footer Type"
+
+#: inc/backend/metabox-footer.php:17
+msgid "Reveal"
+msgstr "Reveal"
+
+#: inc/backend/metabox-footer.php:18
+msgid "Slide Up"
+msgstr "Slide Up"
+
+#: inc/backend/metabox-footer.php:19
+msgid "Banner"
+msgstr "Banner"
+
+#: inc/backend/metabox-footer.php:21
+msgid "Css3 Animations"
+msgstr "Css3 Animations"
+
+#: inc/backend/metabox-footer.php:22
+msgid "Accordion"
+msgstr "Accordion"
+
+#: inc/backend/metabox-footer.php:62
+msgid "Create new footer"
+msgstr "Create new footer"
+
+#: inc/backend/metabox-footer.php:63
+msgid "Save footer"
+msgstr "Save footer"
+
+#: inc/backend/metabox-post-types.php:6
+msgid ""
+"Switch on if you want to display a different footer to this particular page"
+msgstr ""
+"Switch on if you want to display a different footer to this particular page"
+
+#: inc/backend/metabox-post-types.php:7
+msgid "Override default Smart Footer System Footer"
+msgstr "Override default Smart Footer System Footer"
+
+#: inc/backend/metabox-post-types.php:16
+msgid "Define the new footer that you want to display"
+msgstr "Define the new footer that you want to display"
+
+#: inc/backend/metabox-post-types.php:31
+msgid "Disable Smart Footer System only to this particular page"
+msgstr "Disable Smart Footer System only to this particular page"
+
+#: inc/backend/metabox-post-types.php:32
+msgid "Disable Smart Footer System"
+msgstr "Disable Smart Footer System"
+
+#: inc/backend/normal/general.php:5
+msgid "Activate if you want a fixed sticky footer"
+msgstr "Activate if you want a fixed sticky footer"
+
+#: inc/backend/normal/general.php:5
+msgid "Sticky"
+msgstr "Sticky"
+
+#: inc/backend/normal/general.php:13
+msgid "Activate if you want a sticky on mobile"
+msgstr "Activate if you want a sticky on mobile"
+
+#: inc/backend/normal/general.php:13
+msgid "Mobile Sticky"
+msgstr "Mobile Sticky"
+
+#: inc/backend/normal/general.php:21
+msgid "Activate if you want a top shadow to your footer"
+msgstr "Activate if you want a top shadow to your footer"
+
+#: inc/backend/normal/general.php:21 inc/backend/slideup/style.php:87
+msgid "Shadow"
+msgstr "Shadow"
+
+#: inc/backend/settings/archive.php:6
+msgid "Set footer for archive "
+msgstr "Set footer for archive "
+
+#: inc/backend/settings/archive.php:7 inc/backend/settings/settings.php:13
+msgid "Archive"
+msgstr "Archive"
+
+#: inc/backend/settings/archive.php:14 inc/backend/settings/home.php:11
+#: inc/backend/settings/home.php:26 inc/backend/settings/single.php:14
+#: inc/backend/settings/woocommerce.php:9
+#: inc/backend/settings/woocommerce.php:22
+#: inc/backend/settings/woocommerce.php:35
+#: inc/backend/settings/woocommerce.php:48
+#: inc/backend/settings/woocommerce.php:61
+#: inc/backend/settings/woocommerce.php:74
+msgid "Theme footer"
+msgstr "Theme footer"
+
+#: inc/backend/settings/general.php:5
+msgid ""
+"Use this selector to hide your footer theme. Alternatively you can leave it "
+"off so that new footer blocks will go under your footer theme."
+msgstr ""
+"Use this selector to hide your footer theme. Alternatively you can leave it "
+"off so that new footer blocks will go under your footer theme."
+
+#: inc/backend/settings/general.php:6
+msgid "Hide Theme Footer"
+msgstr "Hide Theme Footer"
+
+#: inc/backend/settings/general.php:15
+msgid ""
+"If the action “Hide footer theme” doesn’t work properly you can manually "
+"insert css classes to hide Theme or custom elements."
+msgstr ""
+"If the action “Hide footer theme” doesn’t work properly you can manually "
+"insert css classes to hide Theme or custom elements."
+
+#: inc/backend/settings/general.php:16
+msgid "Css selectors to hide (optional)"
+msgstr "Css selectors to hide (optional)"
+
+#: inc/backend/settings/general.php:21
+msgid "Es: .my-theme-footer, .footer, #footer"
+msgstr "Es: .my-theme-footer, .footer, #footer"
+
+#: inc/backend/settings/general.php:26
+msgid ""
+"Some Page Builders as Elementor required this option active. Please note "
+"that if you activate this option it will be included in your sitemap."
+msgstr ""
+"Some Page Builders as Elementor required this option active. Please note "
+"that if you activate this option it will be included in your sitemap."
+
+#: inc/backend/settings/general.php:27
+msgid "Publicly Queryable"
+msgstr "Publicly Queryable"
+
+#: inc/backend/settings/home.php:5
+msgid "Set footer for the homepage of your site."
+msgstr "Set footer for the homepage of your site."
+
+#: inc/backend/settings/home.php:6
+msgid "Homepage Footer"
+msgstr "Homepage Footer"
+
+#: inc/backend/settings/home.php:20
+msgid "Set footer for the blog page of your site."
+msgstr "Set footer for the blog page of your site."
+
+#: inc/backend/settings/home.php:21
+msgid "Blog Footer"
+msgstr "Blog Footer"
+
+#: inc/backend/settings/import-export.php:25
+msgid ""
+"If you need you can import a previously .sfsbackup generated by export "
+"option."
+msgstr ""
+"If you need you can import a previously .sfsbackup generated by export "
+"option."
+
+#: inc/backend/settings/import-export.php:25
+#: inc/backend/settings/import-export.php:31
+msgid "Import"
+msgstr "Import"
+
+#: inc/backend/settings/import-export.php:35
+msgid "footers imported!"
+msgstr "footers imported!"
+
+#: inc/backend/settings/import-export.php:38
+msgid "errors"
+msgstr "errors"
+
+#: inc/backend/settings/import-export.php:46
+msgid ""
+"Use this option to generate a .sfsbackup file that save all data of your "
+"footers."
+msgstr ""
+"Use this option to generate a .sfsbackup file that save all data of your "
+"footers."
+
+#: inc/backend/settings/import-export.php:46
+msgid "Export"
+msgstr "Export"
+
+#: inc/backend/settings/import-export.php:51
+msgid "Export all footers"
+msgstr "Export all footers"
+
+#: inc/backend/settings/import-export.php:58
+msgid "Import demos that you seen on official Smart Footer System Website"
+msgstr "Import demos that you seen on official Smart Footer System Website"
+
+#: inc/backend/settings/import-export.php:58
+#: inc/backend/settings/import-export.php:63
+msgid "Import Demos"
+msgstr "Import Demos"
+
+#: inc/backend/settings/settings.php:7
+msgid "Homepage / Blog"
+msgstr "Homepage / Blog"
+
+#: inc/backend/settings/settings.php:10 inc/backend/settings/single.php:7
+msgid "Single"
+msgstr "Single"
+
+#: inc/backend/settings/settings.php:17
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/backend/settings/settings.php:21
+msgid "Import / Export Footers"
+msgstr "Import / Export Footers"
+
+#: inc/backend/settings/settings.php:24
+msgid "Support"
+msgstr "Support"
+
+#: inc/backend/settings/single.php:6
+msgid "Set footer for single "
+msgstr "Set footer for single "
+
+#: inc/backend/settings/woocommerce.php:5
+msgid "Shop Page Footer"
+msgstr "Shop Page Footer"
+
+#: inc/backend/settings/woocommerce.php:18
+msgid "My Account Page Footer"
+msgstr "My Account Page Footer"
+
+#: inc/backend/settings/woocommerce.php:31
+msgid "Cart Page Footer"
+msgstr "Cart Page Footer"
+
+#: inc/backend/settings/woocommerce.php:44
+msgid "Checkout Page Footer"
+msgstr "Checkout Page Footer"
+
+#: inc/backend/settings/woocommerce.php:57
+msgid "Single Products Footer"
+msgstr "Single Products Footer"
+
+#: inc/backend/settings/woocommerce.php:70
+msgid "Archive Products Footer"
+msgstr "Archive Products Footer"
+
+#: inc/backend/slideup/close.php:5 inc/backend/slideup/open.php:5
+msgid "Insert a text message to show on the handle (optional)."
+msgstr "Insert a text message to show on the handle (optional)."
+
+#: inc/backend/slideup/close.php:13 inc/backend/slideup/open.php:13
+msgid "Choose an icon between various library (optional)."
+msgstr "Choose an icon between various library (optional)."
+
+#: inc/backend/slideup/close.php:24 inc/backend/slideup/open.php:24
+msgid "Set the background color of the handle."
+msgstr "Set the background color of the handle."
+
+#: inc/backend/slideup/close.php:32 inc/backend/slideup/open.php:32
+msgid "Define the icon color of the handle."
+msgstr "Define the icon color of the handle."
+
+#: inc/backend/slideup/close.php:32 inc/backend/slideup/open.php:32
+msgid "Icon color"
+msgstr "Icon color"
+
+#: inc/backend/slideup/close.php:40 inc/backend/slideup/open.php:40
+msgid "Choose a color for your text."
+msgstr "Choose a color for your text."
+
+#: inc/backend/slideup/general.php:5
+msgid ""
+"Define if you want to open and close your footer with click or mouse hover "
+"effect."
+msgstr ""
+"Define if you want to open and close your footer with click or mouse hover "
+"effect."
+
+#: inc/backend/slideup/general.php:5
+msgid "Trigger on"
+msgstr "Trigger on"
+
+#: inc/backend/slideup/general.php:9
+msgid "Click"
+msgstr "Click"
+
+#: inc/backend/slideup/general.php:10
+msgid "Mouse Hover"
+msgstr "Mouse Hover"
+
+#: inc/backend/slideup/general.php:16
+msgid "Choose if you want a normal or full height footer version."
+msgstr "Choose if you want a normal or full height footer version."
+
+#: inc/backend/slideup/general.php:16
+msgid "Footer height"
+msgstr "Footer height"
+
+#: inc/backend/slideup/general.php:21
+msgid "Full height"
+msgstr "Full height"
+
+#: inc/backend/slideup/general.php:27
+msgid "Set a vertical alignment for the footer content."
+msgstr "Set a vertical alignment for the footer content."
+
+#: inc/backend/slideup/general.php:27
+msgid "Vertical Alignment"
+msgstr "Vertical Alignment"
+
+#: inc/backend/slideup/general.php:31
+msgid "Top"
+msgstr "Top"
+
+#: inc/backend/slideup/general.php:32 inc/backend/slideup/style.php:21
+msgid "Center"
+msgstr "Center"
+
+#: inc/backend/slideup/general.php:33
+msgid "Bottom"
+msgstr "Bottom"
+
+#: inc/backend/slideup/general.php:39
+msgid "Define if you want a bottom border color under your handle."
+msgstr "Define if you want a bottom border color under your handle."
+
+#: inc/backend/slideup/general.php:39
+msgid "Divider color"
+msgstr "Divider color"
+
+#: inc/backend/slideup/general.php:47
+msgid "Set the height of the bottom divider."
+msgstr "Set the height of the bottom divider."
+
+#: inc/backend/slideup/general.php:47
+msgid "Divider height"
+msgstr "Divider height"
+
+#: inc/backend/slideup/general.php:55
+msgid "Choose what kind of animation you want to give to the handle."
+msgstr "Choose what kind of animation you want to give to the handle."
+
+#: inc/backend/slideup/general.php:56
+msgid "Animation"
+msgstr "Animation"
+
+#: inc/backend/slideup/general.php:63
+msgid "Fade"
+msgstr "Fade"
+
+#: inc/backend/slideup/general.php:64
+msgid "Scale"
+msgstr "Scale"
+
+#: inc/backend/slideup/general.php:65
+msgid "Rotate"
+msgstr "Rotate"
+
+#: inc/backend/slideup/general.php:66
+msgid "Slide"
+msgstr "Slide"
+
+#: inc/backend/slideup/general.php:67
+msgid "Flip"
+msgstr "Flip"
+
+#: inc/backend/slideup/general.php:78
+msgid "Define the speed of the animation."
+msgstr "Define the speed of the animation."
+
+#: inc/backend/slideup/general.php:102
+msgid ""
+"If you switch on this option the handle footer will appear from bottom in "
+"the end of the page."
+msgstr ""
+"If you switch on this option the handle footer will appear from bottom in "
+"the end of the page."
+
+#: inc/backend/slideup/general.php:102
+msgid "Auto open on end of page scroll"
+msgstr "Auto open on end of page scroll"
+
+#: inc/backend/slideup/slideup.php:7
+msgid "Handle Style"
+msgstr "Handle Style"
+
+#: inc/backend/slideup/slideup.php:16
+msgid "Style"
+msgstr "Style"
+
+#: inc/backend/slideup/slideup.php:17
+msgid "Open"
+msgstr "Open"
+
+#: inc/backend/slideup/slideup.php:18
+msgid "Close"
+msgstr "Close"
+
+#: inc/backend/slideup/style.php:5
+msgid ""
+"You can define if your prefer to have a normal handle or a full width handle."
+msgstr ""
+"You can define if your prefer to have a normal handle or a full width handle."
+
+#: inc/backend/slideup/style.php:5
+msgid "Width"
+msgstr "Width"
+
+#: inc/backend/slideup/style.php:10
+msgid "Full width"
+msgstr "Full width"
+
+#: inc/backend/slideup/style.php:16
+msgid "Define the position of your handle footer on the page."
+msgstr "Define the position of your handle footer on the page."
+
+#: inc/backend/slideup/style.php:16
+msgid "Position"
+msgstr "Position"
+
+#: inc/backend/slideup/style.php:20
+msgid "Left"
+msgstr "Left"
+
+#: inc/backend/slideup/style.php:22
+msgid "Right"
+msgstr "Right"
+
+#: inc/backend/slideup/style.php:28
+msgid ""
+"If you select a normal handle you could give a different shape to the handle "
+"as moon, circle etc."
+msgstr ""
+"If you select a normal handle you could give a different shape to the handle "
+"as moon, circle etc."
+
+#: inc/backend/slideup/style.php:34
+msgid "Squared"
+msgstr "Squared"
+
+#: inc/backend/slideup/style.php:35
+msgid "Rounded"
+msgstr "Rounded"
+
+#: inc/backend/slideup/style.php:36
+msgid "Circle"
+msgstr "Circle"
+
+#: inc/backend/slideup/style.php:37
+msgid "Moon"
+msgstr "Moon"
+
+#: inc/backend/slideup/style.php:43
+msgid "Set a vertical padding of the handle."
+msgstr "Set a vertical padding of the handle."
+
+#: inc/backend/slideup/style.php:44
+msgid "Vertical Padding"
+msgstr "Vertical Padding"
+
+#: inc/backend/slideup/style.php:57
+msgid "Define text alignment of your handle."
+msgstr "Define text alignment of your handle."
+
+#: inc/backend/slideup/style.php:57
+msgid "Icon/Text aligment"
+msgstr "Icon/Text aligment"
+
+#: inc/backend/slideup/style.php:61
+msgid "Icon left / Text right"
+msgstr "Icon left / Text right"
+
+#: inc/backend/slideup/style.php:62
+msgid "Text left / Icon right"
+msgstr "Text left / Icon right"
+
+#: inc/backend/slideup/style.php:68
+msgid "Choose if you prefer to set a transparency to the handle"
+msgstr "Choose if you prefer to set a transparency to the handle"
+
+#: inc/backend/slideup/style.php:68
+msgid "Transparency"
+msgstr "Transparency"
+
+#: inc/backend/slideup/style.php:76
+msgid ""
+"Set an alpha to the handle from 0 (hide) to 1 (visible), by default if "
+"active is 0.5."
+msgstr ""
+"Set an alpha to the handle from 0 (hide) to 1 (visible), by default if "
+"active is 0.5."
+
+#: inc/backend/slideup/style.php:76
+msgid "Alpha"
+msgstr "Alpha"
+
+#: inc/backend/slideup/style.php:87
+msgid "Set it if you want a shadow on the top of the handle."
+msgstr "Set it if you want a shadow on the top of the handle."
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://metaplugin.com/"
+msgstr "http://metaplugin.com/"
+
+#. Description of the plugin/theme
+msgid "Your footer will never be the same"
+msgstr "Your footer will never be the same"
+
+#. Author of the plugin/theme
+msgid "Meta Plugin"
+msgstr "Meta Plugin"

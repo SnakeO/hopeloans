@@ -1,0 +1,480 @@
+/* 
+==============================================
+	PAGE: SINGLE HOPE PROJECT (AKA CAMPAIGN)
+==============================================
+*/
+
+.single-hope-project,
+.single-campaign {
+
+	@include gradient-bg(-22, #fff5e9);
+
+	/* completed campaigns */
+	&.campaign-complete {
+
+		#fundraise-actions {
+			.fundraise-btn {
+				display: none;
+			}
+		}
+	}
+
+	/* HopeLoan Campaigns / Donation Campaigns */
+	&.earmarked_for_hope_loan,
+	&.non_earmarked_donation {
+
+		#similar-projects-row, 
+		#map-row,
+		#fundraise-actions-row blockquote,
+		#fundraise-actions-row .fundraise-btn,
+		#meta,
+		.category {
+			display: none;
+		}
+	}
+
+	.vc_row-full-width.vc_clearfix {
+		height: 0;
+		margin: 0;
+	}
+
+	.content-wrapper {
+		background: transparent;
+	}
+
+	&.hope-campaign div,
+	&.hope-project div {
+
+		border: none;
+	}
+	
+	#header-row {
+		background: transparent !important;
+
+		#image-with-progressbar-inner-row {
+
+			padding: 0;
+			margin: 0;
+			margin-bottom: 50px;
+
+			.hope-campaign-progressbar,
+			.hope-project-progressbar {
+				display: block;
+				position: absolute;
+				width: 100%;
+				height: 37px;
+				bottom: -37px;
+				left: 0;
+				background-color: rgba(175, 149, 127, 0.74);
+				border-top: 1px solid #B0A587;
+
+				.inner.bar {
+					width: 65%;
+					height: 36px;
+					text-align: center;
+					display: inline-block;
+					color: white;
+					font-weight: bold;
+					position: relative;
+					padding: 2px 10px 2px 0;
+
+					&:after {
+						content: ' ';
+						display: inline-block;
+						width: 0;
+						height: 0;
+						border-style: solid;
+						border-width: 37px 12px 0 0;
+						position: absolute;
+						right: -12px;
+						top: 0;
+					}
+				}
+
+				.message {
+					color: white;
+					width: 100%;
+					position: absolute;
+					left: 0;
+					top: 1px;
+					font-weight: bold;
+					text-align: center;
+					text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.63);
+				}
+			}
+		}
+
+		#stats {
+
+			/* keep the columns from stacking */
+			.vc_col-sm-5 {
+				width: 41.66666667% !important;
+			}
+
+			.vc_col-sm-2 {
+				width: 16.66666667% !important;
+			}
+
+			.stat {
+				font-family: Oswald;
+				font-size: 32px;
+				font-weight: 400;
+				font-style: normal;
+				letter-spacing: 0.01rem;
+				line-height: 1.1;
+				margin-top: 0;
+				margin-bottom: 0.625rem;
+				text-transform: uppercase;
+			}
+
+			.stat-label {
+				font-weight: bold;
+				text-transform: uppercase;
+				font-size: 15px;
+
+				@include breakpoint(tiny) {
+					font-size: 12px;
+				}
+			}
+
+			.goal, .amount-to-goal {
+				text-align: center;
+				p {
+					display: inline-block;
+					text-align: center;
+				}
+			}
+
+			.amount-to-goal .wpb_wrapper {
+				text-align: right;
+			}
+
+			.goal .wpb_wrapper {
+				text-align: left;
+			}
+
+			.out-of-col {
+
+				align-items: center;
+				display: flex;
+				justify-content: center;
+
+				p {
+					font-family: Oswald;
+					font-size: 18px;
+					font-weight: 100;
+
+					@include breakpoint(mobile) {
+						font-size: 15px;
+					}
+				}
+
+				@include breakpoint(mobile) {
+					.vc_column-inner  {
+						padding: 0 !important;
+					}
+				}
+			}
+		}
+	}
+
+	#body-row {
+
+		margin-top: 55px;
+		margin-bottom: 0;
+
+		#meta {
+
+			.social-share-block {
+
+				margin-bottom: 25px;
+
+				.code {
+					background-color: transparent;
+					border: none;
+				}
+			}
+
+			p {
+				text-align: left;
+			}
+
+			.location {
+
+				.wpb_wrapper {
+					width: 132px;
+
+					&, p {
+						text-align: center;
+						font-weight: bold;
+						line-height: 1.2em;
+					}
+				}
+			}
+
+			figure {
+				display: block;
+				line-height: 3px;
+				margin: 20px 0;
+			}
+	
+			.category {
+
+				.wpb_wrapper {
+					width: 132px;
+
+					&, p {
+						text-align: center;
+						text-transform: uppercase;
+						font-weight: bold;
+						white-space: nowrap;
+					}
+				}
+
+				img {
+					width: 25px;
+				}
+			}
+		}
+
+		
+		.hope-campaign-body,
+		.hope-project-body {
+
+			margin-bottom: 0px;
+			padding-bottom: 50px;
+
+			#title-and-body {
+
+				.post-title h2 {
+					margin-bottom: 15px;
+				}
+
+				.post-body .wpb_wrapper p {
+					font-family: Lato;
+					font-size: 18px;
+					line-height: 24px;
+					color: #483b39;
+				}
+			}
+
+			& +.vc_row-full-width.vc_clearfix {
+				height: 0;
+				margin: 0;
+			}
+		}
+
+		#fundraise-actions-row {
+
+			background: url(/wp-content/uploads/2017/09/flower-bg-accent.png) no-repeat top center;
+			padding-top: 30px;
+			padding-bottom: 30px;
+
+			@include breakpoint(mobile) {
+				background-size: contain;
+			}
+
+			@include breakpoint(tiny) {
+				background-position-y: 30px;
+			}
+
+			#fundraise-actions {
+
+				margin: 60px 0;
+
+				.fundraise-btn {
+					font-family: Lato;
+					font-size: 18px;
+					width: 371px;
+					margin: 10px auto;
+
+					i {
+						display: inline-block;
+					}
+				}
+			}
+
+		}
+
+		.quote {
+			blockquote {
+				margin-top: 65px;
+				color: #1CB6C7 !important;
+
+				/* the little orange quote (") flourish */
+				&:before {
+					color: #F17341;
+				}
+			}
+		}
+
+	}
+
+	#map-row {
+		margin-bottom: 0;
+	}
+
+	#similar-projects-row {
+		background: #4A3E3C;
+		color: #C6B29A;
+		padding-top: 20px;
+		margin-bottom: 0;
+
+		h3 {
+			color: #C6B29A;
+			font-family: Oswald;
+		}
+
+		.supercrsl {
+			margin-top: 30px;
+
+			.superprev {
+				background-position: -1066px -57px !important;
+				height: 42px !important;
+				width: 30px !important;
+			}
+
+			.supernext {
+				background-position: -1406px -57px !important;
+				height: 42px !important;
+				width: 30px !important;
+			}
+		}
+	}
+
+	/* COLORS */
+	.campaign_category-education,
+	.project_category-education {
+
+		.hope-campaign-progressbar .inner.bar,
+		.hope-project-progressbar .inner.bar {
+			background-color: $hope-project-education;
+
+			&:after {
+				border-color: $hope-project-education transparent transparent transparent;
+			}
+		}
+
+		.category p {
+			color: $hope-project-education; 
+		}
+
+		h2 {
+			color: $hope-project-education; 
+		}
+
+		#stats {
+
+			.stat {
+				color: $hope-project-education !important;
+			}
+		}
+	}
+
+	.campaign_category-health,
+	.project_category-health {
+
+		.hope-campaign-progressbar .inner.bar,
+		.hope-project-progressbar .inner.bar {
+			background-color: $hope-project-health;
+
+			&:after {
+				border-color: $hope-project-health transparent transparent transparent;
+			}
+		}
+
+		.category p {
+			color: $hope-project-health; 
+		}
+
+		h2 {
+			color: $hope-project-health; 
+		}
+
+		#stats {
+
+			.stat {
+				color: $hope-project-health !important;
+			}
+		}
+	}
+
+	.campaign_category-clean-water,
+	.project_category-clean-water {
+
+		.hope-campaign-progressbar .inner.bar,
+		.hope-project-progressbar .inner.bar {
+			background-color: $hope-project-clean-water;
+
+			&:after {
+				border-color: $hope-project-clean-water transparent transparent transparent;
+			}
+		}
+
+		.category p {
+			color: $hope-project-clean-water; 
+		}
+
+		h2 {
+			color: $hope-project-clean-water; 
+		}
+
+		#stats {
+
+			.stat {
+				color: $hope-project-clean-water !important;
+			}
+		}
+	}
+
+	.campaign_category-agriculture,
+	.project_category-agriculture {
+
+		.hope-campaign-progressbar .inner.bar,
+		.hope-project-progressbar .inner.bar {
+			background-color: $hope-project-agriculture;
+
+			&:after {
+				border-color: $hope-project-agriculture transparent transparent transparent;
+			}
+		}
+
+		.category p {
+			color: $hope-project-agriculture; 
+		}
+
+		h2 {
+			color: $hope-project-agriculture; 
+		}
+
+		#stats {
+
+			.stat {
+				color: $hope-project-agriculture !important;
+			}
+		}
+	}
+
+	/* Earmarked for Hope Project */
+	.earmarked_for_hope_project  {
+
+		#header-row {}
+		#body-row {
+			.meta-separator,
+			.fundraise-btn,
+			.quote {
+				display: none;
+			}
+		}
+
+		#map-row {
+			display: none;
+		}		
+	}
+
+	&.campaign-status-inactive .earmarked_for_hope_project {
+		#similar-projects-row {
+			display: none;
+		}
+	}
+}

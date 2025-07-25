@@ -1,0 +1,3 @@
+'use strict';jQuery(document).ready(function($){$('table.wp-list-table td').on('ajax_column_value_ready',function(){// Re-init WC tooltip after column contents has been retrieved by ajax
+$(document.body).trigger('init_tooltips')});// Prevent row clicking in Order screen when inline edit is active
+$('.post-type-shop_order #the-list td').on('click',function(e){if($(this).hasClass('cacie-editable-container')){$(this).parents('tr').data('edit-click',1)}});$('.post-type-shop_order #the-list tr').on('click',function(e){var $row=$(this);if($row.data('edit-click')){e.stopPropagation()}$row.data('edit-click',0)});$('.post-type-product_variation .product_search').each(function(){var $select=$(this);$select.select2({allowClear:true})})});

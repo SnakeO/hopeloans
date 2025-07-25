@@ -1,0 +1,33 @@
+@mixin blue-input-text() {
+	font-size: 25px;
+	padding: 5px;
+	color: #1ab5c5;
+}
+
+@mixin red-heading-text() {
+	display: block !important;
+	color: $hope-project-health;
+	font-size: 32px;
+	font-family: Oswald;
+}
+
+@mixin blue-heading-text() {
+	display: block !important;
+	color: $hope-project-clean-water;
+	font-size: 32px;
+	font-family: Oswald;
+}
+
+@mixin yellow-heading-text() {
+	display: block !important;
+	color: $hope-project-agriculture;
+	font-size: 32px;
+	font-family: Oswald;
+}
+
+@mixin orange-heading-text() {
+	display: block !important;
+	color: $hope-project-education;
+	font-size: 32px;
+	font-family: Oswald;
+}

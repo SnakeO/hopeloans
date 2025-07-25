@@ -1,0 +1,69 @@
+/* 
+========================
+	HOPE-CAMPAIGN 
+========================
+*/
+
+/* Donate Btn */
+.hope-campaign-donate {
+
+	width: 375px;
+	margin: auto;
+	position: relative;
+
+	&.funding-complete {
+		width: 100%;
+		text-align: center;
+	}
+
+	.currency_symbol {
+		content: '$';
+		position: absolute;
+		color: #FCB33D;
+		top: 8px;
+		left: 15px;
+		font-size: 22px;
+	}
+
+	.donate_amount {
+		font-size: 25px !important;
+		padding: 5px !important;
+		padding-left: 32px !important;
+		color: #1AB5C5 !important;
+		vertical-align: middle;
+		width: 55%;
+		font-weight: bold;
+		background: white url(/wp-content/uploads/2017/09/give-box-1.png) no-repeat center right;
+		border: none;
+	}
+
+	.donate_btn {
+
+		background: #C0262C;
+		color: #FCB543;
+		text-transform: uppercase;
+		padding: 12px;
+		font-size: 16px;
+		letter-spacing: 0.1em;
+		font-weight: bold;
+		vertical-align: middle;
+		display: inline-block;
+		text-align: center;
+		width: 45%;
+		border-radius: 2px;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		.heart {
+			display: inline-block;
+			font-size: 14px;
+			-webkit-transform: rotate(-90deg);
+			-moz-transform: rotate(-90deg);
+			-o-transform: rotate(-90deg);
+			-ms-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+		}
+	}
+}

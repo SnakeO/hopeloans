@@ -1,0 +1,75 @@
+.my-fundraisers {
+
+	&.logged-out .my-campaigns-col h2 {
+		display: none;
+	}
+
+	.my-campaigns-col {
+
+		margin-top: 40px;
+
+		h2 {
+			@include blue-heading-text();
+			margin-left: 15px;
+		}
+
+		.charitable-campaign {
+
+			border: none;
+
+			.charitable-thumb  {
+
+				float: left;
+				width: 20%;
+
+				img {
+					@include breakpoint(tiny) {
+						float: none;
+						width: 90%;
+					}
+				}		
+			}
+
+			.campaign-summary {
+
+				float: left;
+				width: 80%;
+				display: block;
+
+				.campaign-title {
+					text-transform: uppercase;
+					text-decoration: none;
+				}
+			}
+
+			.campaign-actions {
+				border: none !important;
+				padding-top: 0;
+
+				.actions {
+
+					.edit-campaign {
+
+						padding-left: 0;
+
+						&:before {
+							display: none;
+						}
+
+						a {
+							@include green-button();
+						}
+					}
+				}
+			}
+
+			
+		}
+
+		.start-campaign a {
+			@include red-button();
+			margin-bottom: 20px;
+		}
+
+	}
+}

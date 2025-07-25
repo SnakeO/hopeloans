@@ -1,0 +1,23 @@
+/* 
+
+PAGE: 
+________________________________________________________
+
+GIVE NOW 
+
+*/
+
+.give-now {
+
+	.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+		margin-bottom: 1px; 
+	}
+
+	@include breakpoint(mobile) {
+		.standalone-donate-form {
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+	}
+
+}

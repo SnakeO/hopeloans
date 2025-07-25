@@ -1,0 +1,77 @@
+.fund-a-hopeproject {
+
+	.vc_tta-container {
+
+		.vc_tta-tabs {
+
+			/* tab headings */
+			.vc_tta-tabs-container {
+
+				ul.vc_tta-tabs-list {
+
+					li.vc_tta-tab {
+
+						&:nth-child(1).vc_active a {
+							background: #FDE7DD !important;
+							color: $hope-project-education !important;
+						}
+
+						&:nth-child(2).vc_active a {
+							background: #F5DADA !important;
+							color: $hope-project-health !important;
+						}
+
+						&:nth-child(3).vc_active a {
+							background: #D4F3F6 !important;
+							color: $hope-project-clean-water !important;
+						}
+
+						&:nth-child(4).vc_active a {
+							background: #FFF3DC !important;
+							color: $hope-project-agriculture !important;
+						}
+					}
+				}
+			}
+			
+		}
+	}
+
+	.ts-advanced-google-map-controls {
+		display: none !important;
+	}
+
+	@include breakpoint(tablet,tablet-landscape) {
+		.hope-campaign-progressbar .inner,
+		.hope-project-progressbar .inner {
+
+			font-size: 11px !important;
+			/*width: 75% !important;*/
+		}
+	}
+
+	@include breakpoint(tablet) {
+		.hope-campaign-progressbar .inner,
+		.hope-project-progressbar .inner {
+
+			
+		}
+	}
+
+	@media (min-width: 768px) and (max-width:1199px) {
+
+		.no-bkgnd-on-mobile {
+			background: url(/wp-content/uploads/2017/07/hope-project.jpg) bottom right no-repeat !important; 
+		}
+
+	}
+
+
+	@media (max-width: 767px) {
+
+		.no-bkgnd-on-mobile {
+			background: none !important; 
+		}
+
+	}
+}

@@ -1,0 +1,3328 @@
+/* 
+ ==================
+ BREAKPOINTS
+ ==================
+ */
+/* 
+ ==================
+ VARIABLES
+ ==================
+ */
+/* 
+ ==================
+ COLORS
+ ==================
+ */
+/* 
+ ========================
+ GLOBAL
+ ========================
+ */
+.gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff5e9+0,c5e0e3+100 */
+  background: #fff5e9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255, 245, 233, 1) 0%, rgba(197, 224, 227, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255, 245, 233, 1) 0%, rgba(197, 224, 227, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255, 245, 233, 1) 0%, rgba(197, 224, 227, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5e9', endColorstr='#c5e0e3',GradientType=0);
+  /* IE6-9 */
+}
+.graddy {
+  background: -moz-linear-gradient(top, rgba(197, 224, 227, 0), 0%, rgba(197, 224, 227, 1) 100%);
+  background: -webkit-linear-gradient(top, rgba(197, 224, 227, 0), 0%, rgba(197, 224, 227, 1) 100%);
+  background: linear-gradient(to bottom, rgba(197, 224, 227, 0), 0%, rgba(197, 224, 227, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00c5e0e3', endColorstr='#c5e0e3',GradientType=0);
+  /* c5e0e3 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c5e0e3+0,c5e0e3+100&0+0,1+100 */
+  background: -moz-linear-gradient(top, rgba(197, 224, 227, 0) 0%, rgba(197, 224, 227, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(197, 224, 227, 0) 0%, rgba(197, 224, 227, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(197, 224, 227, 0) 0%, rgba(197, 224, 227, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00c5e0e3', endColorstr='#c5e0e3',GradientType=0);
+  /* IE6-9 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c5e0e3+0,c5e0e3+100&0+32,1+100 */
+  background: -moz-linear-gradient(top, rgba(197, 224, 227, 0) 0%, rgba(197, 224, 227, 0) 32%, rgba(197, 224, 227, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(197, 224, 227, 0) 0%, rgba(197, 224, 227, 0) 32%, rgba(197, 224, 227, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(197, 224, 227, 0) 0%, rgba(197, 224, 227, 0) 32%, rgba(197, 224, 227, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00c5e0e3', endColorstr='#c5e0e3',GradientType=0);
+  /* IE6-9 */
+}
+.gradient-background {
+  background: -moz-linear-gradient(top, rgba(197,224,227,0) 0%, rgba(197,224,227,1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(197,224,227,0) 0%, rgba(197,224,227,1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(197,224,227,0) 0%, rgba(197,224,227,1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00c5e0e3', endColorstr='#c5e0e3',GradientType=0);
+  /* IE6-9 */
+}
+/* 
+ ========================
+ LAYOUT
+ ========================
+ */
+/* 
+ ========================
+ QUOTE
+ ========================
+ */
+.quote .wpb_wrapper {
+  display: inline-block;
+  /* attribution */
+}
+.quote .wpb_wrapper blockquote {
+  display: inline-block;
+  position: relative;
+  border-left: none !important;
+  font-family: Lato !important;
+  font-weight: 400;
+}
+.quote .wpb_wrapper blockquote:before {
+  content: "“";
+  font-size: 65px;
+  font-weight: bold;
+  font-family: Oswald;
+  font-style: normal !important;
+  color: #f17341;
+  position: absolute;
+  top: -8px;
+  left: -8px;
+}
+.quote .wpb_wrapper > p {
+  text-align: right;
+  color: #1cb6c7;
+  font-style: italic;
+  margin-right: 35px;
+}
+/* 
+ ========================
+ WOO
+ ========================
+ */
+.quantity .plus, .quantity .minus {
+  display: none;
+}
+/* 
+ ========================
+ HOPE PROJECT GRID
+ ========================
+ */
+form[name=wpv-filter-1496-TCPID104], form[name=wpv-filter-1597-TCPID104], .js-wpv-filter-form {
+  margin-bottom: 40px;
+  background-color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+/* Filters */
+.hope-campaign-filter-sort, .hope-project-filter-sort {
+  display: inline-block;
+  width: 40%;
+  vertical-align: bottom;
+}
+.hope-campaign-filter-sort label.sortby, .hope-project-filter-sort label.sortby {
+  margin-right: 10px;
+  /* mobile-portrait */
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hope-campaign-filter-sort label.sortby, .hope-project-filter-sort label.sortby {
+    display: block;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .hope-campaign-filter-sort label.sortby, .hope-project-filter-sort label.sortby {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .hope-campaign-filter-sort label.sortby, .hope-project-filter-sort label.sortby {
+    display: block;
+  }
+}
+.hope-campaign-filter-sort select, .hope-project-filter-sort select {
+  border: 1px solid #ccc;
+  border-radius: 0;
+  font-style: italic;
+  color: black;
+  background: white;
+  -webkit-box-shadow: inset 2px 2px 2px 0px #ddd;
+  -moz-box-shadow: inset 2px 2px 2px 0px #ddd;
+  box-shadow: inset 2px 2px 2px 0px #ddd;
+  padding: 3px 40px;
+  margin-right: 10px;
+  -webkit-appearance: none;
+  height: 35px;
+  /* mobile-portrait */
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .hope-campaign-filter-sort select, .hope-project-filter-sort select {
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    min-width: 172px;
+  }
+}
+@media (max-width: 768px) {
+  .hope-campaign-filter-sort select, .hope-project-filter-sort select {
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    min-width: 172px;
+  }
+}
+.hope-campaign-filter-keywords, .hope-project-filter-keywords {
+  display: inline-block;
+  width: 40%;
+  margin-bottom: 0;
+  vertical-align: bottom;
+}
+.hope-campaign-filter-keywords input, .hope-project-filter-keywords input {
+  -webkit-box-shadow: inset 2px 2px 2px 0px #ddd;
+  -moz-box-shadow: inset 2px 2px 2px 0px #ddd;
+  box-shadow: inset 2px 2px 2px 0px #ddd;
+  border-radius: 0;
+  font-style: italic;
+  color: black;
+  height: 35px;
+}
+.hope-campaign-filter-categories, .hope-project-filter-categories {
+  padding: 130px 60px 10px 60px;
+  display: flex;
+  justify-content: space-around;
+  /* mobile-portrait */
+}
+.hope-campaign-filter-categories > label, .hope-project-filter-categories > label {
+  display: none;
+}
+.hope-campaign-filter-categories .checkbox, .hope-project-filter-categories .checkbox {
+  margin: 0;
+  width: 100%;
+  /*input[type=checkbox] + label.btn*/
+}
+.hope-campaign-filter-categories .checkbox input.default, .hope-project-filter-categories .checkbox input.default {
+  display: inline-block !important;
+  margin-left: 15px;
+}
+.hope-campaign-filter-categories .checkbox input, .hope-project-filter-categories .checkbox input {
+  display: none;
+}
+.hope-campaign-filter-categories .checkbox label, .hope-project-filter-categories .checkbox label {
+  padding: 28px 20px;
+  margin: 5px auto;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 14px;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #cb4e4e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  text-align: center;
+  background: white;
+}
+.hope-campaign-filter-categories .checkbox label[for=campaign_category-health], .hope-project-filter-categories .checkbox label[for=campaign_category-health], .hope-campaign-filter-categories .checkbox label[for=project_category-health], .hope-project-filter-categories .checkbox label[for=project_category-health] {
+  color: #c32528;
+}
+.hope-campaign-filter-categories .checkbox label[for=campaign_category-health]:before, .hope-project-filter-categories .checkbox label[for=campaign_category-health]:before, .hope-campaign-filter-categories .checkbox label[for=project_category-health]:before, .hope-project-filter-categories .checkbox label[for=project_category-health]:before {
+  content: ' ';
+  width: 30px;
+  height: 30px;
+  background-image: url(/wp-content/uploads/2017/08/proj-cat-health-small.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  left: calc(50% - 15px);
+  top: -40px;
+}
+.hope-campaign-filter-categories .checkbox label[for=campaign_category-health]:hover, .hope-project-filter-categories .checkbox label[for=campaign_category-health]:hover, .hope-campaign-filter-categories .checkbox label[for=project_category-health]:hover, .hope-project-filter-categories .checkbox label[for=project_category-health]:hover, .hope-campaign-filter-categories .checkbox label[for=campaign_category-health].health, .hope-project-filter-categories .checkbox label[for=campaign_category-health].health, .hope-campaign-filter-categories .checkbox label[for=project_category-health].health, .hope-project-filter-categories .checkbox label[for=project_category-health].health, .hope-campaign-filter-categories .checkbox label[for=campaign_category-health].Health, .hope-project-filter-categories .checkbox label[for=campaign_category-health].Health, .hope-campaign-filter-categories .checkbox label[for=project_category-health].Health, .hope-project-filter-categories .checkbox label[for=project_category-health].Health, .hope-campaign-filter-categories .checkbox label[for=campaign_category-health].checked, .hope-project-filter-categories .checkbox label[for=campaign_category-health].checked, .hope-campaign-filter-categories .checkbox label[for=project_category-health].checked, .hope-project-filter-categories .checkbox label[for=project_category-health].checked {
+  background-color: #c32528;
+  color: white;
+}
+.hope-campaign-filter-categories .checkbox label[for=campaign_category-education], .hope-project-filter-categories .checkbox label[for=campaign_category-education], .hope-campaign-filter-categories .checkbox label[for=project_category-education], .hope-project-filter-categories .checkbox label[for=project_category-education] {
+  color: #f37338;
+}
+.hope-campaign-filter-categories .checkbox label[for=campaign_category-education]:before, .hope-project-filter-categories .checkbox label[for=campaign_category-education]:before, .hope-campaign-filter-categories .checkbox label[for=project_category-education]:before, .hope-project-filter-categories .checkbox label[for=project_category-education]:before {
+  content: ' ';
+  width: 30px;
+  height: 30px;
+  background-image: url(/wp-content/uploads/2017/08/proj-cat-education-small.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  left: calc(50% - 15px);
+  top: -40px;
+}
+.hope-campaign-filter-categories .checkbox label[for=campaign_category-education]:hover, .hope-project-filter-categories .checkbox label[for=campaign_category-education]:hover, .hope-campaign-filter-categories .checkbox label[for=project_category-education]:hover, .hope-project-filter-categories .checkbox label[for=project_category-education]:hover, .hope-campaign-filter-categories .checkbox label[for=campaign_category-education].education, .hope-project-filter-categories .checkbox label[for=campaign_category-education].education, .hope-campaign-filter-categories .checkbox label[for=project_category-education].education, .hope-project-filter-categories .checkbox label[for=project_category-education].education, .hope-campaign-filter-categories .checkbox label[for=campaign_category-education].Education, .hope-project-filter-categories .checkbox label[for=campaign_category-education].Education, .hope-campaign-filter-categories .checkbox label[for=project_category-education].Education, .hope-project-filter-categories .checkbox label[for=project_category-education].Education, .hope-campaign-filter-categories .checkbox label[for=campaign_category-education].checked, .hope-project-filter-categories .checkbox label[for=campaign_category-education].checked, .hope-campaign-filter-categories .checkbox label[for=project_category-education].checked, .hope-project-filter-categories .checkbox label[for=project_category-education].checked {
+  background-color: #f37338;
+  color: white;
+}
+.hope-campaign-filter-categories .checkbox label[for=campaign_category-clean-water], .hope-project-filter-categories .checkbox label[for=campaign_category-clean-water], .hope-campaign-filter-categories .checkbox label[for=project_category-clean-water], .hope-project-filter-categories .checkbox label[for=project_category-clean-water] {
+  color: #1da7b4;
+}
+.hope-campaign-filter-categories .checkbox label[for=campaign_category-clean-water]:before, .hope-project-filter-categories .checkbox label[for=campaign_category-clean-water]:before, .hope-campaign-filter-categories .checkbox label[for=project_category-clean-water]:before, .hope-project-filter-categories .checkbox label[for=project_category-clean-water]:before {
+  content: ' ';
+  width: 30px;
+  height: 30px;
+  background-image: url(/wp-content/uploads/2017/08/proj-cat-clean-water-small.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  left: calc(50% - 15px);
+  top: -40px;
+}
+.hope-campaign-filter-categories .checkbox label[for=campaign_category-clean-water]:hover, .hope-project-filter-categories .checkbox label[for=campaign_category-clean-water]:hover, .hope-campaign-filter-categories .checkbox label[for=project_category-clean-water]:hover, .hope-project-filter-categories .checkbox label[for=project_category-clean-water]:hover, .hope-campaign-filter-categories .checkbox label[for=campaign_category-clean-water].clean-water, .hope-project-filter-categories .checkbox label[for=campaign_category-clean-water].clean-water, .hope-campaign-filter-categories .checkbox label[for=project_category-clean-water].clean-water, .hope-project-filter-categories .checkbox label[for=project_category-clean-water].clean-water, .hope-campaign-filter-categories .checkbox label[for=campaign_category-clean-water].Clean.Water, .hope-project-filter-categories .checkbox label[for=campaign_category-clean-water].Clean.Water, .hope-campaign-filter-categories .checkbox label[for=project_category-clean-water].Clean.Water, .hope-project-filter-categories .checkbox label[for=project_category-clean-water].Clean.Water, .hope-campaign-filter-categories .checkbox label[for=campaign_category-clean-water].checked, .hope-project-filter-categories .checkbox label[for=campaign_category-clean-water].checked, .hope-campaign-filter-categories .checkbox label[for=project_category-clean-water].checked, .hope-project-filter-categories .checkbox label[for=project_category-clean-water].checked {
+  background-color: #1da7b4;
+  color: white;
+}
+.hope-campaign-filter-categories .checkbox label[for=campaign_category-agriculture], .hope-project-filter-categories .checkbox label[for=campaign_category-agriculture], .hope-campaign-filter-categories .checkbox label[for=project_category-agriculture], .hope-project-filter-categories .checkbox label[for=project_category-agriculture] {
+  color: #fcb531;
+}
+.hope-campaign-filter-categories .checkbox label[for=campaign_category-agriculture]:before, .hope-project-filter-categories .checkbox label[for=campaign_category-agriculture]:before, .hope-campaign-filter-categories .checkbox label[for=project_category-agriculture]:before, .hope-project-filter-categories .checkbox label[for=project_category-agriculture]:before {
+  content: ' ';
+  width: 30px;
+  height: 30px;
+  background-image: url(/wp-content/uploads/2017/08/proj-cat-agriculture-small.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  left: calc(50% - 15px);
+  top: -40px;
+}
+.hope-campaign-filter-categories .checkbox label[for=campaign_category-agriculture]:hover, .hope-project-filter-categories .checkbox label[for=campaign_category-agriculture]:hover, .hope-campaign-filter-categories .checkbox label[for=project_category-agriculture]:hover, .hope-project-filter-categories .checkbox label[for=project_category-agriculture]:hover, .hope-campaign-filter-categories .checkbox label[for=campaign_category-agriculture].agriculture, .hope-project-filter-categories .checkbox label[for=campaign_category-agriculture].agriculture, .hope-campaign-filter-categories .checkbox label[for=project_category-agriculture].agriculture, .hope-project-filter-categories .checkbox label[for=project_category-agriculture].agriculture, .hope-campaign-filter-categories .checkbox label[for=campaign_category-agriculture].Agriculture, .hope-project-filter-categories .checkbox label[for=campaign_category-agriculture].Agriculture, .hope-campaign-filter-categories .checkbox label[for=project_category-agriculture].Agriculture, .hope-project-filter-categories .checkbox label[for=project_category-agriculture].Agriculture, .hope-campaign-filter-categories .checkbox label[for=campaign_category-agriculture].checked, .hope-project-filter-categories .checkbox label[for=campaign_category-agriculture].checked, .hope-campaign-filter-categories .checkbox label[for=project_category-agriculture].checked, .hope-project-filter-categories .checkbox label[for=project_category-agriculture].checked {
+  background-color: #fcb531;
+  color: white;
+}
+@media (max-width: 768px) {
+  .hope-campaign-filter-categories, .hope-project-filter-categories {
+    display: block;
+    padding: 130px 30px 10px 30px;
+    /* this is only used to override mobile rules on super small screens */
+  }
+  .hope-campaign-filter-categories .checkbox, .hope-project-filter-categories .checkbox {
+    margin: 0;
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 60px;
+    /* this is only used to override mobile rules on super small screens */
+  }
+}
+@media (max-width: 768px) and (max-width: 460px) {
+  .hope-campaign-filter-categories, .hope-project-filter-categories {
+    padding: 130px 10px 10px 10px;
+  }
+}
+@media (max-width: 768px) and (max-width: 460px) {
+  .hope-campaign-filter-categories .checkbox, .hope-project-filter-categories .checkbox {
+    width: 100%;
+  }
+}
+/* Items */
+.vc_row.hope-campaign > div, .vc_row.hope-project > div {
+  position: relative;
+  border: 1px solid #c7b299;
+  background: rgba(255, 255, 255, 0.75);
+}
+.vc_row.hope-campaign > div.complete .fund-btns div, .vc_row.hope-project > div.complete .fund-btns div {
+  display: none;
+}
+.vc_row.hope-campaign > div .imagery, .vc_row.hope-project > div .imagery {
+  position: relative;
+  max-width: 297px;
+  margin: auto;
+}
+.vc_row.hope-campaign > div .imagery .campaign_category_icon, .vc_row.hope-project > div .imagery .campaign_category_icon, .vc_row.hope-campaign > div .imagery .project_category_icon, .vc_row.hope-project > div .imagery .project_category_icon {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+.vc_row.hope-campaign > div .imagery .campaign_category_icon.education, .vc_row.hope-project > div .imagery .campaign_category_icon.education, .vc_row.hope-campaign > div .imagery .project_category_icon.education, .vc_row.hope-project > div .imagery .project_category_icon.education {
+  width: 30px;
+}
+.vc_row.hope-campaign > div .imagery .campaign_category_icon.agriculture, .vc_row.hope-project > div .imagery .campaign_category_icon.agriculture, .vc_row.hope-campaign > div .imagery .project_category_icon.agriculture, .vc_row.hope-project > div .imagery .project_category_icon.agriculture {
+  height: 35px;
+}
+.vc_row.hope-campaign > div .imagery .campaign_category_icon.clean-water, .vc_row.hope-project > div .imagery .campaign_category_icon.clean-water, .vc_row.hope-campaign > div .imagery .project_category_icon.clean-water, .vc_row.hope-project > div .imagery .project_category_icon.clean-water {
+  height: 30px;
+}
+.vc_row.hope-campaign > div .imagery .campaign_category_icon.health, .vc_row.hope-project > div .imagery .campaign_category_icon.health, .vc_row.hope-campaign > div .imagery .project_category_icon.health, .vc_row.hope-project > div .imagery .project_category_icon.health {
+  height: 27px;
+}
+.vc_row.hope-campaign > div .imagery .hope-campaign-progressbar, .vc_row.hope-project > div .imagery .hope-campaign-progressbar, .vc_row.hope-campaign > div .imagery .hope-project-progressbar, .vc_row.hope-project > div .imagery .hope-project-progressbar {
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: -1px;
+  left: 0;
+  background-color: rgba(175, 149, 127, 0.74);
+  border-top: 1px solid #b0a587;
+}
+.vc_row.hope-campaign > div .imagery .hope-campaign-progressbar .inner.bar, .vc_row.hope-project > div .imagery .hope-campaign-progressbar .inner.bar, .vc_row.hope-campaign > div .imagery .hope-project-progressbar .inner.bar, .vc_row.hope-project > div .imagery .hope-project-progressbar .inner.bar {
+  width: 65%;
+  display: block;
+  position: relative;
+  padding: 2px 10px 2px 0;
+  min-height: 20px;
+}
+.vc_row.hope-campaign > div .imagery .hope-campaign-progressbar .inner.bar:after, .vc_row.hope-project > div .imagery .hope-campaign-progressbar .inner.bar:after, .vc_row.hope-campaign > div .imagery .hope-project-progressbar .inner.bar:after, .vc_row.hope-project > div .imagery .hope-project-progressbar .inner.bar:after {
+  content: ' ';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 12px 0 0;
+  position: absolute;
+  right: -12px;
+  top: 0;
+}
+.vc_row.hope-campaign > div .imagery .hope-campaign-progressbar .message, .vc_row.hope-project > div .imagery .hope-campaign-progressbar .message, .vc_row.hope-campaign > div .imagery .hope-project-progressbar .message, .vc_row.hope-project > div .imagery .hope-project-progressbar .message {
+  color: white;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.63);
+}
+.vc_row.hope-campaign > div .imagery .hope-campaign-progressbar.complete .inner.bar, .vc_row.hope-project > div .imagery .hope-campaign-progressbar.complete .inner.bar, .vc_row.hope-campaign > div .imagery .hope-project-progressbar.complete .inner.bar, .vc_row.hope-project > div .imagery .hope-project-progressbar.complete .inner.bar {
+  width: 100%;
+  text-align: center;
+}
+.vc_row.hope-campaign > div .imagery .hope-campaign-progressbar.complete .inner.bar:after, .vc_row.hope-project > div .imagery .hope-campaign-progressbar.complete .inner.bar:after, .vc_row.hope-campaign > div .imagery .hope-project-progressbar.complete .inner.bar:after, .vc_row.hope-project > div .imagery .hope-project-progressbar.complete .inner.bar:after {
+  display: none;
+}
+.vc_row.hope-campaign > div .info, .vc_row.hope-project > div .info {
+  padding: 10px;
+  /* mobile-portrait */
+}
+@media (min-width: 1200px) {
+  .vc_row.hope-campaign > div .info, .vc_row.hope-project > div .info {
+    min-height: 188px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .vc_row.hope-campaign > div .info, .vc_row.hope-project > div .info {
+    min-height: 251px;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .vc_row.hope-campaign > div .info, .vc_row.hope-project > div .info {
+    min-height: 285px;
+  }
+}
+@media (max-width: 768px) {
+  .vc_row.hope-campaign > div .info, .vc_row.hope-project > div .info {
+    max-width: 297px;
+    margin: auto;
+    padding: 10px 0;
+  }
+}
+.vc_row.hope-campaign > div h4, .vc_row.hope-project > div h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  .vc_row.hope-campaign > div h4, .vc_row.hope-project > div h4 {
+    text-align: center;
+  }
+}
+.vc_row.hope-campaign > div h6, .vc_row.hope-project > div h6 {
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #483b39;
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  .vc_row.hope-campaign > div h6, .vc_row.hope-project > div h6 {
+    text-align: center;
+  }
+}
+.vc_row.hope-campaign > div p, .vc_row.hope-project > div p {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #483b39;
+}
+.vc_row.hope-campaign > div .fund-btns, .vc_row.hope-project > div .fund-btns {
+  min-height: 43px;
+}
+.vc_row.hope-campaign > div .fund-btns > .wpb_column > .vc_column-inner > .wpb_wrapper, .vc_row.hope-project > div .fund-btns > .wpb_column > .vc_column-inner > .wpb_wrapper {
+  max-width: 320px;
+  margin: auto;
+}
+.vc_row.hope-campaign > div .fund-btns .fund-btn, .vc_row.hope-project > div .fund-btns .fund-btn {
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.vc_row.hope-campaign > div .fund-btns .fund-btn a, .vc_row.hope-project > div .fund-btns .fund-btn a {
+  padding: 8px !important;
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .vc_row.hope-campaign > div .fund-btns .fund-btn a, .vc_row.hope-project > div .fund-btns .fund-btn a {
+    padding: 8px 0 !important;
+  }
+}
+.vc_row.hope-campaign > div > .vc_column-inner, .vc_row.hope-project > div > .vc_column-inner {
+  padding: 0;
+}
+.vc_row.hope-campaign.user-fundraiser .project_category_icon, .vc_row.hope-project.user-fundraiser .project_category_icon {
+  display: none;
+}
+.vc_row.hope-campaign.user-fundraiser .fund-btns, .vc_row.hope-project.user-fundraiser .fund-btns {
+  margin-left: 0;
+  margin-right: 0;
+}
+.vc_row.hope-campaign.user-fundraiser .fund-btns .fund-btns-col .vc_column-inner, .vc_row.hope-project.user-fundraiser .fund-btns .fund-btns-col .vc_column-inner {
+  padding-right: 0;
+  padding-left: 0;
+}
+.vc_row.hope-campaign.user-fundraiser .fund-btns .fund-btns-col .fund-btn, .vc_row.hope-project.user-fundraiser .fund-btns .fund-btns-col .fund-btn {
+  margin-left: 10px !important;
+}
+.hope-campaign-education .hope-project-progressbar .inner.bar, .hope-project-education .hope-project-progressbar .inner.bar, .completed-project-education .hope-project-progressbar .inner.bar, .hope-campaign-education .hope-campaign-progressbar .inner.bar, .hope-project-education .hope-campaign-progressbar .inner.bar, .completed-project-education .hope-campaign-progressbar .inner.bar {
+  background-color: #f37338;
+}
+.hope-campaign-education .hope-project-progressbar .inner.bar:after, .hope-project-education .hope-project-progressbar .inner.bar:after, .completed-project-education .hope-project-progressbar .inner.bar:after, .hope-campaign-education .hope-campaign-progressbar .inner.bar:after, .hope-project-education .hope-campaign-progressbar .inner.bar:after, .completed-project-education .hope-campaign-progressbar .inner.bar:after {
+  border-color: #f37338 transparent transparent transparent;
+}
+.hope-campaign-education h4, .hope-project-education h4, .completed-project-education h4, .hope-campaign-education h4 a, .hope-project-education h4 a, .completed-project-education h4 a {
+  color: #f37338;
+}
+.hope-campaign-education .fund-btn button, .hope-project-education .fund-btn button, .completed-project-education .fund-btn button, .hope-campaign-education .fund-btn a, .hope-project-education .fund-btn a, .completed-project-education .fund-btn a {
+  background-color: #f37338 !important;
+}
+.hope-campaign-health .hope-project-progressbar .inner.bar, .hope-project-health .hope-project-progressbar .inner.bar, .completed-project-health .hope-project-progressbar .inner.bar, .hope-campaign-health .hope-campaign-progressbar .inner.bar, .hope-project-health .hope-campaign-progressbar .inner.bar, .completed-project-health .hope-campaign-progressbar .inner.bar {
+  background-color: #c32528;
+}
+.hope-campaign-health .hope-project-progressbar .inner.bar:after, .hope-project-health .hope-project-progressbar .inner.bar:after, .completed-project-health .hope-project-progressbar .inner.bar:after, .hope-campaign-health .hope-campaign-progressbar .inner.bar:after, .hope-project-health .hope-campaign-progressbar .inner.bar:after, .completed-project-health .hope-campaign-progressbar .inner.bar:after {
+  border-color: #c32528 transparent transparent transparent;
+}
+.hope-campaign-health h4, .hope-project-health h4, .completed-project-health h4, .hope-campaign-health h4 a, .hope-project-health h4 a, .completed-project-health h4 a {
+  color: #c32528;
+}
+.hope-campaign-health .fund-btn button, .hope-project-health .fund-btn button, .completed-project-health .fund-btn button, .hope-campaign-health .fund-btn a, .hope-project-health .fund-btn a, .completed-project-health .fund-btn a {
+  background-color: #c32528 !important;
+}
+.hope-campaign-clean-water .hope-project-progressbar .inner.bar, .hope-project-clean-water .hope-project-progressbar .inner.bar, .completed-project-clean-water .hope-project-progressbar .inner.bar, .hope-campaign-clean-water .hope-campaign-progressbar .inner.bar, .hope-project-clean-water .hope-campaign-progressbar .inner.bar, .completed-project-clean-water .hope-campaign-progressbar .inner.bar {
+  background-color: #1da7b4;
+}
+.hope-campaign-clean-water .hope-project-progressbar .inner.bar:after, .hope-project-clean-water .hope-project-progressbar .inner.bar:after, .completed-project-clean-water .hope-project-progressbar .inner.bar:after, .hope-campaign-clean-water .hope-campaign-progressbar .inner.bar:after, .hope-project-clean-water .hope-campaign-progressbar .inner.bar:after, .completed-project-clean-water .hope-campaign-progressbar .inner.bar:after {
+  border-color: #1da7b4 transparent transparent transparent;
+}
+.hope-campaign-clean-water h4, .hope-project-clean-water h4, .completed-project-clean-water h4, .hope-campaign-clean-water h4 a, .hope-project-clean-water h4 a, .completed-project-clean-water h4 a {
+  color: #1da7b4;
+}
+.hope-campaign-clean-water .fund-btn button, .hope-project-clean-water .fund-btn button, .completed-project-clean-water .fund-btn button, .hope-campaign-clean-water .fund-btn a, .hope-project-clean-water .fund-btn a, .completed-project-clean-water .fund-btn a {
+  background-color: #1da7b4 !important;
+}
+.hope-campaign-agriculture .hope-project-progressbar .inner.bar, .hope-project-agriculture .hope-project-progressbar .inner.bar, .completed-project-agriculture .hope-project-progressbar .inner.bar, .hope-campaign-agriculture .hope-campaign-progressbar .inner.bar, .hope-project-agriculture .hope-campaign-progressbar .inner.bar, .completed-project-agriculture .hope-campaign-progressbar .inner.bar {
+  background-color: #fcb531;
+}
+.hope-campaign-agriculture .hope-project-progressbar .inner.bar:after, .hope-project-agriculture .hope-project-progressbar .inner.bar:after, .completed-project-agriculture .hope-project-progressbar .inner.bar:after, .hope-campaign-agriculture .hope-campaign-progressbar .inner.bar:after, .hope-project-agriculture .hope-campaign-progressbar .inner.bar:after, .completed-project-agriculture .hope-campaign-progressbar .inner.bar:after {
+  border-color: #fcb531 transparent transparent transparent;
+}
+.hope-campaign-agriculture h4, .hope-project-agriculture h4, .completed-project-agriculture h4, .hope-campaign-agriculture h4 a, .hope-project-agriculture h4 a, .completed-project-agriculture h4 a {
+  color: #fcb531;
+}
+.hope-campaign-agriculture .fund-btn button, .hope-project-agriculture .fund-btn button, .completed-project-agriculture .fund-btn button, .hope-campaign-agriculture .fund-btn a, .hope-project-agriculture .fund-btn a, .completed-project-agriculture .fund-btn a {
+  background-color: #fcb531 !important;
+}
+.js-wpv-view-layout {
+  padding-bottom: 40px;
+}
+.supercrsl {
+  /* hope projects - education */
+  /* hope projects - health */
+  /* hope projects - clean water */
+  /* hope projects - agriculture */
+  /* give page */
+}
+.supercrsl.supercarousel1569 .supercarousel_wrapper .supercarousel > div .super_imagewrap, .supercrsl.supercarousel1576 .supercarousel_wrapper .supercarousel > div .super_imagewrap, .supercrsl.supercarousel1578 .supercarousel_wrapper .supercarousel > div .super_imagewrap, .supercrsl.supercarousel1580 .supercarousel_wrapper .supercarousel > div .super_imagewrap, .supercrsl.supercarousel1741 .supercarousel_wrapper .supercarousel > div .super_imagewrap {
+  /* category icon */
+}
+.supercrsl.supercarousel1569 .supercarousel_wrapper .supercarousel > div .super_imagewrap .super_overlay0 .superoverlayelement1, .supercrsl.supercarousel1576 .supercarousel_wrapper .supercarousel > div .super_imagewrap .super_overlay0 .superoverlayelement1, .supercrsl.supercarousel1578 .supercarousel_wrapper .supercarousel > div .super_imagewrap .super_overlay0 .superoverlayelement1, .supercrsl.supercarousel1580 .supercarousel_wrapper .supercarousel > div .super_imagewrap .super_overlay0 .superoverlayelement1, .supercrsl.supercarousel1741 .supercarousel_wrapper .supercarousel > div .super_imagewrap .super_overlay0 .superoverlayelement1 {
+  position: absolute;
+  width: 40px;
+  background: none;
+  top: 40px;
+  right: 0;
+}
+.supercrsl.supercarousel1569 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar, .supercrsl.supercarousel1576 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar, .supercrsl.supercarousel1578 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar, .supercrsl.supercarousel1580 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar, .supercrsl.supercarousel1741 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar, .supercrsl.supercarousel1569 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar, .supercrsl.supercarousel1576 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar, .supercrsl.supercarousel1578 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar, .supercrsl.supercarousel1580 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar, .supercrsl.supercarousel1741 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar {
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: -10px;
+  left: 0;
+  background-color: rgba(175, 149, 127, 0.74);
+  border-top: 1px solid #b0a587;
+  overflow: hidden;
+}
+.supercrsl.supercarousel1569 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar .inner.bar, .supercrsl.supercarousel1576 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar .inner.bar, .supercrsl.supercarousel1578 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar .inner.bar, .supercrsl.supercarousel1580 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar .inner.bar, .supercrsl.supercarousel1741 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar .inner.bar, .supercrsl.supercarousel1569 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar .inner.bar, .supercrsl.supercarousel1576 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar .inner.bar, .supercrsl.supercarousel1578 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar .inner.bar, .supercrsl.supercarousel1580 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar .inner.bar, .supercrsl.supercarousel1741 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar .inner.bar {
+  width: 65%;
+  display: inline-block;
+  position: relative;
+  top: -4px;
+  padding: 2px 10px 2px 0;
+  min-height: 19px;
+}
+.supercrsl.supercarousel1569 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar .inner.bar:after, .supercrsl.supercarousel1576 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar .inner.bar:after, .supercrsl.supercarousel1578 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar .inner.bar:after, .supercrsl.supercarousel1580 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar .inner.bar:after, .supercrsl.supercarousel1741 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar .inner.bar:after, .supercrsl.supercarousel1569 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar .inner.bar:after, .supercrsl.supercarousel1576 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar .inner.bar:after, .supercrsl.supercarousel1578 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar .inner.bar:after, .supercrsl.supercarousel1580 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar .inner.bar:after, .supercrsl.supercarousel1741 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar .inner.bar:after {
+  content: ' ';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 12px 0 0;
+  position: absolute;
+  right: -12px;
+  top: 0;
+}
+.supercrsl.supercarousel1569 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar .message, .supercrsl.supercarousel1576 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar .message, .supercrsl.supercarousel1578 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar .message, .supercrsl.supercarousel1580 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar .message, .supercrsl.supercarousel1741 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-campaign-progressbar .message, .supercrsl.supercarousel1569 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar .message, .supercrsl.supercarousel1576 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar .message, .supercrsl.supercarousel1578 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar .message, .supercrsl.supercarousel1580 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar .message, .supercrsl.supercarousel1741 .supercarousel_wrapper .supercarousel > div .superelement1 .hope-project-progressbar .message {
+  color: white;
+  width: 100%;
+  position: absolute;
+  font-size: 12px;
+  left: 0;
+  top: 1px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.63);
+}
+.supercrsl .hope-campaign-progressbar.education .inner.bar, .supercrsl .hope-project-progressbar.education .inner.bar {
+  background-color: #f37338;
+}
+.supercrsl .hope-campaign-progressbar.education .inner.bar:after, .supercrsl .hope-project-progressbar.education .inner.bar:after {
+  border-color: #f37338 transparent transparent transparent;
+}
+.supercrsl .hope-campaign-progressbar.health .inner.bar, .supercrsl .hope-project-progressbar.health .inner.bar {
+  background-color: #c32528;
+}
+.supercrsl .hope-campaign-progressbar.health .inner.bar:after, .supercrsl .hope-project-progressbar.health .inner.bar:after {
+  border-color: #c32528 transparent transparent transparent;
+}
+.supercrsl .hope-campaign-progressbar.clean-water .inner.bar, .supercrsl .hope-project-progressbar.clean-water .inner.bar {
+  background-color: #1da7b4;
+}
+.supercrsl .hope-campaign-progressbar.clean-water .inner.bar:after, .supercrsl .hope-project-progressbar.clean-water .inner.bar:after {
+  border-color: #1da7b4 transparent transparent transparent;
+}
+.supercrsl .hope-campaign-progressbar.agriculture .inner.bar, .supercrsl .hope-project-progressbar.agriculture .inner.bar {
+  background-color: #fcb531;
+}
+.supercrsl .hope-campaign-progressbar.agriculture .inner.bar:after, .supercrsl .hope-project-progressbar.agriculture .inner.bar:after {
+  border-color: #fcb531 transparent transparent transparent;
+}
+.supercrsl.supercarousel1569 {
+  /* hope projects - education */
+}
+.supercrsl.supercarousel1576 {
+  /* hope projects - health */
+}
+.supercrsl.supercarousel1576 .superoverlayelement1 {
+  top: 46px !important;
+}
+.supercrsl.supercarousel1578 {
+  /* hope projects - clean water */
+}
+.supercrsl.supercarousel1578 .superoverlayelement1 {
+  top: 53px !important;
+}
+.supercrsl.supercarousel1580 {
+  /* hope projects - agriculture */
+}
+.supercrsl.supercarousel1580 .superoverlayelement1 {
+  top: 53px !important;
+}
+.supercrsl.supercarousel1741 {
+  /* give */
+}
+.supercrsl.supercarousel1741 .hope-campaign-progressbar .inner.bar {
+  font-size: 9px !important;
+}
+.supercrsl.supercarousel1741 .superoverlayelement1 {
+  width: 33px !important;
+}
+.green-button {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #78ba73;
+  padding: 5px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  color: white !important;
+  border: none;
+  font-family: Lato;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.green-button:hover {
+  background-color: #59a753 !important;
+  color: white !important;
+}
+.green-button {
+  background: #c0262c !important;
+  color: #fcb543 !important;
+  text-transform: uppercase !important;
+  padding: 12px !important;
+  font-size: 16px !important;
+  letter-spacing: 0.1em !important;
+  font-weight: bold !important;
+  vertical-align: middle !important;
+  display: inline-block;
+  text-align: center !important;
+  border-radius: 2px;
+}
+.green-button:hover {
+  text-decoration: none;
+  background: #951e22 !important;
+}
+/* 
+ ========================
+ HOPE-CAMPAIGN 
+ ========================
+ */
+/* Donate Btn */
+.hope-campaign-donate {
+  width: 375px;
+  margin: auto;
+  position: relative;
+}
+.hope-campaign-donate.funding-complete {
+  width: 100%;
+  text-align: center;
+}
+.hope-campaign-donate .currency_symbol {
+  content: '$';
+  position: absolute;
+  color: #fcb33d;
+  top: 8px;
+  left: 15px;
+  font-size: 22px;
+}
+.hope-campaign-donate .donate_amount {
+  font-size: 25px !important;
+  padding: 5px !important;
+  padding-left: 32px !important;
+  color: #1ab5c5 !important;
+  vertical-align: middle;
+  width: 55%;
+  font-weight: bold;
+  background: white url(/wp-content/uploads/2017/09/give-box-1.png) no-repeat center right;
+  border: none;
+}
+.hope-campaign-donate .donate_btn {
+  background: #c0262c;
+  color: #fcb543;
+  text-transform: uppercase;
+  padding: 12px;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  width: 45%;
+  border-radius: 2px;
+}
+.hope-campaign-donate .donate_btn:hover {
+  text-decoration: none;
+}
+.hope-campaign-donate .donate_btn .heart {
+  display: inline-block;
+  font-size: 14px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.woocommerce-info {
+  border-top-color: #fcb531;
+  background-color: white;
+}
+.woocommerce-info:before {
+  color: #fcb531;
+}
+.standalone-donate-form {
+  max-width: 380px;
+  margin: auto;
+}
+.standalone-donate-form .input-form {
+  background-color: white;
+  padding: 2px 10px;
+  margin: 0 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.standalone-donate-form .input-form .currency_symbol {
+  font-weight: bold;
+  color: #fbbc59;
+}
+.standalone-donate-form .input-form .donate_amount {
+  width: 42px;
+  color: #2495a4;
+  border: none;
+  font-weight: bold;
+  margin-left: 3px;
+}
+.standalone-donate-form .input-form .donate_amount:focus {
+  outline: none;
+}
+.standalone-donate-form .input-form .divider {
+  border: 1px solid #d8d8d8;
+  width: 2px;
+  margin: 0 25px;
+  height: 25px;
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .standalone-donate-form .input-form .divider {
+    margin: 0 9px;
+  }
+}
+.standalone-donate-form .input-form .currency_abbrev {
+  font-weight: bold;
+  font-size: 14px;
+  color: #fbbc59;
+}
+.standalone-donate-form .input-form .impact {
+  line-height: 1.1em;
+  font-size: 14px;
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .standalone-donate-form .input-form .impact {
+    font-size: 12px;
+  }
+}
+.standalone-donate-form .input-form .impact .amount {
+  font-weight: 900;
+  color: #1590a0;
+}
+.standalone-donate-form .input-form .impact .object {
+  font-weight: 900;
+  color: #1590a0;
+}
+.standalone-donate-form .input-form .impact .impact {
+  font-weight: 900;
+  color: #fbbc59;
+  font-size: 14px;
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .standalone-donate-form .input-form .impact .impact {
+    font-size: 12px;
+  }
+}
+.standalone-donate-form .buttons {
+  text-align: center;
+  margin-top: 7px;
+}
+.standalone-donate-form .buttons .monthly, .standalone-donate-form .buttons .one-time {
+  width: 49%;
+  box-shadow: 1px 1px 6px #333;
+}
+.standalone-donate-form .buttons .monthly:not(.selected), .standalone-donate-form .buttons .one-time:not(.selected) {
+  background-color: white;
+  color: grey;
+  box-shadow: none;
+}
+.standalone-donate-form .buttons .monthly:hover, .standalone-donate-form .buttons .one-time:hover {
+  color: white !important;
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .standalone-donate-form .buttons .monthly, .standalone-donate-form .buttons .one-time {
+    font-size: 11px;
+  }
+}
+.standalone-donate-form .buttons .monthly {
+  background-color: #f17341;
+}
+.standalone-donate-form .buttons .monthly:hover, .standalone-donate-form .buttons .monthly:focus {
+  background-color: #f17341 !important;
+}
+.standalone-donate-form .buttons .one-time {
+  background-color: #107877;
+}
+.standalone-donate-form .buttons .one-time:hover, .standalone-donate-form .buttons .one-time:focus {
+  background-color: #107877 !important;
+}
+.standalone-donate-form .dedication {
+  float: left;
+  margin-top: 15px;
+}
+.standalone-donate-form .dedication .in-honor-label {
+  color: #948275;
+  font-weight: normal;
+  font-size: 14px;
+  margin-left: 3px;
+}
+.standalone-donate-form .donate_btn {
+  background: #c0262c !important;
+  color: #fcb543 !important;
+  text-transform: uppercase !important;
+  padding: 12px !important;
+  font-size: 16px !important;
+  letter-spacing: 0.1em !important;
+  font-weight: bold !important;
+  vertical-align: middle !important;
+  display: inline-block;
+  text-align: center !important;
+  border-radius: 2px;
+  margin-top: 15px;
+  float: right;
+  font-size: 14px !important;
+  padding: 9px 25px !important;
+  border-radius: 4px;
+  text-decoration: none !important;
+}
+.standalone-donate-form .donate_btn:hover {
+  text-decoration: none;
+  background: #951e22 !important;
+}
+.flip-clock-wrapper {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.flip-clock-wrapper ul.flip {
+  width: 43px;
+  margin: 3px;
+  float: none;
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .flip-clock-wrapper ul.flip {
+    /* margin: 3px 1px; */
+  }
+}
+.flip-clock-wrapper ul.flip li {
+  padding-left: 0;
+  margin-top: 0;
+}
+.flip-clock-wrapper ul.flip li:before {
+  display: none;
+}
+.flip-clock-wrapper ul.flip li a {
+  line-height: 1.3;
+}
+.flip-clock-wrapper ul.flip li a div .inn {
+  color: #00b6c8;
+  font-family: Oswald;
+  font-weight: 100;
+}
+.flip-clock-wrapper ul.flip li a div.down .inn {
+  background-color: #555;
+}
+.charitable-login-form {
+  border: none;
+}
+.charitable-login-form .login-username label, .charitable-login-form .login-password label {
+  display: block !important;
+  color: #c32528;
+  font-size: 32px;
+  font-family: Oswald;
+}
+.charitable-login-form #user_login, .charitable-login-form #user_pass {
+  font-size: 25px;
+  padding: 5px;
+  color: #1ab5c5;
+}
+.charitable-login-form #wp-submit {
+  background: #c0262c !important;
+  color: #fcb543 !important;
+  text-transform: uppercase !important;
+  padding: 12px !important;
+  font-size: 16px !important;
+  letter-spacing: 0.1em !important;
+  font-weight: bold !important;
+  vertical-align: middle !important;
+  display: inline-block;
+  text-align: center !important;
+  border-radius: 2px;
+}
+.charitable-login-form #wp-submit:hover {
+  text-decoration: none;
+  background: #951e22 !important;
+}
+#sfs-footer-wrapper #footer-content-row {
+  padding-bottom: 25px;
+  /* mobile-portrait */
+}
+#sfs-footer-wrapper #footer-content-row .col3 {
+  width: 20%;
+}
+#sfs-footer-wrapper #footer-content-row .col4 {
+  width: 21.6%;
+}
+@media (max-width: 768px) {
+  #sfs-footer-wrapper #footer-content-row .col1, #sfs-footer-wrapper #footer-content-row .col2, #sfs-footer-wrapper #footer-content-row .col3, #sfs-footer-wrapper #footer-content-row .col4 {
+    margin-bottom: 30px;
+    width: 47%;
+    float: right;
+  }
+}
+/* 
+ ========================
+ PAGE: ABOUT US
+ ========================
+ */
+/* BIG RED BUTTON HOVER: CHANGE TO GREEN */
+.page-id-23 .vc_btn3.vc_btn3-color-danger.vc_btn3-style-flat:focus, .page-id-23 .vc_btn3.vc_btn3-color-danger.vc_btn3-style-flat:hover, .page-id-23 .vc_btn3.vc_btn3-color-danger:focus, .page-id-23 .vc_btn3.vc_btn3-color-danger:hover {
+  background-color: #0d7978;
+}
+/* BIG BLUE BUTTON HOVER: CHANGE TO ORANGE */
+.vc_btn3.vc_btn3-color-primary.vc_btn3-style-flat:focus, .vc_btn3.vc_btn3-color-primary.vc_btn3-style-flat:hover, .vc_btn3.vc_btn3-color-primary:focus, .vc_btn3.vc_btn3-color-primary:hover {
+  background-color: #f3733a;
+}
+.page-id-23 .dotted-top {
+  border-top: 3px dotted #c7b299;
+}
+.page-id-23 .infinite .vc_column-inner {
+  background-position: 50% 0% !important;
+  background-repeat: repeat-y !important;
+}
+.dotted-top-off-left {
+  background-image: url(/wp-content/uploads/2017/08/dotted-top-off-left.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.entry-content ul > li:before, .comment-content ul > li:before {
+  font-size: 1em;
+  line-height: 1.6;
+}
+.about-solutions-list ul {
+  margin-left: 25%;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-solutions-list ul {
+    margin-left: 0;
+  }
+  .entry-content ul > li, .comment-content ul > li {
+    line-height: 1.2;
+    margin-top: 8px;
+  }
+}
+/* 
+ =============================
+ PAGE: COMPLETED PROJECTS
+ =============================
+ */
+.completed-projects #hope-campaigns-filter-and-items-row, .completed-projects #hope-projects-filter-and-items-row {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.campaign-donation ul li:before, .campaign-donation-page ul li:before {
+  display: none;
+}
+.campaign-donation fieldset, .campaign-donation-page fieldset {
+  border: none !important;
+  padding: 0 !important;
+}
+.campaign-donation input[type="text"], .campaign-donation-page input[type="text"], .campaign-donation select, .campaign-donation-page select, .campaign-donation input[type="email"], .campaign-donation-page input[type="email"] {
+  font-size: 25px;
+  padding: 5px;
+  color: #1ab5c5;
+}
+.campaign-donation .charitable-form-header, .campaign-donation-page .charitable-form-header {
+  color: #c32528;
+  font-size: 32px;
+  font-family: Oswald;
+}
+.campaign-donation .charitable-submit-field button, .campaign-donation-page .charitable-submit-field button {
+  background: #c0262c !important;
+  color: #fcb543 !important;
+  text-transform: uppercase !important;
+  padding: 12px !important;
+  font-size: 16px !important;
+  letter-spacing: 0.1em !important;
+  font-weight: bold !important;
+  vertical-align: middle !important;
+  display: inline-block;
+  text-align: center !important;
+  border-radius: 2px;
+}
+.campaign-donation .charitable-submit-field button:hover, .campaign-donation-page .charitable-submit-field button:hover {
+  text-decoration: none;
+  background: #951e22 !important;
+}
+.campaign-donation .charitable-form-processing, .campaign-donation-page .charitable-form-processing {
+  display: inline-block;
+}
+.campaign-donation-receipt .charitable-header {
+  color: #c32528;
+  font-size: 32px;
+  font-family: Oswald;
+}
+.campaign-donation-receipt .main-content h1.entry-title {
+  display: block !important;
+  margin-top: 20px;
+  color: #c32528;
+  font-size: 32px;
+  font-family: Oswald;
+}
+.fund-a-hopeproject .vc_tta-container {
+  /* tab headings */
+}
+.fund-a-hopeproject .vc_tta-container .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list li.vc_tta-tab:nth-child(1).vc_active a {
+  background: #fde7dd !important;
+  color: #f37338 !important;
+}
+.fund-a-hopeproject .vc_tta-container .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list li.vc_tta-tab:nth-child(2).vc_active a {
+  background: #f5dada !important;
+  color: #c32528 !important;
+}
+.fund-a-hopeproject .vc_tta-container .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list li.vc_tta-tab:nth-child(3).vc_active a {
+  background: #d4f3f6 !important;
+  color: #1da7b4 !important;
+}
+.fund-a-hopeproject .vc_tta-container .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list li.vc_tta-tab:nth-child(4).vc_active a {
+  background: #fff3dc !important;
+  color: #fcb531 !important;
+}
+.fund-a-hopeproject .ts-advanced-google-map-controls {
+  display: none !important;
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .fund-a-hopeproject .hope-campaign-progressbar .inner, .fund-a-hopeproject .hope-project-progressbar .inner {
+    font-size: 11px !important;
+    /*width: 75% !important;*/
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .fund-a-hopeproject .hope-campaign-progressbar .inner, .fund-a-hopeproject .hope-project-progressbar .inner {
+    font-size: 11px !important;
+    /*width: 75% !important;*/
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .fund-a-hopeproject .no-bkgnd-on-mobile {
+    background: url(/wp-content/uploads/2017/07/hope-project.jpg) bottom right no-repeat !important;
+  }
+}
+@media (max-width: 767px) {
+  .fund-a-hopeproject .no-bkgnd-on-mobile {
+    background: none !important;
+  }
+}
+.fundraiser-submission {
+  /*
+   #custom-fundraiser-header {
+   width: 100%;
+   background: url("#{$THEME}/img/custom-fundraiser/custom-fundraiser-header.jpg") no-repeat top left;
+   height: 359px;
+   }
+   */
+  /* Submit Btn */
+}
+.fundraiser-submission .daterangepicker {
+  display: block !important;
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+.fundraiser-submission .daterangepicker .left.calendar .daterangepicker_input {
+  display: none;
+}
+.fundraiser-submission .daterangepicker .left.calendar .calendar-table table th, .fundraiser-submission .daterangepicker .left.calendar .calendar-table table td {
+  border: none;
+}
+.fundraiser-submission .daterangepicker .left.calendar .calendar-table table tr:first-child {
+  /* next and prev */
+}
+.fundraiser-submission .daterangepicker .left.calendar .calendar-table table tr:first-child th:first-child, .fundraiser-submission .daterangepicker .left.calendar .calendar-table table tr:first-child th:last-child {
+  width: 32px;
+}
+.fundraiser-submission .daterangepicker .left.calendar .calendar-table table td {
+  color: #746865 !important;
+}
+.fundraiser-submission .daterangepicker .left.calendar .calendar-table table .month {
+  text-transform: uppercase;
+}
+.fundraiser-submission .daterangepicker .left.calendar .calendar-table table .start-date {
+  background-color: #7ec379;
+}
+.fundraiser-submission .daterangepicker .left.calendar .calendar-table table .in-range {
+  background-color: #ece5dc;
+}
+.fundraiser-submission .daterangepicker .left.calendar .calendar-table table .end-date {
+  background-color: #1cb6c7;
+}
+.fundraiser-submission .daterangepicker .left.calendar .calendar-table table .prev.available, .fundraiser-submission .daterangepicker .left.calendar .calendar-table table .next.available {
+  background-color: #d7c8b7;
+  color: white;
+}
+.fundraiser-submission .daterangepicker .right.calendar {
+  display: none;
+}
+.fundraiser-submission .daterangepicker .ranges {
+  float: none;
+}
+.fundraiser-submission #account-bar {
+  text-align: right;
+  background-color: #d7c8b7;
+  padding: 10px;
+}
+.fundraiser-submission #account-bar a {
+  color: #5a4d49;
+  text-transform: uppercase;
+  margin-right: 15px;
+  font-weight: bold;
+  font-family: Lato;
+}
+.fundraiser-submission #top-title {
+  color: #c22326;
+  margin: 30px 0;
+}
+.fundraiser-submission #charitable_field_post_title-row {
+  position: relative;
+}
+.fundraiser-submission #charitable_field_post_title-row #charitable_field_post_title {
+  padding: 18px;
+  border-radius: 5px;
+  margin-top: -46px;
+  background-color: #fff5ea;
+}
+.fundraiser-submission #charitable_field_post_title-row #charitable_field_post_title textarea {
+  text-align: center;
+  text-decoration: bold;
+  height: 65px;
+  text-transform: uppercase;
+  font-family: Lato;
+  font-size: 16px;
+  padding: 5px;
+  border-color: #d7c8b7;
+}
+.fundraiser-submission #charitable_field_post_title-row .campaign-public {
+  text-align: right;
+}
+.fundraiser-submission #charitable_field_post_title-row .campaign-public p {
+  margin-top: 20px;
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  .fundraiser-submission #charitable_field_post_title-row .campaign-public p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+.fundraiser-submission #charitable_field_post_title-row .campaign-public input {
+  margin-left: 5px;
+}
+.fundraiser-submission #funding-info {
+  margin-bottom: 50px;
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  .fundraiser-submission #funding-info {
+    max-width: 350px;
+    margin: 0 auto 50px auto;
+  }
+}
+.fundraiser-submission #funding-info .funded-amt {
+  text-align: center;
+  font-family: Oswald;
+  font-size: 34px;
+}
+.fundraiser-submission #funding-info .empty-funded-bar {
+  background-color: #d9c9b6;
+  border: 2px solid #cdc1b3;
+  height: 20px;
+  margin-bottom: 8px;
+}
+.fundraiser-submission #funding-info .funded-pct {
+  font-family: Lato;
+  color: #c7b299;
+  font-size: 13px;
+}
+.fundraiser-submission #funding-info #charitable_field_goal {
+  text-align: right;
+}
+.fundraiser-submission #funding-info #charitable_field_goal #charitable_field_goal_element {
+  background: white url(/wp-content/uploads/2017/10/usd-small.png) no-repeat right 10px center;
+  border: 1px solid #c9b69f;
+  font-family: Lato;
+  color: black;
+  padding: 0 40px 0 0;
+  text-align: right;
+  background-size: 22%;
+  width: 130px;
+  margin-top: -5px;
+}
+.fundraiser-submission #funding-info .days-left {
+  font-size: 18px;
+  font-family: Myriad Pro;
+  color: 483b 39;
+  margin-top: 22px;
+}
+.fundraiser-submission #funding-info .days-left .num-days {
+  color: #00b6c8;
+  margin: 0 15px;
+}
+.fundraiser-submission #funding-info .days-left .fa-calendar {
+  color: #c6b29a;
+}
+.fundraiser-submission .desc_p {
+  margin-bottom: 0;
+}
+.fundraiser-submission #description {
+  border-left: 2px dotted #c9b59e;
+}
+.fundraiser-submission #description > p {
+  padding-bottom: 3px;
+}
+.fundraiser-submission #description #charitable_field_description {
+  display: block;
+  margin-left: -13px;
+}
+.fundraiser-submission #description #charitable_field_description #charitable_field_description_element {
+  min-height: 100px;
+  padding: 20px 10px;
+  border: 1px solid #e2dacf;
+  margin-left: 8px;
+  font-family: Lato;
+  font-size: 16px;
+  color: #483b39;
+  margin-right: 40px;
+}
+.fundraiser-submission #charitable_field_description, .fundraiser-submission #charitable_field_campaign_category, .fundraiser-submission #charitable_field_image, .fundraiser-submission #charitable_field_location, .fundraiser-submission #charitable_field_city, .fundraiser-submission #charitable_field_state, .fundraiser-submission #charitable_field_country, .fundraiser-submission #charitable_field_user_description, .fundraiser-submission #charitable_field_organisation, .fundraiser-submission .charitable-submit-field .button-secondary {
+  display: none;
+}
+.fundraiser-submission .charitable-submit-field {
+  text-align: center;
+}
+.fundraiser-submission .charitable-submit-field .button-primary {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #78ba73;
+  padding: 5px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 25px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  border: none;
+  font-family: Lato;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 45px;
+}
+.fundraiser-submission ul.errors {
+  padding: 0 0 20px 0;
+  list-style-type: none;
+}
+.fundraiser-submission ul.errors li {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+  color: #c0262c;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+}
+.fundraiser-submission ul.errors li:before {
+  display: none !important;
+}
+.fundraisers-live #hope-campaigns-filter-and-items-row, .fundraisers-live #hope-projects-filter-and-items-row {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+/* 
+ PAGE: 
+ ________________________________________________________
+ GIVE 
+ */
+body.give .sustainably-end-poverty, body.give body .blue-strip-overlay {
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+body.give .standalone-donate-form {
+  margin: 30px 0 0 10px;
+}
+body.give .give-a-hope-loan {
+  background-position: top right !important;
+}
+body.give .fund-a-hope-project {
+  background-position: top right !important;
+}
+body.give .fund-a-hope-project-selection {
+  margin-top: -40px;
+}
+@media (min-width: 1300px) {
+  body.give .fund-a-hope-project-selection {
+    margin-top: -140px;
+  }
+}
+body.give #carousel-give-a-hopeloan-btn-row {
+  margin-top: -40px;
+}
+@media (max-width: 767px) {
+  body.give .sustainably-end-poverty {
+    background: rgba(0, 182, 200, 0.87) !important;
+  }
+  body.give .give-a-hope-loan {
+    background: none !important;
+  }
+  body.give .fund-a-hope-project {
+    background: none !important;
+  }
+  body.give .fund-a-hope-project-selection {
+    margin-top: 0px;
+  }
+  body.give .fifty-fifty .wpb_content_element {
+    width: 46%;
+    float: left;
+  }
+  body.give .fifty-fifty .wpb_content_element h6 {
+    font-size: 32px;
+    text-align: left !important;
+    margin-top: 60px;
+  }
+  body.give .half-half .vc_column_container {
+    width: 50%;
+    float: left;
+  }
+  body.give .vc_btn3-container.mobile-center {
+    text-align: center;
+  }
+}
+/* 
+ ===========================
+ PAGE: GIVE A HOPELOAN
+ ===========================
+ */
+.give-a-hopeloan {
+  /* non-sass */
+  /* TAB: ACTIVE */
+  /* TAB: REST */
+  /* TAB: HOVER */
+  /* AGRICULTURE */
+  /* ANIMALS */
+  /* BUSINESS */
+  /* COMMUNITY */
+  /* HEALTH */
+  /* DOTTED BORDER */
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel .vc_tta-panel-heading a > i:before {
+  display: none;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.vc_active:nth-child(1) .vc_tta-panel-heading a span {
+  color: #fcb531 !important;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.vc_active:nth-child(2) .vc_tta-panel-heading a span {
+  color: #f17341 !important;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.vc_active:nth-child(3) .vc_tta-panel-heading a span {
+  color: #1cb6c7 !important;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.vc_active:nth-child(4) .vc_tta-panel-heading a span {
+  color: #107877 !important;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-agriculture li.product .quantity .minus {
+  background-image: url(/wp-content/themes/hope-loans/img/woo/qty/yellow/minus.png);
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-agriculture li.product .quantity .plus {
+  background-image: url(/wp-content/themes/hope-loans/img/woo/qty/yellow/plus.png);
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-agriculture li.product .product-info .woocommerce-loop-product__title {
+  color: #fcb531;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-agriculture li.product .product-info .add_to_cart_button {
+  background-color: #fcb531;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-animals li.product .quantity .minus {
+  background-image: url(/wp-content/themes/hope-loans/img/woo/qty/red/minus.png);
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-animals li.product .quantity .plus {
+  background-image: url(/wp-content/themes/hope-loans/img/woo/qty/red/plus.png);
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-animals li.product .product-info .woocommerce-loop-product__title {
+  color: #f17341;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-animals li.product .product-info .add_to_cart_button {
+  background-color: #f17341;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-business li.product .quantity .minus {
+  background-image: url(/wp-content/themes/hope-loans/img/woo/qty/blue/minus.png);
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-business li.product .quantity .plus {
+  background-image: url(/wp-content/themes/hope-loans/img/woo/qty/blue/plus.png);
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-business li.product .product-info .woocommerce-loop-product__title {
+  color: #1cb6c7;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-business li.product .product-info .add_to_cart_button {
+  background-color: #1cb6c7;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-community li.product .quantity .minus {
+  background-image: url(/wp-content/themes/hope-loans/img/woo/qty/green/minus.png);
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-community li.product .quantity .plus {
+  background-image: url(/wp-content/themes/hope-loans/img/woo/qty/green/plus.png);
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-community li.product .product-info .woocommerce-loop-product__title {
+  color: #107877;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.tab-community li.product .product-info .add_to_cart_button {
+  background-color: #107877;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list .vc_tta-tab .vc_tta-title-text {
+  margin-left: 0;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list .vc_tta-tab > a i {
+  display: block;
+  margin: auto;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list .vc_tta-tab:nth-child(1).vc_active a {
+  background-color: #fff3dc !important;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list .vc_tta-tab:nth-child(1).vc_active a .vc_tta-title-text {
+  color: #fcb531;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list .vc_tta-tab:nth-child(1) .vc_tta-icon {
+  background-image: url(/wp-content/uploads/2017/08/cat-agriculture.png);
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 190px;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list .vc_tta-tab:nth-child(2).vc_active a {
+  background-color: #fde7dd !important;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list .vc_tta-tab:nth-child(2).vc_active a .vc_tta-title-text {
+  color: #f17341;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list .vc_tta-tab:nth-child(2) .vc_tta-icon {
+  background-image: url(/wp-content/uploads/2017/08/cat-animals.png);
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 190px;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list .vc_tta-tab:nth-child(3).vc_active a {
+  background-color: #d4f3f6 !important;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list .vc_tta-tab:nth-child(3).vc_active a .vc_tta-title-text {
+  color: #1cb6c7;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list .vc_tta-tab:nth-child(3) .vc_tta-icon {
+  background-image: url(/wp-content/uploads/2017/08/cat-business.png);
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 190px;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list .vc_tta-tab:nth-child(4).vc_active a {
+  background-color: #d1e7e7 !important;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list .vc_tta-tab:nth-child(4).vc_active a .vc_tta-title-text {
+  color: #107877;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list .vc_tta-tab:nth-child(4) .vc_tta-icon {
+  background-image: url(/wp-content/uploads/2017/08/cat-community.png);
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 190px;
+}
+.give-a-hopeloan .vc_tta-tabs .vc_tta-tabs-container ul.vc_tta-tabs-list .vc_tta-tab .vc_tta-icon:before {
+  display: none;
+}
+.give-a-hopeloan ul.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.give-a-hopeloan ul.products li.product {
+  /* mobile-portrait */
+  border-bottom: 3px dotted #c7b299;
+  padding-bottom: 50px;
+}
+@media (max-width: 768px) {
+  .give-a-hopeloan ul.products li.product {
+    width: 100% !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .give-a-hopeloan ul.products li.product {
+    width: 100% !important;
+  }
+}
+.give-a-hopeloan ul.products li.product:nth-last-child(-n+2) {
+  border-bottom: none;
+}
+.give-a-hopeloan ul.products li.product:before {
+  display: none;
+}
+.give-a-hopeloan ul.products li.product .thumb-and-qty {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  .give-a-hopeloan ul.products li.product .thumb-and-qty {
+    width: 100%;
+  }
+}
+.give-a-hopeloan ul.products li.product .thumb-and-qty img {
+  max-width: 198px;
+}
+.give-a-hopeloan ul.products li.product .thumb-and-qty .quantity {
+  margin-top: 30px;
+  /*
+   .minus, .plus {
+   display: inline-block;
+   position: relative;
+   background: $ag-color;
+   padding: 0px 10px;
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   font-size: 25px;
+   border-bottom: none;
+   vertical-align: middle;
+   width: 29px;
+   height: 29px;
+   display: inline-block;
+   &:after {
+   content: '';
+   display: block;  
+   position: absolute;
+   top: 10px;
+   margin-top: -10px;
+   width: 0;
+   height: 0;
+   }
+   }
+   .minus {
+   padding: 0px 10px 0px 4px;
+   &:after {
+   right: 100%;
+   border-top: 15px solid transparent;
+   border-right: 15px solid $ag-color;
+   border-bottom: 15px solid transparent;
+   border-left: 15px solid transparent;
+   }
+   }
+   .plus {
+   padding: 0px 4px 0px 10px;
+   font-size: 22px;
+   &:after {	
+   left: 100%;
+   border-top: 15px solid transparent;
+   border-right: 15px solid transparent;
+   border-bottom: 15px solid transparent;
+   border-left: 15px solid $ag-color;
+   }
+   }
+   */
+}
+.give-a-hopeloan ul.products li.product .thumb-and-qty .quantity input {
+  text-align: center;
+  vertical-align: middle;
+  width: 40px;
+}
+.give-a-hopeloan ul.products li.product .thumb-and-qty .quantity input[type=number]::-webkit-inner-spin-button, .give-a-hopeloan ul.products li.product .thumb-and-qty .quantity input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.give-a-hopeloan ul.products li.product .thumb-and-qty .quantity .minus, .give-a-hopeloan ul.products li.product .thumb-and-qty .quantity .plus {
+  display: inline-block;
+  height: 26px;
+  width: 36px;
+  border-bottom: none;
+  vertical-align: middle;
+}
+.give-a-hopeloan ul.products li.product .product-info {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  .give-a-hopeloan ul.products li.product .product-info {
+    width: 100%;
+  }
+}
+.give-a-hopeloan ul.products li.product .product-info .woocommerce-loop-product__title {
+  color: #fcb531;
+  font-family: Oswald;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.01rem;
+  line-height: 1.1;
+  margin-top: 0;
+  text-transform: uppercase;
+  padding: 0;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  /* mobile-portrait */
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .give-a-hopeloan ul.products li.product .product-info .woocommerce-loop-product__title {
+    font-size: 45px;
+  }
+}
+@media (max-width: 768px) {
+  .give-a-hopeloan ul.products li.product .product-info .woocommerce-loop-product__title {
+    text-align: center;
+  }
+}
+.give-a-hopeloan ul.products li.product .product-info .price {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  .give-a-hopeloan ul.products li.product .product-info .price {
+    text-align: center;
+  }
+}
+.give-a-hopeloan ul.products li.product .product-info .price .woocommerce-Price-amount {
+  color: #483b39;
+  font-family: Oswald;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.01rem;
+  line-height: 1.1;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.give-a-hopeloan ul.products li.product .product-info .add_to_cart_button {
+  background-color: #fcb531;
+  font-size: 12px;
+  padding: 11px 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  border-radius: 5px;
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  .give-a-hopeloan ul.products li.product .product-info .add_to_cart_button {
+    display: block;
+    text-align: center;
+  }
+}
+.give-a-hopeloan ul.products li.product:nth-child(even):before {
+  height: 90%;
+  width: 5px;
+  display: block;
+  border-left: 3px dotted #c7b299;
+  content: '';
+  left: -26px;
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  .give-a-hopeloan ul.products li.product:nth-child(even):before {
+    border-left: none;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .give-a-hopeloan ul.products li.product:nth-child(even):before {
+    border-left: none;
+  }
+}
+.give-a-hopeloan .wpb-js-composer .icon-tabs .vc_tta-color-grey.vc_tta-style-modern .vc_tta-tab.vc_active > a {
+  color: #534741 !important;
+  background-color: #fff5e9 !important;
+}
+.give-a-hopeloan .wpb-js-composer .icon-tabs .vc_tta-color-grey.vc_tta-style-modern .vc_tta-tab > a {
+  color: #c7b299 !important;
+  background-color: #534741 !important;
+}
+.give-a-hopeloan .wpb-js-composer .icon-tabs .vc_tta-color-grey.vc_tta-style-modern .vc_tta-tab > a:hover {
+  color: #fff !important;
+}
+.give-a-hopeloan .wpb-js-composer .icon-tabs .vc_tta-color-grey.vc_tta-style-modern .vc_tta-tab.vc_active > a:hover {
+  color: #534741 !important;
+}
+.give-a-hopeloan .tab-agriculture h1, .give-a-hopeloan .tab-agriculture h5 {
+  color: #fcb531 !important;
+}
+.give-a-hopeloan .wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-agriculture .vc_tta-panel-heading, .give-a-hopeloan .wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-agriculture .vc_tta-panel-body {
+  background-color: #fff3dc !important;
+}
+.give-a-hopeloan .tab-animals h1, .give-a-hopeloan .tab-education h1, .give-a-hopeloan .tab-education h5 {
+  color: #f3733a !important;
+}
+.give-a-hopeloan .wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-animals .vc_tta-panel-heading, .give-a-hopeloan .wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-animals .vc_tta-panel-body, .give-a-hopeloan .wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-education .vc_tta-panel-heading, .give-a-hopeloan .wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-education .vc_tta-panel-body {
+  background-color: #fde7dd !important;
+}
+.give-a-hopeloan .tab-business h1, .give-a-hopeloan .tab-clean-water h1, .give-a-hopeloan .tab-clean-water h5 {
+  color: #1da7b4 !important;
+}
+.give-a-hopeloan .wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-business .vc_tta-panel-heading, .give-a-hopeloan .wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-business .vc_tta-panel-body, .give-a-hopeloan .wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-clean-water .vc_tta-panel-heading, .give-a-hopeloan .wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-clean-water .vc_tta-panel-body {
+  background-color: #d4f3f6 !important;
+}
+.give-a-hopeloan .tab-community h1 {
+  color: #0d7978 !important;
+}
+.give-a-hopeloan .wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-community .vc_tta-panel-heading, .give-a-hopeloan .wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-community .vc_tta-panel-body {
+  background-color: #d1e7e7 !important;
+}
+.give-a-hopeloan .tab-health h1, .give-a-hopeloan .tab-health h5 {
+  color: #c32528 !important;
+}
+.give-a-hopeloan .wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-health .vc_tta-panel-heading, .give-a-hopeloan .wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-health .vc_tta-panel-body {
+  background-color: #f5dada !important;
+}
+.give-a-hopeloan .icon-tabs .vc_col-sm-3 {
+  padding: 40px 60px;
+}
+.give-a-hopeloan .dotted-border-right {
+  border-right: 3px dotted #c7b299;
+}
+.give-a-hopeloan .dotted-border-bottom {
+  border-bottom: 3px dotted #c7b299;
+}
+@media (max-width: 767px) {
+  .give-a-hopeloan .dotted-border-right {
+    border-right: 0px dotted #c7b299;
+    border-bottom: 3px dotted #c7b299;
+  }
+}
+/* 
+ PAGE: 
+ ________________________________________________________
+ GIVE NOW 
+ */
+.give-now {
+  /* mobile-portrait */
+}
+.give-now .wpb_button, .give-now .wpb_content_element, .give-now ul.wpb_thumbnails-fluid > li {
+  margin-bottom: 1px;
+}
+@media (max-width: 768px) {
+  .give-now .standalone-donate-form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+/* 
+ ===========================
+ PAGE: HOPE BOARDS
+ ===========================
+ */
+.half-half-button button, .three-quarters-button button, .one-quarter-button button, .two-thirds-button button, .one-third-button button, .two-thirds-button button.vc_general.vc_btn3, .one-third-button button.vc_general.vc_btn3 {
+  font-family: Oswald;
+  line-height: 12px;
+  letter-spacing: 1px;
+}
+.one-third-button.vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-icon-right:not(.vc_btn3-o-empty) .vc_btn3-icon, .two-thirds-button.vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-icon-right:not(.vc_btn3-o-empty) .vc_btn3-icon {
+  margin-left: 2px;
+}
+.half-half-button {
+  width: 48%;
+  margin: 2px 1%;
+  float: left;
+}
+.three-quarters-button {
+  width: 70%;
+  margin: 2px 1% 10px 4%;
+  float: left;
+}
+.one-quarter-button {
+  width: 20%;
+  margin: 2px 4% 10px 1%;
+  float: left;
+}
+.two-thirds-button {
+  width: 61%;
+  margin: 2px 1% 10px 4%;
+  float: left;
+}
+.one-third-button {
+  width: 28%;
+  margin: 2px 4% 10px 1%;
+  float: left;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-icon-left .vc_btn3-icon, .vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-icon-right .vc_btn3-icon {
+    display: none;
+  }
+  .vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-size-xs {
+    padding: 8px 2px;
+  }
+  .half-half-button button, .three-quarters-button button, .one-quarter-button button, .two-thirds-button button, .one-third-button button, .two-thirds-button button.vc_general.vc_btn3, .one-third-button button.vc_general.vc_btn3 {
+    letter-spacing: 0.5px;
+  }
+}
+/* I think this has common elements between all hope boards (completed/inprogress) */
+/* 
+ ===========================
+ PAGE: HOPE BOARD
+ ===========================
+ */
+.hope-board #hope-campaigns-filter-and-items-row, .hope-board #hope-projects-filter-and-items-row {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+/* 
+ PAGE: 
+ ________________________________________________________
+ HOME 
+ */
+.home {
+  /* HOME PAGE : RESPONSIVE */
+}
+.home #ways-to-give-row .wpb_column {
+  height: 100%;
+}
+.home #ways-to-give-row .wpb_column .vc_column-inner {
+  height: 100%;
+}
+.home #ways-to-give-row .wpb_column .vc_column-inner .wpb_wrapper {
+  height: 100%;
+}
+.home #ways-to-give-row .wpb_column .vc_column-inner .wpb_wrapper a {
+  height: 100%;
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .home #ways-to-give-row .wpb_column .vc_column-inner .wpb_wrapper a {
+    min-height: 165px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .home #ways-to-give-row .wpb_column .vc_column-inner .wpb_wrapper a {
+    min-height: 165px;
+  }
+}
+@media (min-width: 1200px) {
+  .home #ways-to-give-row .wpb_column .vc_column-inner .wpb_wrapper a {
+    min-height: 165px;
+  }
+}
+.home .lives-transformed > .vc_column-inner {
+  width: 80%;
+  margin: 0;
+  padding: 20px;
+}
+.home .lives-transformed > .vc_column-inner .flipper {
+  margin-bottom: 12px;
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .home .lives-transformed-space-left, .home .lives-transformed-space-right {
+    width: 25%;
+  }
+  .home .lives-transformed {
+    width: 50%;
+  }
+}
+.home #stories-row {
+  margin-top: 20px;
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  .home #stories-row > .wpb_column {
+    margin: 35px auto;
+  }
+}
+.home #stories-row .story {
+  /* mobile-portrait */
+}
+.home #stories-row .story h5 {
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .home #stories-row .story {
+    margin-bottom: 50px;
+  }
+}
+.home #stories-row .story img {
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  .home #stories-row .story img {
+    max-width: 350px;
+  }
+}
+.home .we-multiply-your-gift {
+  margin-top: 0;
+  min-height: 700px;
+  background-position: top right !important;
+}
+.home .neg-top-margin {
+  margin-top: -50px;
+}
+.home .completely-sustainable-giving {
+  margin-top: -200px;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.home .dotted-line-1500 {
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/wp-content/uploads/2017/06/dotted-line_1500.png);
+}
+.home .mint-border img {
+  border: 10px solid #c7dec7;
+}
+.home .green-border img {
+  border: 6px solid #67abac;
+}
+.home .be-the-change {
+  background-position: bottom right !important;
+  /* background-size: contain !important; */
+  background-repeat: no-repeat !important;
+  border-top: 3px dotted #c7b299;
+}
+.home .be-the-change .infinite .vc_column-inner {
+  background-position: 12% 0% !important;
+  background-repeat: repeat-y !important;
+}
+.home .wpb_gmaps_widget .wpb_wrapper {
+  background: #fff;
+  padding: 0;
+}
+@media (max-width: 1350px) {
+  .home .completely-sustainable-giving {
+    background: none !important;
+  }
+}
+@media (max-width: 1200px) {
+  .home .we-multiply-your-gift {
+    margin-top: 0px;
+  }
+  .home .lives-transformed .vc_column-inner {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media (min-width: 901px) and (max-width: 1100px) {
+  .home .be-the-change h3 {
+    font-size: 20px;
+  }
+  .home .be-the-change h6 {
+    font-size: 14px;
+  }
+  .home .vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-size-lg {
+    font-size: 22px;
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .home .be-the-change h3 {
+    font-size: 20px;
+  }
+  .home .be-the-change .vc_col-sm-3 h6 {
+    font-size: 12px;
+  }
+  .home .be-the-change .vc_col-sm-4 h6 {
+    font-size: 16px;
+  }
+  .home .be-the-change .vc_col-sm-4 p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .home .vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-size-lg {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .home .we-multiply-your-gift {
+    background: none !important;
+    min-height: 100px;
+  }
+  .home .lives-transformed .vc_column-inner {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .home .be-the-change .vc_column-inner {
+    background: none !important;
+  }
+  .home .vc_empty_space.see-the-change {
+    height: 100px !important;
+  }
+  .home .be-the-change {
+    background: #c5e0e3 !important;
+  }
+  .home .completely-sustainable-giving p {
+    text-align: center;
+  }
+  .home .completely-sustainable-giving img {
+    display: none;
+  }
+  .home .fifty-fifty .wpb_content_element h6 {
+    margin-top: 80px;
+  }
+  .home .half-half-icons .wpb_content_element {
+    width: 46%;
+    float: left;
+  }
+  .home .half-half-icons .wpb_content_element h6 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+}
+.my-fundraisers.logged-out .my-campaigns-col h2 {
+  display: none;
+}
+.my-fundraisers .my-campaigns-col {
+  margin-top: 40px;
+}
+.my-fundraisers .my-campaigns-col h2 {
+  display: block !important;
+  color: #1da7b4;
+  font-size: 32px;
+  font-family: Oswald;
+  margin-left: 15px;
+}
+.my-fundraisers .my-campaigns-col .charitable-campaign {
+  border: none;
+}
+.my-fundraisers .my-campaigns-col .charitable-campaign .charitable-thumb {
+  float: left;
+  width: 20%;
+}
+.my-fundraisers .my-campaigns-col .charitable-campaign .charitable-thumb img {
+  /* this is only used to override mobile rules on super small screens */
+}
+@media (max-width: 460px) {
+  .my-fundraisers .my-campaigns-col .charitable-campaign .charitable-thumb img {
+    float: none;
+    width: 90%;
+  }
+}
+.my-fundraisers .my-campaigns-col .charitable-campaign .campaign-summary {
+  float: left;
+  width: 80%;
+  display: block;
+}
+.my-fundraisers .my-campaigns-col .charitable-campaign .campaign-summary .campaign-title {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.my-fundraisers .my-campaigns-col .charitable-campaign .campaign-actions {
+  border: none !important;
+  padding-top: 0;
+}
+.my-fundraisers .my-campaigns-col .charitable-campaign .campaign-actions .actions .edit-campaign {
+  padding-left: 0;
+}
+.my-fundraisers .my-campaigns-col .charitable-campaign .campaign-actions .actions .edit-campaign:before {
+  display: none;
+}
+.my-fundraisers .my-campaigns-col .charitable-campaign .campaign-actions .actions .edit-campaign a {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #78ba73;
+  padding: 5px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  color: white !important;
+  border: none;
+  font-family: Lato;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.my-fundraisers .my-campaigns-col .charitable-campaign .campaign-actions .actions .edit-campaign a:hover {
+  background-color: #59a753 !important;
+  color: white !important;
+}
+.my-fundraisers .my-campaigns-col .start-campaign a {
+  background: #c0262c !important;
+  color: #fcb543 !important;
+  text-transform: uppercase !important;
+  padding: 12px !important;
+  font-size: 16px !important;
+  letter-spacing: 0.1em !important;
+  font-weight: bold !important;
+  vertical-align: middle !important;
+  display: inline-block;
+  text-align: center !important;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+.my-fundraisers .my-campaigns-col .start-campaign a:hover {
+  text-decoration: none;
+  background: #951e22 !important;
+}
+.profile #charitable-profile-form {
+  margin-bottom: 40px;
+}
+.profile #charitable-profile-form .charitable-form-header {
+  display: block !important;
+  color: #f37338;
+  font-size: 32px;
+  font-family: Oswald;
+}
+.profile #charitable-profile-form .charitable-fieldset {
+  border: none;
+}
+.profile #charitable-profile-form .charitable-fieldset input, .profile #charitable-profile-form .charitable-fieldset select, .profile #charitable-profile-form .charitable-fieldset textarea {
+  font-size: 25px;
+  padding: 5px;
+  color: #1ab5c5;
+}
+.profile #charitable-profile-form .button-primary {
+  background: #c0262c !important;
+  color: #fcb543 !important;
+  text-transform: uppercase !important;
+  padding: 12px !important;
+  font-size: 16px !important;
+  letter-spacing: 0.1em !important;
+  font-weight: bold !important;
+  vertical-align: middle !important;
+  display: inline-block;
+  text-align: center !important;
+  border-radius: 2px;
+}
+.profile #charitable-profile-form .button-primary:hover {
+  text-decoration: none;
+  background: #951e22 !important;
+}
+/* 
+ ==============================================
+ PAGE: SINGLE HOPE PROJECT (AKA CAMPAIGN)
+ ==============================================
+ */
+.single-hope-project, .single-campaign {
+  background: -moz-linear-gradient(top, #fff5e9 -22%, rgba(197,224,227,1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fff5e9 -22%, rgba(197,224,227,1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fff5e9 -22%, rgba(197,224,227,1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00c5e0e3', endColorstr='#c5e0e3',GradientType=0);
+  /* IE6-9 */
+  /* completed campaigns */
+  /* HopeLoan Campaigns / Donation Campaigns */
+  /* COLORS */
+  /* Earmarked for Hope Project */
+}
+.single-hope-project.campaign-complete #fundraise-actions .fundraise-btn, .single-campaign.campaign-complete #fundraise-actions .fundraise-btn {
+  display: none;
+}
+.single-hope-project.earmarked_for_hope_loan #similar-projects-row, .single-campaign.earmarked_for_hope_loan #similar-projects-row, .single-hope-project.non_earmarked_donation #similar-projects-row, .single-campaign.non_earmarked_donation #similar-projects-row, .single-hope-project.earmarked_for_hope_loan #map-row, .single-campaign.earmarked_for_hope_loan #map-row, .single-hope-project.non_earmarked_donation #map-row, .single-campaign.non_earmarked_donation #map-row, .single-hope-project.earmarked_for_hope_loan #fundraise-actions-row blockquote, .single-campaign.earmarked_for_hope_loan #fundraise-actions-row blockquote, .single-hope-project.non_earmarked_donation #fundraise-actions-row blockquote, .single-campaign.non_earmarked_donation #fundraise-actions-row blockquote, .single-hope-project.earmarked_for_hope_loan #fundraise-actions-row .fundraise-btn, .single-campaign.earmarked_for_hope_loan #fundraise-actions-row .fundraise-btn, .single-hope-project.non_earmarked_donation #fundraise-actions-row .fundraise-btn, .single-campaign.non_earmarked_donation #fundraise-actions-row .fundraise-btn, .single-hope-project.earmarked_for_hope_loan #meta, .single-campaign.earmarked_for_hope_loan #meta, .single-hope-project.non_earmarked_donation #meta, .single-campaign.non_earmarked_donation #meta, .single-hope-project.earmarked_for_hope_loan .category, .single-campaign.earmarked_for_hope_loan .category, .single-hope-project.non_earmarked_donation .category, .single-campaign.non_earmarked_donation .category {
+  display: none;
+}
+.single-hope-project .vc_row-full-width.vc_clearfix, .single-campaign .vc_row-full-width.vc_clearfix {
+  height: 0;
+  margin: 0;
+}
+.single-hope-project .content-wrapper, .single-campaign .content-wrapper {
+  background: transparent;
+}
+.single-hope-project.hope-campaign div, .single-campaign.hope-campaign div, .single-hope-project.hope-project div, .single-campaign.hope-project div {
+  border: none;
+}
+.single-hope-project #header-row, .single-campaign #header-row {
+  background: transparent !important;
+}
+.single-hope-project #header-row #image-with-progressbar-inner-row, .single-campaign #header-row #image-with-progressbar-inner-row {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.single-hope-project #header-row #image-with-progressbar-inner-row .hope-campaign-progressbar, .single-campaign #header-row #image-with-progressbar-inner-row .hope-campaign-progressbar, .single-hope-project #header-row #image-with-progressbar-inner-row .hope-project-progressbar, .single-campaign #header-row #image-with-progressbar-inner-row .hope-project-progressbar {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 37px;
+  bottom: -37px;
+  left: 0;
+  background-color: rgba(175, 149, 127, 0.74);
+  border-top: 1px solid #b0a587;
+}
+.single-hope-project #header-row #image-with-progressbar-inner-row .hope-campaign-progressbar .inner.bar, .single-campaign #header-row #image-with-progressbar-inner-row .hope-campaign-progressbar .inner.bar, .single-hope-project #header-row #image-with-progressbar-inner-row .hope-project-progressbar .inner.bar, .single-campaign #header-row #image-with-progressbar-inner-row .hope-project-progressbar .inner.bar {
+  width: 65%;
+  height: 36px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  padding: 2px 10px 2px 0;
+}
+.single-hope-project #header-row #image-with-progressbar-inner-row .hope-campaign-progressbar .inner.bar:after, .single-campaign #header-row #image-with-progressbar-inner-row .hope-campaign-progressbar .inner.bar:after, .single-hope-project #header-row #image-with-progressbar-inner-row .hope-project-progressbar .inner.bar:after, .single-campaign #header-row #image-with-progressbar-inner-row .hope-project-progressbar .inner.bar:after {
+  content: ' ';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 37px 12px 0 0;
+  position: absolute;
+  right: -12px;
+  top: 0;
+}
+.single-hope-project #header-row #image-with-progressbar-inner-row .hope-campaign-progressbar .message, .single-campaign #header-row #image-with-progressbar-inner-row .hope-campaign-progressbar .message, .single-hope-project #header-row #image-with-progressbar-inner-row .hope-project-progressbar .message, .single-campaign #header-row #image-with-progressbar-inner-row .hope-project-progressbar .message {
+  color: white;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 1px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.63);
+}
+.single-hope-project #header-row #stats, .single-campaign #header-row #stats {
+  /* keep the columns from stacking */
+}
+.single-hope-project #header-row #stats .vc_col-sm-5, .single-campaign #header-row #stats .vc_col-sm-5 {
+  width: 41.66667% !important;
+}
+.single-hope-project #header-row #stats .vc_col-sm-2, .single-campaign #header-row #stats .vc_col-sm-2 {
+  width: 16.66667% !important;
+}
+.single-hope-project #header-row #stats .stat, .single-campaign #header-row #stats .stat {
+  font-family: Oswald;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.01rem;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 0.625rem;
+  text-transform: uppercase;
+}
+.single-hope-project #header-row #stats .stat-label, .single-campaign #header-row #stats .stat-label {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  /* this is only used to override mobile rules on super small screens */
+}
+@media (max-width: 460px) {
+  .single-hope-project #header-row #stats .stat-label, .single-campaign #header-row #stats .stat-label {
+    font-size: 12px;
+  }
+}
+.single-hope-project #header-row #stats .goal, .single-campaign #header-row #stats .goal, .single-hope-project #header-row #stats .amount-to-goal, .single-campaign #header-row #stats .amount-to-goal {
+  text-align: center;
+}
+.single-hope-project #header-row #stats .goal p, .single-campaign #header-row #stats .goal p, .single-hope-project #header-row #stats .amount-to-goal p, .single-campaign #header-row #stats .amount-to-goal p {
+  display: inline-block;
+  text-align: center;
+}
+.single-hope-project #header-row #stats .amount-to-goal .wpb_wrapper, .single-campaign #header-row #stats .amount-to-goal .wpb_wrapper {
+  text-align: right;
+}
+.single-hope-project #header-row #stats .goal .wpb_wrapper, .single-campaign #header-row #stats .goal .wpb_wrapper {
+  text-align: left;
+}
+.single-hope-project #header-row #stats .out-of-col, .single-campaign #header-row #stats .out-of-col {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* mobile-portrait */
+}
+.single-hope-project #header-row #stats .out-of-col p, .single-campaign #header-row #stats .out-of-col p {
+  font-family: Oswald;
+  font-size: 18px;
+  font-weight: 100;
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  .single-hope-project #header-row #stats .out-of-col p, .single-campaign #header-row #stats .out-of-col p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .single-hope-project #header-row #stats .out-of-col .vc_column-inner, .single-campaign #header-row #stats .out-of-col .vc_column-inner {
+    padding: 0 !important;
+  }
+}
+.single-hope-project #body-row, .single-campaign #body-row {
+  margin-top: 55px;
+  margin-bottom: 0;
+}
+.single-hope-project #body-row #meta .social-share-block, .single-campaign #body-row #meta .social-share-block {
+  margin-bottom: 25px;
+}
+.single-hope-project #body-row #meta .social-share-block .code, .single-campaign #body-row #meta .social-share-block .code {
+  background-color: transparent;
+  border: none;
+}
+.single-hope-project #body-row #meta p, .single-campaign #body-row #meta p {
+  text-align: left;
+}
+.single-hope-project #body-row #meta .location .wpb_wrapper, .single-campaign #body-row #meta .location .wpb_wrapper {
+  width: 132px;
+}
+.single-hope-project #body-row #meta .location .wpb_wrapper, .single-campaign #body-row #meta .location .wpb_wrapper, .single-hope-project #body-row #meta .location .wpb_wrapper p, .single-campaign #body-row #meta .location .wpb_wrapper p {
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+.single-hope-project #body-row #meta figure, .single-campaign #body-row #meta figure {
+  display: block;
+  line-height: 3px;
+  margin: 20px 0;
+}
+.single-hope-project #body-row #meta .category .wpb_wrapper, .single-campaign #body-row #meta .category .wpb_wrapper {
+  width: 132px;
+}
+.single-hope-project #body-row #meta .category .wpb_wrapper, .single-campaign #body-row #meta .category .wpb_wrapper, .single-hope-project #body-row #meta .category .wpb_wrapper p, .single-campaign #body-row #meta .category .wpb_wrapper p {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.single-hope-project #body-row #meta .category img, .single-campaign #body-row #meta .category img {
+  width: 25px;
+}
+.single-hope-project #body-row .hope-campaign-body, .single-campaign #body-row .hope-campaign-body, .single-hope-project #body-row .hope-project-body, .single-campaign #body-row .hope-project-body {
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+}
+.single-hope-project #body-row .hope-campaign-body #title-and-body .post-title h2, .single-campaign #body-row .hope-campaign-body #title-and-body .post-title h2, .single-hope-project #body-row .hope-project-body #title-and-body .post-title h2, .single-campaign #body-row .hope-project-body #title-and-body .post-title h2 {
+  margin-bottom: 15px;
+}
+.single-hope-project #body-row .hope-campaign-body #title-and-body .post-body .wpb_wrapper p, .single-campaign #body-row .hope-campaign-body #title-and-body .post-body .wpb_wrapper p, .single-hope-project #body-row .hope-project-body #title-and-body .post-body .wpb_wrapper p, .single-campaign #body-row .hope-project-body #title-and-body .post-body .wpb_wrapper p {
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 24px;
+  color: #483b39;
+}
+.single-hope-project #body-row .hope-campaign-body + .vc_row-full-width.vc_clearfix, .single-campaign #body-row .hope-campaign-body + .vc_row-full-width.vc_clearfix, .single-hope-project #body-row .hope-project-body + .vc_row-full-width.vc_clearfix, .single-campaign #body-row .hope-project-body + .vc_row-full-width.vc_clearfix {
+  height: 0;
+  margin: 0;
+}
+.single-hope-project #body-row #fundraise-actions-row, .single-campaign #body-row #fundraise-actions-row {
+  background: url(/wp-content/uploads/2017/09/flower-bg-accent.png) no-repeat top center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* mobile-portrait */
+  /* this is only used to override mobile rules on super small screens */
+}
+@media (max-width: 768px) {
+  .single-hope-project #body-row #fundraise-actions-row, .single-campaign #body-row #fundraise-actions-row {
+    background-size: contain;
+  }
+}
+@media (max-width: 460px) {
+  .single-hope-project #body-row #fundraise-actions-row, .single-campaign #body-row #fundraise-actions-row {
+    background-position-y: 30px;
+  }
+}
+.single-hope-project #body-row #fundraise-actions-row #fundraise-actions, .single-campaign #body-row #fundraise-actions-row #fundraise-actions {
+  margin: 60px 0;
+}
+.single-hope-project #body-row #fundraise-actions-row #fundraise-actions .fundraise-btn, .single-campaign #body-row #fundraise-actions-row #fundraise-actions .fundraise-btn {
+  font-family: Lato;
+  font-size: 18px;
+  width: 371px;
+  margin: 10px auto;
+}
+.single-hope-project #body-row #fundraise-actions-row #fundraise-actions .fundraise-btn i, .single-campaign #body-row #fundraise-actions-row #fundraise-actions .fundraise-btn i {
+  display: inline-block;
+}
+.single-hope-project #body-row .quote blockquote, .single-campaign #body-row .quote blockquote {
+  margin-top: 65px;
+  color: #1cb6c7 !important;
+  /* the little orange quote (") flourish */
+}
+.single-hope-project #body-row .quote blockquote:before, .single-campaign #body-row .quote blockquote:before {
+  color: #f17341;
+}
+.single-hope-project #map-row, .single-campaign #map-row {
+  margin-bottom: 0;
+}
+.single-hope-project #similar-projects-row, .single-campaign #similar-projects-row {
+  background: #4a3e3c;
+  color: #c6b29a;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+.single-hope-project #similar-projects-row h3, .single-campaign #similar-projects-row h3 {
+  color: #c6b29a;
+  font-family: Oswald;
+}
+.single-hope-project #similar-projects-row .supercrsl, .single-campaign #similar-projects-row .supercrsl {
+  margin-top: 30px;
+}
+.single-hope-project #similar-projects-row .supercrsl .superprev, .single-campaign #similar-projects-row .supercrsl .superprev {
+  background-position: -1066px -57px !important;
+  height: 42px !important;
+  width: 30px !important;
+}
+.single-hope-project #similar-projects-row .supercrsl .supernext, .single-campaign #similar-projects-row .supercrsl .supernext {
+  background-position: -1406px -57px !important;
+  height: 42px !important;
+  width: 30px !important;
+}
+.single-hope-project .campaign_category-education .hope-campaign-progressbar .inner.bar, .single-campaign .campaign_category-education .hope-campaign-progressbar .inner.bar, .single-hope-project .project_category-education .hope-campaign-progressbar .inner.bar, .single-campaign .project_category-education .hope-campaign-progressbar .inner.bar, .single-hope-project .campaign_category-education .hope-project-progressbar .inner.bar, .single-campaign .campaign_category-education .hope-project-progressbar .inner.bar, .single-hope-project .project_category-education .hope-project-progressbar .inner.bar, .single-campaign .project_category-education .hope-project-progressbar .inner.bar {
+  background-color: #f37338;
+}
+.single-hope-project .campaign_category-education .hope-campaign-progressbar .inner.bar:after, .single-campaign .campaign_category-education .hope-campaign-progressbar .inner.bar:after, .single-hope-project .project_category-education .hope-campaign-progressbar .inner.bar:after, .single-campaign .project_category-education .hope-campaign-progressbar .inner.bar:after, .single-hope-project .campaign_category-education .hope-project-progressbar .inner.bar:after, .single-campaign .campaign_category-education .hope-project-progressbar .inner.bar:after, .single-hope-project .project_category-education .hope-project-progressbar .inner.bar:after, .single-campaign .project_category-education .hope-project-progressbar .inner.bar:after {
+  border-color: #f37338 transparent transparent transparent;
+}
+.single-hope-project .campaign_category-education .category p, .single-campaign .campaign_category-education .category p, .single-hope-project .project_category-education .category p, .single-campaign .project_category-education .category p {
+  color: #f37338;
+}
+.single-hope-project .campaign_category-education h2, .single-campaign .campaign_category-education h2, .single-hope-project .project_category-education h2, .single-campaign .project_category-education h2 {
+  color: #f37338;
+}
+.single-hope-project .campaign_category-education #stats .stat, .single-campaign .campaign_category-education #stats .stat, .single-hope-project .project_category-education #stats .stat, .single-campaign .project_category-education #stats .stat {
+  color: #f37338 !important;
+}
+.single-hope-project .campaign_category-health .hope-campaign-progressbar .inner.bar, .single-campaign .campaign_category-health .hope-campaign-progressbar .inner.bar, .single-hope-project .project_category-health .hope-campaign-progressbar .inner.bar, .single-campaign .project_category-health .hope-campaign-progressbar .inner.bar, .single-hope-project .campaign_category-health .hope-project-progressbar .inner.bar, .single-campaign .campaign_category-health .hope-project-progressbar .inner.bar, .single-hope-project .project_category-health .hope-project-progressbar .inner.bar, .single-campaign .project_category-health .hope-project-progressbar .inner.bar {
+  background-color: #c32528;
+}
+.single-hope-project .campaign_category-health .hope-campaign-progressbar .inner.bar:after, .single-campaign .campaign_category-health .hope-campaign-progressbar .inner.bar:after, .single-hope-project .project_category-health .hope-campaign-progressbar .inner.bar:after, .single-campaign .project_category-health .hope-campaign-progressbar .inner.bar:after, .single-hope-project .campaign_category-health .hope-project-progressbar .inner.bar:after, .single-campaign .campaign_category-health .hope-project-progressbar .inner.bar:after, .single-hope-project .project_category-health .hope-project-progressbar .inner.bar:after, .single-campaign .project_category-health .hope-project-progressbar .inner.bar:after {
+  border-color: #c32528 transparent transparent transparent;
+}
+.single-hope-project .campaign_category-health .category p, .single-campaign .campaign_category-health .category p, .single-hope-project .project_category-health .category p, .single-campaign .project_category-health .category p {
+  color: #c32528;
+}
+.single-hope-project .campaign_category-health h2, .single-campaign .campaign_category-health h2, .single-hope-project .project_category-health h2, .single-campaign .project_category-health h2 {
+  color: #c32528;
+}
+.single-hope-project .campaign_category-health #stats .stat, .single-campaign .campaign_category-health #stats .stat, .single-hope-project .project_category-health #stats .stat, .single-campaign .project_category-health #stats .stat {
+  color: #c32528 !important;
+}
+.single-hope-project .campaign_category-clean-water .hope-campaign-progressbar .inner.bar, .single-campaign .campaign_category-clean-water .hope-campaign-progressbar .inner.bar, .single-hope-project .project_category-clean-water .hope-campaign-progressbar .inner.bar, .single-campaign .project_category-clean-water .hope-campaign-progressbar .inner.bar, .single-hope-project .campaign_category-clean-water .hope-project-progressbar .inner.bar, .single-campaign .campaign_category-clean-water .hope-project-progressbar .inner.bar, .single-hope-project .project_category-clean-water .hope-project-progressbar .inner.bar, .single-campaign .project_category-clean-water .hope-project-progressbar .inner.bar {
+  background-color: #1da7b4;
+}
+.single-hope-project .campaign_category-clean-water .hope-campaign-progressbar .inner.bar:after, .single-campaign .campaign_category-clean-water .hope-campaign-progressbar .inner.bar:after, .single-hope-project .project_category-clean-water .hope-campaign-progressbar .inner.bar:after, .single-campaign .project_category-clean-water .hope-campaign-progressbar .inner.bar:after, .single-hope-project .campaign_category-clean-water .hope-project-progressbar .inner.bar:after, .single-campaign .campaign_category-clean-water .hope-project-progressbar .inner.bar:after, .single-hope-project .project_category-clean-water .hope-project-progressbar .inner.bar:after, .single-campaign .project_category-clean-water .hope-project-progressbar .inner.bar:after {
+  border-color: #1da7b4 transparent transparent transparent;
+}
+.single-hope-project .campaign_category-clean-water .category p, .single-campaign .campaign_category-clean-water .category p, .single-hope-project .project_category-clean-water .category p, .single-campaign .project_category-clean-water .category p {
+  color: #1da7b4;
+}
+.single-hope-project .campaign_category-clean-water h2, .single-campaign .campaign_category-clean-water h2, .single-hope-project .project_category-clean-water h2, .single-campaign .project_category-clean-water h2 {
+  color: #1da7b4;
+}
+.single-hope-project .campaign_category-clean-water #stats .stat, .single-campaign .campaign_category-clean-water #stats .stat, .single-hope-project .project_category-clean-water #stats .stat, .single-campaign .project_category-clean-water #stats .stat {
+  color: #1da7b4 !important;
+}
+.single-hope-project .campaign_category-agriculture .hope-campaign-progressbar .inner.bar, .single-campaign .campaign_category-agriculture .hope-campaign-progressbar .inner.bar, .single-hope-project .project_category-agriculture .hope-campaign-progressbar .inner.bar, .single-campaign .project_category-agriculture .hope-campaign-progressbar .inner.bar, .single-hope-project .campaign_category-agriculture .hope-project-progressbar .inner.bar, .single-campaign .campaign_category-agriculture .hope-project-progressbar .inner.bar, .single-hope-project .project_category-agriculture .hope-project-progressbar .inner.bar, .single-campaign .project_category-agriculture .hope-project-progressbar .inner.bar {
+  background-color: #fcb531;
+}
+.single-hope-project .campaign_category-agriculture .hope-campaign-progressbar .inner.bar:after, .single-campaign .campaign_category-agriculture .hope-campaign-progressbar .inner.bar:after, .single-hope-project .project_category-agriculture .hope-campaign-progressbar .inner.bar:after, .single-campaign .project_category-agriculture .hope-campaign-progressbar .inner.bar:after, .single-hope-project .campaign_category-agriculture .hope-project-progressbar .inner.bar:after, .single-campaign .campaign_category-agriculture .hope-project-progressbar .inner.bar:after, .single-hope-project .project_category-agriculture .hope-project-progressbar .inner.bar:after, .single-campaign .project_category-agriculture .hope-project-progressbar .inner.bar:after {
+  border-color: #fcb531 transparent transparent transparent;
+}
+.single-hope-project .campaign_category-agriculture .category p, .single-campaign .campaign_category-agriculture .category p, .single-hope-project .project_category-agriculture .category p, .single-campaign .project_category-agriculture .category p {
+  color: #fcb531;
+}
+.single-hope-project .campaign_category-agriculture h2, .single-campaign .campaign_category-agriculture h2, .single-hope-project .project_category-agriculture h2, .single-campaign .project_category-agriculture h2 {
+  color: #fcb531;
+}
+.single-hope-project .campaign_category-agriculture #stats .stat, .single-campaign .campaign_category-agriculture #stats .stat, .single-hope-project .project_category-agriculture #stats .stat, .single-campaign .project_category-agriculture #stats .stat {
+  color: #fcb531 !important;
+}
+.single-hope-project .earmarked_for_hope_project #body-row .meta-separator, .single-campaign .earmarked_for_hope_project #body-row .meta-separator, .single-hope-project .earmarked_for_hope_project #body-row .fundraise-btn, .single-campaign .earmarked_for_hope_project #body-row .fundraise-btn, .single-hope-project .earmarked_for_hope_project #body-row .quote, .single-campaign .earmarked_for_hope_project #body-row .quote {
+  display: none;
+}
+.single-hope-project .earmarked_for_hope_project #map-row, .single-campaign .earmarked_for_hope_project #map-row {
+  display: none;
+}
+.single-hope-project.campaign-status-inactive .earmarked_for_hope_project #similar-projects-row, .single-campaign.campaign-status-inactive .earmarked_for_hope_project #similar-projects-row {
+  display: none;
+}
+/* I'm so sorry. We are targeting an obscure div here  */
+body.story > div > div > div > div > div > article > div > div > div {
+  padding: 0 !important;
+}
+body.story > .container {
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+body.story > .container #header-strip {
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  margin-bottom: 0;
+}
+body.story > .container #header-strip .vc_column-inner {
+  padding: 35px;
+}
+body.story > .container #header-strip .vc_column-inner h2 {
+  color: white;
+  font-size: 49px;
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  body.story > .container #header-strip .vc_column-inner h2 {
+    font-size: 53px;
+  }
+}
+body.story > .container .vc_row-full-width.vc_clearfix {
+  display: none;
+}
+body.story > .container #story-row {
+  background: transparent url(/wp-content/themes/hope-loans/img/story/bg.jpg) no-repeat top center;
+  background-size: cover;
+  padding: 33px 80px 80px 80px;
+  margin-bottom: 0;
+  /* this is only used to override mobile rules on super small screens */
+}
+@media (max-width: 460px) {
+  body.story > .container #story-row {
+    padding: 20px 0 80px 0;
+  }
+}
+body.story > .container #story-row h1 {
+  color: #fcb531;
+  text-shadow: 1px 1px 1px black;
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  body.story > .container #story-row h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 68px;
+  }
+}
+body.story > .container #story-row .story-body-block {
+  margin-top: 35px;
+  padding: 35px;
+  background: rgba(255, 255, 255, 0.73);
+  border-radius: 5px;
+}
+/* 
+ ==============================
+ PAGE: START A FUNDRAISER
+ ==============================
+ */
+.start-a-fundraiser {
+  /* non-sass */
+}
+.start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .amount-field {
+  position: relative;
+  display: inline-block;
+}
+.start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .amount-field .frm_primary_label {
+  display: none;
+}
+.start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .amount-field .currency_symbol {
+  position: absolute;
+  top: 3px;
+  left: 26px;
+  z-index: 100;
+  font-size: 25px;
+  color: black;
+  font-family: Lato;
+  font-weight: bold;
+  /* this is only used to override mobile rules on super small screens */
+}
+@media (max-width: 460px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .amount-field .currency_symbol {
+    left: 12px;
+  }
+}
+.start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .amount-field #field_amount {
+  padding-left: 45px;
+  color: black;
+  font-family: Lato;
+  font-weight: bold;
+  font-size: 25px;
+  width: 155px;
+  /* this is only used to override mobile rules on super small screens */
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .amount-field #field_amount {
+    width: 150px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 460px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .amount-field #field_amount {
+    width: 126px;
+    padding-left: 32px;
+    font-size: 15px;
+  }
+}
+.start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .quantity_field_group {
+  display: inline-block;
+}
+.start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .quantity_field_group .frm_primary_label {
+  /* this is only used to override mobile rules on super small screens */
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .quantity_field_group .frm_primary_label {
+    font-size: 14px;
+  }
+}
+@media (max-width: 460px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .quantity_field_group .frm_primary_label {
+    font-size: 12px;
+  }
+}
+.start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .quantity_field_group #field_quantity {
+  width: 85px;
+  color: black;
+  font-family: Lato;
+  font-weight: bold;
+  font-size: 25px;
+  /* this is only used to override mobile rules on super small screens */
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .quantity_field_group #field_quantity {
+    font-size: 20px;
+    width: 70px;
+  }
+}
+@media (max-width: 460px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .quantity_field_group #field_quantity {
+    font-size: 15px;
+    width: 65px;
+  }
+}
+.start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .between {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 40%;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  /* mobile-portrait */
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .between {
+    width: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .between {
+    width: 23%;
+  }
+}
+.start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .between .at {
+  color: #a88b6b;
+  font-family: Lato;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 29px;
+  /* mobile-portrait */
+  /* this is only used to override mobile rules on super small screens */
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .between .at {
+    font-size: 19px;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .between .at {
+    font-size: 19px;
+  }
+}
+@media (max-width: 460px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .between .at {
+    font-size: 14px;
+  }
+}
+.start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .between .per {
+  color: #f37338;
+  font-size: 30px;
+  font-family: Lato;
+  /* mobile-portrait */
+  /* this is only used to override mobile rules on super small screens */
+}
+@media (max-width: 768px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .between .per {
+    font-size: 20px;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .between .per {
+    font-size: 20px;
+  }
+}
+@media (max-width: 460px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .between .per {
+    font-size: 15px;
+  }
+}
+.start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .between .equals {
+  color: #a88b6b;
+  font-family: Lato;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 29px;
+  /* mobile-portrait */
+  /* this is only used to override mobile rules on super small screens */
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .between .equals {
+    font-size: 19px;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .between .equals {
+    font-size: 19px;
+  }
+}
+@media (max-width: 460px) {
+  .start-a-fundraiser .start-a-hope-loans-fundraiser .qty-amt .between .equals {
+    font-size: 14px;
+  }
+}
+.start-a-fundraiser #form_start-a-fundraiser-donation-amount .raise_amt_field_group {
+  position: relative;
+}
+.start-a-fundraiser #form_start-a-fundraiser-donation-amount .raise_amt_field_group .currency_symbol {
+  position: absolute;
+  color: #483b39;
+  top: 35px;
+  left: 41%;
+  font-size: 25px;
+  z-index: 100;
+  font-family: Lato;
+  font-weight: bold;
+  /* mobile-portrait */
+  /* this is only used to override mobile rules on super small screens */
+}
+@media (max-width: 768px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .raise_amt_field_group .currency_symbol {
+    left: 20%;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .raise_amt_field_group .currency_symbol {
+    left: 20%;
+  }
+}
+@media (max-width: 460px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .raise_amt_field_group .currency_symbol {
+    left: 19%;
+  }
+}
+.start-a-fundraiser #form_start-a-fundraiser-donation-amount .raise_amt_field_group #field_goal2 {
+  font-size: 25px;
+  color: #483b39;
+  font-family: Lato;
+  background: white url(/wp-content/uploads/2017/09/give-box-1.png) no-repeat center right;
+  border: none;
+  padding-left: 45%;
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .raise_amt_field_group #field_goal2 {
+    padding-left: 25%;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .raise_amt_field_group #field_goal2 {
+    padding-left: 25%;
+  }
+}
+.start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group .frm_primary_label:not(.right-side) {
+  font-family: Lato;
+  color: #c22326;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group #field_helps {
+  width: 11%;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 30px;
+  vertical-align: middle;
+  /* mobile-portrait */
+  /* this is only used to override mobile rules on super small screens */
+}
+@media (max-width: 768px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group #field_helps {
+    font-size: 20px;
+    width: 13%;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group #field_helps {
+    font-size: 20px;
+    width: 16%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group #field_helps {
+    font-size: 20px;
+    width: 16%;
+  }
+}
+@media (max-width: 460px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group #field_helps {
+    width: 16%;
+    font-size: 15px;
+  }
+}
+.start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group label.right-side {
+  display: inline-block;
+  margin-left: 30px;
+  width: 37%;
+  letter-spacing: 2px;
+  padding-bottom: 0px;
+  vertical-align: middle;
+  /* mobile-portrait */
+  /* this is only used to override mobile rules on super small screens */
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group label.right-side {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group label.right-side {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group label.right-side {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 460px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group label.right-side {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+}
+.start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group .equals {
+  font-size: 16px;
+  color: #a88b6b;
+  font-weight: normal;
+  text-align: left;
+  margin: 0px 40px 0 20px;
+  padding: 0 0 5px 0;
+  /* mobile-portrait */
+  /* this is only used to override mobile rules on super small screens */
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group .equals {
+    margin: 0px 12px;
+  }
+}
+@media (max-width: 768px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group .equals {
+    margin: 0px 12px;
+  }
+}
+@media (max-width: 460px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group .equals {
+    margin: 0 10px;
+  }
+}
+.start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group .dollar_sign, .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group .cost {
+  color: #c0252b;
+  font-family: Oswald;
+  font-size: 30px;
+  /* this is only used to override mobile rules on super small screens */
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group .dollar_sign, .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group .cost {
+    font-size: 25px;
+  }
+}
+@media (max-width: 460px) {
+  .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group .dollar_sign, .start-a-fundraiser #form_start-a-fundraiser-donation-amount .helps_field_group .cost {
+    font-size: 20px;
+  }
+}
+.start-a-fundraiser #form_start-a-fundraiser-hope-projects .raise_amt_field_group {
+  position: relative;
+}
+.start-a-fundraiser #form_start-a-fundraiser-hope-projects .raise_amt_field_group label {
+  display: inline-block;
+  vertical-align: middle;
+}
+.start-a-fundraiser #form_start-a-fundraiser-hope-projects .raise_amt_field_group label .frm_required {
+  display: none;
+}
+.start-a-fundraiser #form_start-a-fundraiser-hope-projects .raise_amt_field_group .goal-group {
+  position: relative;
+}
+.start-a-fundraiser #form_start-a-fundraiser-hope-projects .raise_amt_field_group .goal-group .currency_symbol {
+  position: absolute;
+  color: #fcb33d;
+  top: 4px;
+  left: 46px;
+  font-size: 25px;
+  z-index: 100;
+  font-family: Oswald;
+  font-weight: bold;
+}
+.start-a-fundraiser #form_start-a-fundraiser-hope-projects .raise_amt_field_group .goal-group #field_goal {
+  width: 270px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  vertical-align: middle;
+  position: relative;
+  font-size: 25px;
+  padding: 5px;
+  padding-left: 62px;
+  color: #fcb33d;
+  vertical-align: middle;
+  font-family: Oswald;
+  background: white url(/wp-content/uploads/2017/09/give-box-1.png) no-repeat center right;
+  border: none;
+}
+.start-a-fundraiser .hl-tabs {
+  background: url(/wp-content/uploads/2017/07/three-tabs.png) top center repeat-x;
+}
+.start-a-fundraiser .wpb-js-composer .hl-tabs .vc_tta-color-sandy-brown.vc_tta-style-modern .vc_tta-tab > a {
+  background-color: #d7c8b6;
+  border: 1px solid #d7c8b6;
+  color: #483b39;
+}
+.start-a-fundraiser .wpb-js-composer .hl-tabs .vc_tta-color-sandy-brown.vc_tta-style-modern .vc_tta-tab.vc_active > a {
+  background-color: #fffaf6;
+  border: 1px solid #fffaf6 !important;
+  color: #f37338;
+}
+.start-a-fundraiser .vc_tta-panel.vc_active {
+  background-color: #fffaf6;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.start-a-fundraiser .start-a-hope-loans-fundraiser {
+  background-image: url(/wp-content/uploads/2017/05/start-a-hope-loans-fundraiser.jpg);
+}
+.start-a-fundraiser .start-a-donation-fundraiser {
+  background-image: url(/wp-content/uploads/2017/07/start-a-donation-fundraiser.jpg);
+}
+.start-a-fundraiser .start-a-hope-project-fundraiser {
+  background-image: url(/wp-content/uploads/2017/07/start-a-hope-project-fundraiser.jpg);
+}
+@media (min-width: 1000px) and (max-width: 1600px) {
+  .start-a-fundraiser .vc_empty_space.responsive-empty-space {
+    height: 400px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 999px) {
+  .start-a-fundraiser .vc_empty_space.responsive-empty-space {
+    height: 200px !important;
+  }
+}
+@media (max-width: 767px) {
+  .start-a-fundraiser .vc_empty_space.responsive-empty-space {
+    height: 10px !important;
+  }
+  .start-a-fundraiser .start-a-hope-loans-fundraiser, .start-a-fundraiser .start-a-donation-fundraiser, .start-a-fundraiser .start-a-hope-project-fundraiser {
+    background-image: none;
+  }
+}
+/* 
+ PAGE: 
+ ________________________________________________________
+ WHY A LOAN 
+ */
+.why-a-loan .the-reason {
+  margin-top: -280px;
+  margin-left: -80px;
+}
+.why-a-loan .give-the-gift {
+  margin-top: -108px;
+}
+.why-a-loan .impact-multiplier {
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.why-a-loan .impact-multiplier-accordion {
+  margin-top: -127px;
+}
+.why-a-loan .lighter-headline h5 {
+  font-weight: 400;
+  line-height: 24px;
+}
+.why-a-loan .how-it-works {
+  background-position: center center;
+  background-repeat: repeat-x;
+}
+.why-a-loan .how-it-works .rightalign {
+  margin-right: -21px;
+}
+.why-a-loan .how-it-works .leftalign {
+  margin-left: -21px;
+}
+.why-a-loan .four-up .four-upper-left, .why-a-loan .four-up .four-lower-left {
+  border-right: 3px dotted #c7b299 !important;
+  padding-top: 0 !important;
+  padding-right: 60px !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+.why-a-loan .four-up .four-upper-right, .why-a-loan .four-up .four-lower-right {
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 60px !important;
+}
+@media (min-width: 1301px) and (max-width: 1620px) {
+  .why-a-loan .the-reason {
+    margin-top: -220px;
+    margin-left: -40px;
+  }
+  .why-a-loan .give-the-gift {
+    margin-top: -98px;
+  }
+}
+@media (min-width: 1202px) and (max-width: 1300px) {
+  .why-a-loan .the-reason {
+    margin-top: -120px;
+    margin-left: -40px;
+  }
+  .why-a-loan .give-the-gift {
+    margin-top: -98px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1201px) {
+  .why-a-loan .the-reason {
+    margin-top: -50px;
+    margin-left: -40px;
+  }
+  .why-a-loan .give-the-gift {
+    margin-top: -98px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .why-a-loan .the-reason {
+    margin: 0;
+  }
+  .why-a-loan .give-the-gift {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .why-a-loan .impact-multiplier {
+    display: none;
+  }
+  .why-a-loan .impact-multiplier-accordion {
+    margin-top: 0px;
+  }
+  .why-a-loan .how-it-works {
+    padding-bottom: 40px;
+    margin: 20px;
+  }
+  .why-a-loan .the-reason {
+    margin: 0;
+  }
+  .why-a-loan .give-the-gift {
+    margin-top: 0px;
+  }
+  .why-a-loan .how-it-works-1 {
+    border-left: 10px solid #f3733a;
+    margin: 40px;
+    padding-right: 40px;
+  }
+  .why-a-loan .how-it-works-2 {
+    border-left: 10px solid #0d7978;
+    margin: 40px;
+    padding-right: 40px;
+  }
+  .why-a-loan .how-it-works-3 {
+    border-left: 10px solid #fcb531;
+    margin: 40px;
+    padding-right: 40px;
+  }
+  .why-a-loan .how-it-works-4 {
+    border-left: 10px solid #1da7b4;
+    margin: 40px;
+    padding-right: 40px;
+  }
+  .why-a-loan .four-up .four-lower-right {
+    border-bottom: 3px dotted #c7b299 !important;
+  }
+  .why-a-loan .four-up .four-upper-left, .why-a-loan .four-up .four-lower-left {
+    border-right: none !important;
+    padding-top: 20px !important;
+    padding-right: 0 !important;
+    padding-bottom: 20px !important;
+    padding-left: 0 !important;
+  }
+  .why-a-loan .four-up .four-upper-right, .why-a-loan .four-up .four-lower-right {
+    padding-top: 20px !important;
+    padding-right: 0 !important;
+    padding-bottom: 20px !important;
+    padding-left: 0 !important;
+  }
+}
+.why-a-loan #ways-to-give-row .wpb_column {
+  height: 100%;
+}
+.why-a-loan #ways-to-give-row .wpb_column .vc_column-inner {
+  height: 100%;
+}
+.why-a-loan #ways-to-give-row .wpb_column .vc_column-inner .wpb_wrapper {
+  height: 100%;
+}
+.why-a-loan #ways-to-give-row .wpb_column .vc_column-inner .wpb_wrapper a {
+  height: 100%;
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .why-a-loan #ways-to-give-row .wpb_column .vc_column-inner .wpb_wrapper a {
+    min-height: 165px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .why-a-loan #ways-to-give-row .wpb_column .vc_column-inner .wpb_wrapper a {
+    min-height: 165px;
+  }
+}
+@media (min-width: 1200px) {
+  .why-a-loan #ways-to-give-row .wpb_column .vc_column-inner .wpb_wrapper a {
+    min-height: 165px;
+  }
+}
+.why-a-loan #stories .story {
+  /* mobile-portrait */
+}
+.why-a-loan #stories .story h5 {
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .why-a-loan #stories .story {
+    margin-bottom: 50px;
+  }
+}
+.why-a-loan #stories .story img {
+  /* mobile-portrait */
+}
+@media (max-width: 768px) {
+  .why-a-loan #stories .story img {
+    max-width: 350px;
+  }
+}
+.woocommerce-cart h1.entry-title {
+  display: block !important;
+  color: #c32528;
+  font-size: 32px;
+  font-family: Oswald;
+  margin-top: 20px;
+}
+.woocommerce-cart input.button {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #78ba73;
+  padding: 5px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  color: white !important;
+  border: none;
+  font-family: Lato;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.woocommerce-cart input.button:hover {
+  background-color: #59a753 !important;
+  color: white !important;
+}
+.woocommerce-cart a.checkout-button {
+  background: #c0262c !important;
+  color: #fcb543 !important;
+  text-transform: uppercase !important;
+  padding: 12px !important;
+  font-size: 16px !important;
+  letter-spacing: 0.1em !important;
+  font-weight: bold !important;
+  vertical-align: middle !important;
+  display: inline-block;
+  text-align: center !important;
+  border-radius: 2px;
+}
+.woocommerce-cart a.checkout-button:hover {
+  text-decoration: none;
+  background: #951e22 !important;
+}
+.woocommerce-cart input[type="text"], .woocommerce-cart input[type="number"], .woocommerce-cart select {
+  font-size: 25px;
+  padding: 5px;
+  color: #1ab5c5;
+}
+.woocommerce-cart input[name="apply_coupon"], .woocommerce-cart input[name="update_cart"] {
+  padding: 12px 20px;
+}
+.woocommerce-cart table.shop_table {
+  border: none;
+}
+.woocommerce-cart table.shop_table tr.cart-subtotal {
+  border: none;
+}
+.woocommerce-cart .entry-content table tr th, .woocommerce-cart .comment-content table tr th, .woocommerce-cart .entry-content table tr td, .woocommerce-cart .comment-content table tr td {
+  border: none;
+}
+.woocommerce-checkout h1.entry-title {
+  display: block !important;
+  color: #c32528;
+  font-size: 32px;
+  font-family: Oswald;
+  margin-top: 20px;
+}
+.woocommerce-checkout #place_order {
+  background: #c0262c !important;
+  color: #fcb543 !important;
+  text-transform: uppercase !important;
+  padding: 12px !important;
+  font-size: 16px !important;
+  letter-spacing: 0.1em !important;
+  font-weight: bold !important;
+  vertical-align: middle !important;
+  display: inline-block;
+  text-align: center !important;
+  border-radius: 2px;
+}
+.woocommerce-checkout #place_order:hover {
+  text-decoration: none;
+  background: #951e22 !important;
+}
+.woocommerce-checkout input[type="text"], .woocommerce-checkout input[type="number"], .woocommerce-checkout input[type="tel"], .woocommerce-checkout input[type="email"], .woocommerce-checkout select, .woocommerce-checkout textarea {
+  font-size: 25px;
+  padding: 5px;
+  color: #1ab5c5;
+}
+.woocommerce-checkout .entry-content table tr th, .woocommerce-checkout .comment-content table tr th, .woocommerce-checkout .entry-content table tr td, .woocommerce-checkout .comment-content table tr td {
+  border: none;
+}
+.woocommerce-checkout #is_in_honor_of_field input {
+  margin: 10px 0 0 0;
+}
+.woocommerce-checkout #is_in_honor_of_field span {
+  margin-left: 22px;
+}
+.woocommerce-checkout #payment {
+  background: transparent;
+}
+.woocommerce-checkout .payment_box {
+  background: white !important;
+}
+.woocommerce-checkout .payment_box:before {
+  border: white !important;
+}
+.woocommerce-order-received ul.woocommerce-order-overview li:before {
+  display: none;
+}

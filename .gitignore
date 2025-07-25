@@ -1,0 +1,32 @@
+wp-snapshots/
+web.config
+.htaccess
+.htaccess*
+
+# WordPress core files and themes
+wp-config.php
+.sass-cache/
+.DS_Store
+wp-content/themes/twentyfifteen
+wp-content/themes/twentyfourteen
+wp-content/themes/twentythirteen
+bwp-minify/cache/
+wp-content/cache/
+wp-content/plugins/bwp-minify/cache/
+wp-content/themes/gps/o/
+
+# Sensitive files and credentials
+jmvc/app/twilio/Twilio.php
+wp-content/plugins/membership/tests/php/shared-setup.php
+wp-config*.php
+*.sqlite
+*.db
+
+# WordPress uploads and additional cache
+wp-content/uploads/
+wp-content/w3tc-config/
+
+# Environment and config files
+.env
+.env.local
+.env.*.local

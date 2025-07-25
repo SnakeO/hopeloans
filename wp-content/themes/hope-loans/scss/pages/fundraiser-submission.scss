@@ -1,0 +1,295 @@
+.fundraiser-submission {
+
+	.daterangepicker {
+
+		display: block !important;
+		position: relative !important;
+		top: 0 !important;
+		left: 0 !important;
+
+		.daterangepicker_input {
+
+		}
+
+		.left.calendar {
+
+			.daterangepicker_input {
+				display: none;
+			}
+
+			.calendar-table {
+
+				table {
+
+					th, td {
+						border: none;
+					}
+
+					tr:first-child {
+
+						/* next and prev */
+						th:first-child,
+						th:last-child {
+							width: 32px;
+						}
+					}
+
+					td {
+						color: #746865 !important;
+					}
+
+					.month {
+						text-transform: uppercase;
+					}
+
+					.start-date {
+						background-color: #7EC379;
+					}
+
+					.in-range {
+						background-color: #ECE5DC;
+					}
+
+					.end-date {
+						background-color: #1CB6C7;
+					}
+
+					.prev.available, .next.available {
+						background-color: #D7C8B7;
+						color: white;
+					}
+				}
+			}
+		}
+
+		.right.calendar {
+			display: none;
+		}
+
+		.ranges {
+			float: none;
+		}
+	}
+
+	#account-bar {
+		text-align: right;
+		background-color: #D7C8B7;
+		padding: 10px;
+
+		a {
+			color: #5A4D49;
+			text-transform: uppercase;
+			margin-right: 15px;
+			font-weight: bold;
+			font-family: Lato;
+		}
+	}
+
+	/*
+	#custom-fundraiser-header {
+		width: 100%;
+		background: url("#{$THEME}/img/custom-fundraiser/custom-fundraiser-header.jpg") no-repeat top left;
+		height: 359px;
+	}
+	*/
+
+	#top-title {
+		color: #c22326;
+		margin: 30px 0;
+	}
+
+	#charitable_field_post_title-row {
+		position: relative;
+
+		#charitable_field_post_title  {
+
+			padding: 18px;
+			border-radius: 5px;
+			margin-top: -46px;
+			background-color: #FFF5EA;
+
+			textarea {
+				text-align: center;
+				text-decoration: bold;
+				height: 65px;
+				text-transform: uppercase;
+				font-family: Lato;
+				font-size: 16px;
+				padding: 5px;
+				border-color: #D7C8B7;
+			}
+			
+		}
+
+		.campaign-public {
+			text-align: right;
+
+			p {
+				margin-top: 20px;
+
+				@include breakpoint(mobile) {
+					text-align: center;
+					margin-bottom: 20px;
+				}
+			}
+
+			input {
+				margin-left: 5px;
+			}
+		}
+
+	}
+
+	#funding-info {
+
+		margin-bottom: 50px;
+
+		@include breakpoint(mobile) {
+			max-width: 350px;
+			margin: 0 auto 50px auto;
+		}
+
+		.funded-amt {
+			text-align: center;
+			font-family: Oswald;
+			font-size: 34px;
+		}
+
+		.empty-funded-bar {
+			background-color: #D9C9B6;
+			border: 2px solid #CDC1B3;
+			height: 20px;
+			margin-bottom: 8px;
+		}
+
+		.funded-pct {
+			font-family: Lato;
+			color: #c7b299;
+			font-size: 13px;
+		}
+
+		#charitable_field_goal {
+			text-align: right;
+
+			#charitable_field_goal_element {
+				background: white url(/wp-content/uploads/2017/10/usd-small.png) no-repeat right 10px center;
+				border: 1px solid #C9B69F;
+				font-family: Lato;
+				color: black;
+				padding: 0 40px 0 0;
+				text-align: right;
+				background-size: 22%;
+				width: 130px;
+				margin-top: -5px;
+			}
+		}
+
+		.days-left {
+			font-size: 18px;
+			font-family: Myriad Pro;
+			color: 483b39;
+			margin-top: 22px;
+
+			.num-days {
+				color: #00b6c8;
+				margin: 0 15px;
+			}
+
+			.fa-calendar {
+				color: #C6B29A;
+			}
+		}
+	}
+
+	.desc_p {
+		margin-bottom: 0;
+	}
+
+	#description {
+
+		border-left: 2px dotted #C9B59E;
+
+		& > p {
+			padding-bottom: 3px;
+		}
+
+		#charitable_field_description {
+			display: block;
+			margin-left: -13px;
+
+			#charitable_field_description_element {
+				min-height: 100px;
+				padding: 20px 10px;
+				border: 1px solid #E2DACF;
+				margin-left: 8px;
+				font-family: Lato;
+				font-size: 16px;
+				color: #483b39;
+				margin-right: 40px;
+			}
+			
+		}
+	}
+
+	#charitable_field_description,
+	//#charitable_field_length,	/* length of days */
+	#charitable_field_campaign_category,
+	#charitable_field_image,
+	#charitable_field_location,
+	#charitable_field_city,
+	#charitable_field_state,
+	#charitable_field_country,
+	#charitable_field_user_description,
+	#charitable_field_organisation,
+	.charitable-submit-field .button-secondary {
+		display: none;
+	}
+
+	/* Submit Btn */
+	.charitable-submit-field {
+
+		text-align: center;
+
+		.button-primary {
+
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			background-color: #78BA73;
+			padding: 5px 20px;
+			border-radius: 5px;
+			display: inline-block;
+			margin-bottom: 25px;
+			text-align: center;
+			vertical-align: middle;
+			color: white;
+			border: none;
+			font-family: Lato;
+			font-size: 20px;
+			text-transform: uppercase;
+			margin-top: 45px;
+		}
+	}
+
+	ul.errors {
+
+		padding: 0 0 20px 0;
+		list-style-type: none;
+
+		li {
+			list-style-type: none;
+			padding-left: 0;
+			text-align: center;
+			color: #C0262C;
+			font-family: Lato;
+			font-size: 14px;
+			font-weight: bold;
+
+			&:before {
+				display: none !important;
+			}
+			
+		}
+	}
+   
+}

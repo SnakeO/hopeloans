@@ -1,0 +1,91 @@
+- 2.0.1
+	Improve: Backend Language
+	BugFix: Backend switch don’t work on certain themes
+	BugFix: Backend external links
+	BugFix: ScrollTop AutoOpen in SlideUp
+	BugFix: Fix Jupiter Theme 100% body height
+
+- 2.0.0
+	New Feature: New Backend UI.
+	New Feature: SFS Settings, Import/Export option and Footers have been merged into one single panel.
+	New Feature: Restyling of Input, Select and Checkbox elements.
+	New Feature: Added two new footer types CSS3 Animations and Accordion.
+	New Feature: Added Background image Options and their properties to every footers.
+	New Feature: Added Border Options to the Footer content.
+	New Feature: Added Font properties to Slide Up, Banner, CSS3 Animations and Accordion footer types.
+	New Feature: Added Publicly Queryable switch in Smart Footer System/Settings for frontend builders compatibility.
+	New Feature: Added vertical and horizontal padding options for all Desktop, Tablet, and Mobile devices.
+	New Feature: Added Mobile, Tablet and Desktop Visibility Options.
+	New Feature: Added Import Demos option in SFS General Settings.
+	New Feature: Added .pot file, english and italian version.
+	Improve: Added Footer Content Padding options in pixels and percents.
+	Improve: Enfold Theme Compatibility.
+	Improve: Elementor Builder Compatibility.
+	Improve: Alpha slider to opacity.
+	Improve: Labels and text under every option with hint.
+	Improve: Changed files and folders hierarchy.
+	Improve: Added 2 new measures to the Padding Option.
+	Improve: The handle of the Slide Up Footer on mobile devices is now always centered horizontally.
+	Improve: Now the Sticky Mode of the version 1.2 is called Slide Up Mode.
+	Improve: Added the Sticky option to the Normal Footer.
+	Improve: Added Shadow option to the Normal Footer.
+	Improve: Added fixed padding in the footer content of the mobile.
+	Improve: The Hide On Mobile option has been moved from the Sticky control panel to the general footer content panel.
+	Improve: Import/export options has been moved to the general settings.
+	Improve: Added compatibility with Enfold theme.
+	Improve: Added overlay color to the background.
+	Improve: Added options panel for background content.
+	BugFix: max-height Slide Up.
+	BugFix: Fix vertical alignment Slide Up.
+	BugFix: Other minor fixes.
+
+- 1.2.2
+	Improve: Added Background Content color option to all footer types
+	Improve: Added vertical padding option on Full Width Sticky Footer
+	Improve: Added a class with the slug of Footer Name on footer wrapper.
+	Bug Fix: Circle Handle on Sticky Footer
+	Bug Fix: Banner Footer Type Timeout Auto Open / Auto Close
+	Bug Fix: Banner Footer Type Auto Open on the and of page
+	
+- 1.2.1
+	New Feature: Import/Export footers
+	New Feature: Added auto show/auto hide banner footer
+	New Feature: Added auto open on the scroll on bottom of the page
+	Bug Fix: Banner Footer background color
+	Bug Fix: Close icon dont display if Open icon is clear
+	Bug Fix: Smooth scroll on mobile devices
+	Bug Fix: Mobile position elements
+	Bug Fix: Other several bug fixes
+
+- 1.2
+	New Feature: Added Reveal footer type
+	New Feature: Added Banner footer type
+	New Feature: Auto open on scroll bottom of page in sticky footer
+	New Feature: Trasparency on handle on sticky footer
+	New Feature: Custom css on single footer
+	Bug Fix: Compatible with Upflit Theme
+	Bug Fix: Color picker issues with some themes
+	Bug Fix: Open sticky footer issues
+	Bug Fix: WooCommerce issues
+	Bug Fix: Other several bug fixes
+
+- 1.1.1
+	Bug Fix: Mobile scroll in footer content
+	Bug Fix: Handle in sticky footer go over top window
+	Bug Fix: Activation plugin for particular platform and php versions
+	Bug Fix: Other several bug fixes
+
+- 1.1
+	New Feature: Added WooCommerce section in SFS settings
+	New Feature: Custom Footer for every WooCommerce pages
+	New Feature: Single Page Product Custom Footer
+	New Feature: Archive pages Custom Footer
+	New Feature: Blog page Custom Footer
+	New Feature: Homepage Custom Footer	
+	New Feature: SFS Single Post Type Footer deactivation
+	New Feature: Handle Icon/Text aligment	
+	Bug Fix: Responsive and Mobile issues
+	Bug Fix: "Do you want to hide your footer theme?" issues
+
+- 1.0
+	Init Version

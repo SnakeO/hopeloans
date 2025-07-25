@@ -1,0 +1,244 @@
+/* 
+
+PAGE: 
+________________________________________________________
+
+HOME 
+
+*/
+
+.home {
+
+	#ways-to-give-row {
+
+		.wpb_column {
+			height: 100%;
+
+			.vc_column-inner {
+				height: 100%;
+
+				.wpb_wrapper {
+					height: 100%;
+
+					a {
+						height: 100%;
+
+						@include breakpoint(tablet, tablet-landscape, desktop) {
+							min-height: 165px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.lives-transformed > .vc_column-inner {
+		width: 80%;
+		margin: 0;
+		padding: 20px;
+
+		.flipper {
+			margin-bottom: 12px;
+		}
+	}
+
+	@include breakpoint(tablet) {
+
+		.lives-transformed-space-left,
+		.lives-transformed-space-right {
+			width: 25%;
+		}
+
+		.lives-transformed {
+			width: 50%;
+		}
+	}
+	
+
+	#stories-row {
+
+		margin-top: 20px;
+
+		@include breakpoint(mobile) {
+
+			& > .wpb_column {
+				margin: 35px auto;
+			}
+		}
+
+		.story {
+
+			h5 {
+				margin-top: 20px;
+			}
+
+			@include breakpoint(mobile) { 
+				margin-bottom: 50px;
+			}
+
+			img {
+
+				@include breakpoint(mobile) {
+					max-width: 350px;
+				}
+			}
+		}
+		
+	}
+
+	.we-multiply-your-gift { 
+	    margin-top: 0; 
+		min-height: 700px; 
+	    background-position: top right !important;
+	}
+
+	.neg-top-margin { margin-top: -50px; }
+
+	.completely-sustainable-giving { 
+	    margin-top: -200px;
+	    background-position: top left;
+	    background-repeat: no-repeat;
+	}
+
+	.dotted-line-1500 {
+	    background-position: top right;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-image: url(/wp-content/uploads/2017/06/dotted-line_1500.png);
+	}
+
+	.mint-border img { border: 10px solid #c7dec7; }
+
+	.green-border img { border: 6px solid #67abac; }
+
+
+	.be-the-change {
+		background-position: bottom right !important;
+		/* background-size: contain !important; */
+		background-repeat: no-repeat !important; 
+		border-top: 3px dotted #c7b299;
+	}
+
+	.be-the-change .infinite .vc_column-inner {
+		background-position: 12% 0% !important;
+		background-repeat: repeat-y !important;
+	}
+
+	.wpb_gmaps_widget .wpb_wrapper {
+		background: #FFF;
+		padding: 0; 
+	}
+
+
+
+	/* HOME PAGE : RESPONSIVE */
+
+
+	@media (max-width:1350px) {
+
+		.completely-sustainable-giving {
+			background: none !important;
+		}
+
+	}
+
+
+	@media (max-width:1200px) {
+
+		.we-multiply-your-gift { 
+		    margin-top: 0px; 
+		}
+
+		.lives-transformed .vc_column-inner {
+			width: 100%;
+			margin: 0;
+		}
+
+	}
+
+	@media (min-width: 901px) and (max-width:1100px) {
+
+		.be-the-change h3 { 
+		    font-size: 20px; 
+		}
+
+		.be-the-change h6 { 
+		    font-size: 14px; 
+		}
+
+		.vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-size-lg {
+			font-size: 22px;
+		}
+
+	}
+
+	@media (min-width: 768px) and (max-width:900px) {
+
+		.be-the-change h3 { 
+		    font-size: 20px; 
+		}
+
+		.be-the-change .vc_col-sm-3 h6 { 
+		    font-size: 12px; 
+		}
+
+		.be-the-change .vc_col-sm-4 h6 { 
+		    font-size: 16px; 
+		}
+
+		.be-the-change .vc_col-sm-4 p { 
+		    font-size: 16px;
+		    line-height: 18px; 
+		}
+
+		.vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-size-lg {
+			font-size: 18px;
+		}
+
+	}
+
+	@media (max-width: 767px) {
+
+		.we-multiply-your-gift { background: none !important; min-height: 100px; }
+
+		.lives-transformed .vc_column-inner {
+			width: 80%;
+			margin: 0 10%;
+		}
+
+		.be-the-change .vc_column-inner {
+			background: none !important;
+		}
+
+		.vc_empty_space.see-the-change {
+			height: 100px !important; 
+		}
+
+		.be-the-change {
+			background: #c5e0e3 !important; 
+		}
+
+		.completely-sustainable-giving p {
+			text-align: center; 
+		}
+
+		.completely-sustainable-giving img {
+			display: none; 
+		}
+
+		.fifty-fifty .wpb_content_element h6 {
+			margin-top: 80px; 
+		}
+
+		.half-half-icons .wpb_content_element {
+			width: 46%;
+			float: left;
+		}
+
+		.half-half-icons .wpb_content_element h6 {
+			font-size: 24px;
+			margin-top: 20px; 
+		}
+
+	}
+}

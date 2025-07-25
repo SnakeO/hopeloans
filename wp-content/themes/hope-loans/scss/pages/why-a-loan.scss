@@ -1,0 +1,218 @@
+/* 
+
+PAGE: 
+________________________________________________________
+
+WHY A LOAN 
+
+*/
+
+.why-a-loan {
+
+	.vc_custom_1499294059330 {
+		display: none;
+	}
+
+	.the-reason {
+		margin-top: -280px; 
+		margin-left: -80px; 
+	}
+
+	.give-the-gift {
+		margin-top: -108px; 
+	}
+
+	.impact-multiplier {
+		background-position: bottom right; 
+		background-repeat: no-repeat; 
+	}
+
+	.impact-multiplier-accordion { margin-top: -127px; }
+
+	.lighter-headline h5 {
+		font-weight: 400;
+		line-height: 24px; 
+	}
+
+	.how-it-works {
+		background-position: center center;
+		background-repeat: repeat-x; 
+	}
+
+	.how-it-works .rightalign { margin-right: -21px; }
+
+	.how-it-works .leftalign { margin-left: -21px; }
+
+
+	.four-up .four-upper-left,
+	.four-up .four-lower-left
+	{ 
+		border-right: 3px dotted #c7b299 !important; 
+		padding-top: 0 !important;
+		padding-right: 60px !important;
+		padding-bottom: 0 !important; 
+		padding-left: 0 !important;
+	}
+
+	.four-up .four-upper-right,
+	.four-up .four-lower-right
+	{
+		padding-top: 0 !important;
+		padding-right: 0 !important;
+		padding-bottom: 0 !important; 
+		padding-left: 60px !important;
+	}
+
+	@media (min-width: 1301px) and (max-width:1620px) {
+
+		.the-reason {
+			margin-top: -220px; 
+			margin-left: -40px;
+		}
+
+		.give-the-gift {
+			margin-top: -98px; 
+		}
+
+	}
+
+	@media (min-width: 1202px) and (max-width:1300px) {
+
+		.the-reason {
+			margin-top: -120px; 
+			margin-left: -40px;
+		}
+
+		.give-the-gift {
+			margin-top: -98px; 
+		}
+
+	}
+
+	@media (min-width: 992px) and (max-width:1201px) {
+
+		.the-reason {
+			margin-top: -50px; 
+			margin-left: -40px;
+		}
+
+		.give-the-gift {
+			margin-top: -98px; 
+		}
+
+	}
+
+	@media (min-width: 768px) and (max-width:991px) {
+
+		.the-reason {
+			margin: 0; 
+		}
+
+		.give-the-gift {
+			margin-top: 0px; 
+		}
+
+	}
+
+	@media (max-width: 767px) {
+
+		.impact-multiplier {
+			display: none; 
+		}
+
+		.impact-multiplier-accordion { 
+			margin-top: 0px; 
+		}
+
+		.how-it-works {
+			padding-bottom: 40px;  
+			margin: 20px; 
+		}
+
+		.the-reason {
+			margin: 0; 
+		}
+
+		.give-the-gift {
+			margin-top: 0px; 
+		}
+
+		.how-it-works-1 { border-left: 10px solid #f3733a; margin: 40px; padding-right: 40px; }
+
+		.how-it-works-2 { border-left: 10px solid #0d7978; margin: 40px; padding-right: 40px; }
+
+		.how-it-works-3 { border-left: 10px solid #fcb531; margin: 40px; padding-right: 40px; }
+
+		.how-it-works-4 { border-left: 10px solid #1da7b4; margin: 40px; padding-right: 40px; }
+
+		.four-up .four-lower-right {
+			border-bottom: 3px dotted #c7b299 !important; 
+		}
+
+		.four-up .four-upper-left,
+		.four-up .four-lower-left
+		{ 
+			border-right: none !important; 
+			padding-top: 20px !important;
+			padding-right: 0 !important;
+			padding-bottom: 20px !important; 
+			padding-left: 0 !important;
+		}
+
+		.four-up .four-upper-right,
+		.four-up .four-lower-right
+		{
+			padding-top: 20px !important;
+			padding-right: 0 !important;
+			padding-bottom: 20px !important; 
+			padding-left: 0 !important;
+		}
+
+	}
+
+
+	#ways-to-give-row {
+
+		.wpb_column {
+			height: 100%;
+
+			.vc_column-inner {
+				height: 100%;
+
+				.wpb_wrapper {
+					height: 100%;
+
+					a {
+						height: 100%;
+
+						@include breakpoint(tablet, tablet-landscape, desktop) {
+							min-height: 165px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#stories {
+
+		.story {
+
+			h5 {
+				margin-top: 20px;
+			}
+
+			@include breakpoint(mobile) { 
+				margin-bottom: 50px;
+			}
+
+			img {
+
+				@include breakpoint(mobile) {
+					max-width: 350px;
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,149 @@
+// Visual Composer Starter Font
+//
+// Since icons are fonts, they can be placed anywhere text is placed and are
+// thus automatically sized to match the surrounding child. To use, create an
+// inline element with the appropriate class, like so:
+//
+// <a href="#"><span class="vct-icon-event-note"></span> Note</a>
+
+//** Load fonts from this directory.
+@vct-icon-font-path:          "../fonts/";
+//** File name for all font files.
+@vct-icon-font-name:          "visual-composer-starter-font";
+//** Element ID within SVG icon file.
+@vct-icon-font-svg-id:        "visual-composer-starter-font";
+
+
+// Import the fonts
+@font-face {
+	font-family: 'Visual Composer Starter Font';
+	src: url('@{vct-icon-font-path}@{vct-icon-font-name}.eot');
+	src: url('@{vct-icon-font-path}@{vct-icon-font-name}.eot?#iefix') format('embedded-opentype'),
+	url('@{vct-icon-font-path}@{vct-icon-font-name}.woff2') format('woff2'),
+	url('@{vct-icon-font-path}@{vct-icon-font-name}.woff') format('woff'),
+	url('@{vct-icon-font-path}@{vct-icon-font-name}.ttf') format('truetype'),
+	url('@{vct-icon-font-path}@{vct-icon-font-name}.svg#@{vct-icon-font-svg-id}') format('svg');
+}
+
+//Base styles
+[data-icon] {
+	&:before {
+		font-family: "Visual Composer Starter Font" !important;
+		content: attr(data-icon);
+		font-style: normal !important;
+		font-weight: normal !important;
+		font-variant: normal !important;
+		text-transform: none !important;
+		speak: none;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}
+
+[class^="vct-icon-"],
+[class*=" vct-icon-"] {
+	&:before {
+		font-family: "Visual Composer Starter Font" !important;
+		font-style: normal !important;
+		font-weight: normal !important;
+		font-variant: normal !important;
+		text-transform: none !important;
+		speak: none;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}
+
+// Individual icons
+.vct-icon-chat-bubble-outline {
+	&:before {
+		content: "\61";
+	}
+}
+.vct-icon-event-note {
+	&:before {
+		content: "\62";
+	}
+}
+.vct-icon-facebook-with-circle {
+	&:before {
+		content: "\63";
+	}
+}
+.vct-icon-flickr-with-circle {
+	&:before {
+		content: "\64";
+	}
+}
+.vct-icon-folder-open {
+	&:before {
+		content: "\65";
+	}
+}
+.vct-icon-github-with-circle {
+	&:before {
+		content: "\66";
+	}
+}
+.vct-icon-twitter-with-circle {
+	&:before {
+		content: "\67";
+	}
+}
+.vct-icon-vimeo-with-circle {
+	&:before {
+		content: "\68";
+	}
+}
+.vct-icon-youtube-with-circle {
+	&:before {
+		content: "\69";
+	}
+}
+.vct-icon-instagram-with-circle {
+	&:before {
+		content: "\6a";
+	}
+}
+.vct-icon-linkedin-with-circle {
+	&:before {
+		content: "\6b";
+	}
+}
+.vct-icon-mail {
+	&:before {
+		content: "\6c";
+	}
+}
+.vct-icon-mail-circle {
+	&:before {
+		content: "\6d";
+	}
+}
+.vct-icon-person-outline {
+	&:before {
+		content: "\6e";
+	}
+}
+.vct-icon-pinterest-with-circle {
+	&:before {
+		content: "\6f";
+	}
+}
+.vct-icon-search {
+	&:before {
+		content: "\70";
+	}
+}
+.vct-icon-dropdown {
+	&:before {
+		content: "\71";
+	}
+}
+.vct-icon-close {
+	&:before {
+		content: "\72";
+	}
+}

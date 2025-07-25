@@ -1,0 +1,18 @@
+.charitable-login-form {
+
+	border: none;
+
+	.login-username label,
+	.login-password label {
+		@include red-heading-text();
+	}
+
+	#user_login,
+	#user_pass {
+		@include blue-input-text();
+	}
+	
+	#wp-submit {
+		@include red-button();
+	}
+}

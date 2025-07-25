@@ -1,0 +1,52 @@
+@mixin green-button()
+{
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background-color: #78BA73;
+	padding: 5px 20px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-bottom: 0;
+	text-align: center;
+	vertical-align: middle;
+	color: white !important;
+	border: none;
+	font-family: Lato;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 0;
+
+	&:hover {
+		background-color: darken(#78BA73, 10%) !important;
+		color: white !important;
+	}
+}
+
+.green-button {
+	@include green-button();
+}
+
+@mixin red-button()
+{
+	background: #C0262C !important;
+	color: #FCB543 !important;
+	text-transform: uppercase !important;
+	padding: 12px !important;
+	font-size: 16px !important;
+	letter-spacing: 0.1em !important;
+	font-weight: bold !important;
+	vertical-align: middle !important;
+	display: inline-block;
+	text-align: center !important;
+	border-radius: 2px;
+
+	&:hover {
+		text-decoration: none;
+		background: darken(#C0262C, 10%) !important;
+	}
+}
+
+.green-button {
+	@include red-button();
+}

@@ -1,0 +1,433 @@
+/* 
+==============================
+	PAGE: START A FUNDRAISER
+==============================
+*/
+
+.start-a-fundraiser {
+
+	.start-a-hope-loans-fundraiser {
+
+		.qty-amt {
+
+			.amount-field {
+				position: relative;
+				display: inline-block;
+
+				.frm_primary_label {
+					display: none;
+				}
+
+				.currency_symbol {
+					position: absolute;
+					top: 3px;
+					left: 26px;
+					z-index: 100;
+					font-size: 25px;
+					color: black;
+					font-family: Lato;
+					font-weight: bold;
+
+					@include breakpoint(tiny) {
+						left: 12px;
+					}
+				}
+
+				#field_amount {
+					padding-left: 45px;
+					color: black;
+					font-family: Lato;
+					font-weight: bold;
+					font-size: 25px;
+					width: 155px;
+
+					@include breakpoint(tablet) {
+						width: 150px;
+	    				font-size: 20px;
+					}
+
+					@include breakpoint(tiny) {
+						width: 126px;
+						padding-left: 32px;
+						font-size: 15px;
+
+					}
+				}
+			}
+
+			.quantity_field_group {
+				display: inline-block;
+
+				.frm_primary_label {
+					@include breakpoint(tablet) {
+						font-size: 14px;
+					}
+
+					@include breakpoint(tiny) {
+						font-size: 12px;
+					}
+				}
+
+				#field_quantity {
+					width: 85px;
+					color: black;
+					font-family: Lato;
+					font-weight: bold;
+					font-size: 25px;
+
+					@include breakpoint(tablet) {
+	    				font-size: 20px;
+	    				width: 70px;
+					}
+
+					@include breakpoint(tiny) {
+						font-size: 15px;
+						width: 65px;
+					}
+				}
+			}
+
+
+			.between {
+
+				display: inline-flex;
+				justify-content: space-around;
+				width: 40%;
+				align-items: stretch;
+				flex-wrap: nowrap;
+
+				@include breakpoint(tablet) {
+					width: 25%;
+				}
+
+				@include breakpoint(mobile) {
+					width: 23%;
+				}
+
+				.at {
+					color: #a88b6b;
+					font-family: Lato;
+					font-weight: bold;
+					font-style: italic;
+					font-size: 29px;
+
+					@include breakpoint(mobile, tablet) {
+						font-size: 19px;
+					}
+
+					@include breakpoint(tiny) {
+						font-size: 14px;
+					}
+
+					margin: 0;
+				}
+
+				.per {
+					color: #f37338;
+					font-size: 30px;
+					font-family: Lato;
+
+					@include breakpoint(mobile, tablet) {
+						font-size: 20px;
+					}
+
+					@include breakpoint(tiny) {
+						font-size: 15px;
+					}
+				}
+
+				.equals {
+					color: #a88b6b;
+					font-family: Lato;
+					font-weight: bold;
+					font-style: italic;
+					font-size: 29px;
+
+					@include breakpoint(mobile, tablet) {
+						font-size: 19px;
+					}
+
+					@include breakpoint(tiny) {
+						font-size: 14px;
+					}
+
+					margin: 0;
+				}
+			}
+		}
+	}
+
+	#form_start-a-fundraiser-donation-amount {
+
+		.raise_amt_field_group {
+
+			position: relative;
+
+			.currency_symbol {
+				position: absolute;
+				color: #483b39;
+				top: 35px;
+				left: 41%;
+				font-size: 25px;
+				z-index: 100;
+				font-family: Lato;
+				font-weight: bold;
+
+				@include breakpoint(mobile, tablet) {
+					left: 20%;
+				}
+
+				@include breakpoint(tiny) {
+					left: 19%;
+				}
+			}
+
+			#field_goal2 {
+				font-size: 25px;
+				color: #483b39;
+				font-family: Lato;
+				background: white url(/wp-content/uploads/2017/09/give-box-1.png) no-repeat center right;
+				border: none;
+				padding-left: 45%;
+
+				@include breakpoint(mobile, tablet) {
+					padding-left: 25%;
+				}
+			}
+			
+		}
+
+		.helps_field_group {
+
+			.frm_primary_label:not(.right-side) {
+				font-family: Lato;
+				color: #c22326;
+				font-size: 20px;
+				vertical-align: middle;
+			}
+
+			#field_helps {
+				width: 11%;
+				text-align: center;
+				font-family: Oswald;
+				font-size: 30px;
+				vertical-align: middle;
+
+				@include breakpoint(mobile) {
+					font-size: 20px;
+					width: 13%;
+				}
+
+				@include breakpoint(tablet) {
+					font-size: 20px;
+					width: 16%;
+				}
+
+				@include breakpoint(tablet-landscape) {
+					font-size: 20px;
+					width: 16%;
+				}
+
+				@include breakpoint(tiny) {
+					width: 16%;
+					font-size: 15px;
+				}
+			}
+
+			label.right-side {
+				display: inline-block;
+				margin-left: 30px;
+				width: 37%;
+				letter-spacing: 2px;
+				padding-bottom: 0px;
+				vertical-align: middle;
+
+				@include breakpoint(tablet) {
+					font-size: 12px;
+					margin-left: 10px;
+				}
+
+				@include breakpoint(tablet-landscape) {
+					margin-left: 10px;
+				}
+
+				@include breakpoint(mobile) {
+					font-size: 12px;
+					margin-left: 20px;
+				}
+
+				@include breakpoint(tiny) {
+					font-size: 10px;
+					margin-left: 10px;
+				}
+				
+			}
+
+			.equals {
+				font-size: 16px;
+				color: #a88b6b;
+				font-weight: normal;
+				text-align: left;
+				margin: 0px 40px 0 20px;
+				padding: 0 0 5px 0;
+
+				@include breakpoint(tablet, mobile) {
+					margin: 0px 12px;
+				}
+
+				@include breakpoint(tiny) {
+					margin: 0 10px;
+				}
+			}
+
+			.dollar_sign,
+			.cost {
+				color: #C0252B;
+				font-family: Oswald;
+				font-size: 30px;
+
+				@include breakpoint(tablet) {
+					font-size: 25px;
+				}
+
+				@include breakpoint(tiny) {
+					font-size: 20px;
+				}
+			}
+		}
+
+		.frm_final_submit {
+
+		}
+	}
+
+
+	#form_start-a-fundraiser-hope-projects {
+
+		.raise_amt_field_group {
+
+			position: relative;
+
+			label {
+
+				display: inline-block;
+				vertical-align: middle;
+
+				.frm_required {
+					display: none;
+				}
+			}
+
+			.goal-group {
+				position: relative;
+
+				.currency_symbol {
+					position: absolute;
+					color: #fcb33d;
+					top: 4px;
+					left: 46px;
+					font-size: 25px;
+					z-index: 100;
+					font-family: Oswald;
+					font-weight: bold;
+				}
+
+				#field_goal {
+
+					width: 270px;
+					display: inline-block;
+					vertical-align: middle;
+					margin: 0;
+
+					vertical-align: middle;
+					position: relative;
+					font-size: 25px;
+					padding: 5px;
+					padding-left: 62px;
+					color: #fcb33d;
+					vertical-align: middle;
+					font-family: Oswald;
+					background: white url(/wp-content/uploads/2017/09/give-box-1.png) no-repeat center right;
+					border: none;
+				}
+			}
+		}
+	}
+	
+	/* non-sass */
+	.hl-tabs {
+		background: url(/wp-content/uploads/2017/07/three-tabs.png) top center repeat-x;
+	}
+
+	.wpb-js-composer .hl-tabs .vc_tta-color-sandy-brown.vc_tta-style-modern .vc_tta-tab>a {
+		background-color: #d7c8b6;
+		border: 1px solid #d7c8b6; 
+		color: #483b39; 
+	}
+
+	.wpb-js-composer .hl-tabs .vc_tta-color-sandy-brown.vc_tta-style-modern .vc_tta-tab>a:hover {
+
+	}
+
+	.wpb-js-composer .hl-tabs .vc_tta-color-sandy-brown.vc_tta-style-modern .vc_tta-tab.vc_active>a {
+		background-color: #fffaf6; 
+		border: 1px solid #fffaf6 !important; 
+		color: #f37338; 
+	}
+
+	.vc_tta-panel.vc_active {
+		background-color: #fffaf6; 
+		background-position: bottom center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	.start-a-hope-loans-fundraiser {
+		background-image: url(/wp-content/uploads/2017/05/start-a-hope-loans-fundraiser.jpg);
+	}
+
+	.start-a-donation-fundraiser {
+		background-image: url(/wp-content/uploads/2017/07/start-a-donation-fundraiser.jpg);
+	}
+
+	.start-a-hope-project-fundraiser {
+		background-image: url(/wp-content/uploads/2017/07/start-a-hope-project-fundraiser.jpg);
+	}
+
+
+	@media (min-width: 1000px) and (max-width:1600px) {
+
+		.vc_empty_space.responsive-empty-space 
+		{ 
+			height: 400px !important; 
+		}
+
+	}
+
+
+	@media (min-width: 768px) and (max-width:999px) {
+
+		.vc_empty_space.responsive-empty-space 
+		{ 
+			height: 200px !important; 
+		}
+
+	}
+
+
+	@media (max-width: 767px) {
+
+		.vc_empty_space.responsive-empty-space 
+		{ 
+			height: 10px !important; 
+		}
+
+		.start-a-hope-loans-fundraiser,
+		.start-a-donation-fundraiser,
+		.start-a-hope-project-fundraiser 
+		{ 
+			background-image: none;
+		}
+
+	}
+}

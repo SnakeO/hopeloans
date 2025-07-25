@@ -1,0 +1,628 @@
+/* 
+===========================
+	PAGE: GIVE A HOPELOAN
+===========================
+*/
+
+$ag-color: #FCB531;
+$an-color: #F17341;
+$bu-color: #1CB6C7;
+$co-color: #107877;
+
+.give-a-hopeloan {
+
+	.vc_tta-tabs {
+
+		.vc_tta-panels-container {
+
+			.vc_tta-panel {
+
+				// .vc_tta-panel-heading is mobile-only
+				.vc_tta-panel-heading {
+
+					a {
+						// hide the font icons
+						& > i:before {
+							display: none;
+						}
+					}
+				}
+
+				&.vc_active {
+
+					// agriculture
+					&:nth-child(1) .vc_tta-panel-heading a span {
+						color: $ag-color !important;
+					}
+
+					// animals
+					&:nth-child(2) .vc_tta-panel-heading a span {
+						color: $an-color !important;
+					}
+
+					// business
+					&:nth-child(3) .vc_tta-panel-heading a span {
+						color: $bu-color !important;
+					}
+
+					// community
+					&:nth-child(4) .vc_tta-panel-heading a span {
+						color: $co-color !important;
+					}
+				}
+
+				&.tab-agriculture {
+
+					li.product {
+
+						.quantity {
+
+							.minus {
+								background-image: url(/wp-content/themes/hope-loans/img/woo/qty/yellow/minus.png);
+							}
+
+							.plus {
+								background-image: url(/wp-content/themes/hope-loans/img/woo/qty/yellow/plus.png);
+							}
+						}
+
+						.product-info {
+
+							.woocommerce-loop-product__title {
+								color: $ag-color;
+							}
+
+							.add_to_cart_button {
+								background-color: $ag-color;
+							}
+						}
+					}					
+				}
+
+				&.tab-animals {
+
+					li.product {
+
+						.quantity {
+
+							.minus {
+								background-image: url(/wp-content/themes/hope-loans/img/woo/qty/red/minus.png);
+							}
+
+							.plus {
+								background-image: url(/wp-content/themes/hope-loans/img/woo/qty/red/plus.png);
+							}
+						}
+
+						.product-info {
+
+							.woocommerce-loop-product__title {
+								color: $an-color;
+							}
+
+							.add_to_cart_button {
+								background-color: $an-color;
+							}
+						}
+					}	
+
+				}
+
+				&.tab-business {
+
+					li.product {
+
+						.quantity {
+
+							.minus {
+								background-image: url(/wp-content/themes/hope-loans/img/woo/qty/blue/minus.png);
+							}
+
+							.plus {
+								background-image: url(/wp-content/themes/hope-loans/img/woo/qty/blue/plus.png);
+							}
+						}
+
+						.product-info {
+
+							.woocommerce-loop-product__title {
+								color: $bu-color;
+							}
+
+							.add_to_cart_button {
+								background-color: $bu-color;
+							}
+						}
+					}
+					
+				}
+
+				&.tab-community {
+
+					li.product {
+
+						.quantity {
+
+							.minus {
+								background-image: url(/wp-content/themes/hope-loans/img/woo/qty/green/minus.png);
+							}
+
+							.plus {
+								background-image: url(/wp-content/themes/hope-loans/img/woo/qty/green/plus.png);
+							}
+						}
+
+						.product-info {
+
+							.woocommerce-loop-product__title {
+								color: $co-color;
+							}
+
+							.add_to_cart_button {
+								background-color: $co-color;
+							}
+						}
+					}
+					
+				}
+			}
+		}
+
+		// desktop
+		.vc_tta-tabs-container {
+
+			ul.vc_tta-tabs-list {
+
+				.vc_tta-tab {
+
+					.vc_tta-title-text {
+						margin-left: 0;
+					}
+
+					& > a {
+						
+						// we replace the font icon w/the image of the category
+						i {
+							display: block;
+							margin: auto;
+						}
+
+					}
+
+				}
+
+				// agriculture
+				.vc_tta-tab:nth-child(1) {
+
+					&.vc_active a {
+						background-color: #FFF3DC !important;
+
+						.vc_tta-title-text {
+							color: $ag-color;
+						}
+					}
+
+					.vc_tta-icon {
+						background-image: url(/wp-content/uploads/2017/08/cat-agriculture.png);
+						background-repeat: no-repeat;
+						width: 180px;
+						height: 190px;
+					}
+				}
+
+				// animals
+				.vc_tta-tab:nth-child(2) {
+
+					&.vc_active a {
+						background-color: #FDE7DD !important;
+
+						.vc_tta-title-text {
+							color: $an-color;
+						}
+					}
+
+					.vc_tta-icon {
+						background-image: url(/wp-content/uploads/2017/08/cat-animals.png);
+						background-repeat: no-repeat;
+						width: 180px;
+						height: 190px;
+					}
+				}
+
+				// business
+				.vc_tta-tab:nth-child(3) {
+
+					&.vc_active a {
+						background-color: #D4F3F6 !important;
+
+						.vc_tta-title-text {
+							color: $bu-color;
+						}
+					}
+
+					.vc_tta-icon {
+						background-image: url(/wp-content/uploads/2017/08/cat-business.png);
+						background-repeat: no-repeat;
+						width: 180px;
+						height: 190px;
+					}
+				}
+
+				// community
+				.vc_tta-tab:nth-child(4) {
+
+					&.vc_active a {
+						background-color: #D1E7E7 !important;
+
+						.vc_tta-title-text {
+							color: $co-color;
+						}
+					}
+
+					.vc_tta-icon {
+						background-image: url(/wp-content/uploads/2017/08/cat-community.png);
+						background-repeat: no-repeat;
+						width: 180px;
+						height: 190px;
+					}
+				}
+
+				// remove unused icon
+				.vc_tta-tab .vc_tta-icon:before {
+					display: none;
+				}
+			}
+		}
+	}
+
+	ul.products {
+
+		display: flex; 
+		flex-wrap: wrap;
+
+		li.product {
+
+			@include breakpoint(mobile,tablet) {
+				width: 100% !important;
+			}
+
+			border-bottom: $dotted_border;
+			padding-bottom: 50px;
+
+			&:nth-last-child(-n+2) {
+				border-bottom: none;
+			}
+
+			&:before {
+				display: none;
+			}
+
+			.thumb-and-qty {
+				text-align: center;
+				display: inline-block;
+				width: 50%;
+				vertical-align: top;
+
+				@include breakpoint(mobile) {
+					width: 100%;
+				}
+
+				img {
+					max-width: 198px;
+				}
+
+				.quantity {
+					margin-top: 30px;
+
+					input {
+						text-align: center;
+						vertical-align: middle;
+						width: 40px;
+					}
+
+					// remove number spinners
+					input[type=number]::-webkit-inner-spin-button, 
+					input[type=number]::-webkit-outer-spin-button { 
+						-webkit-appearance: none; 
+						margin: 0; 
+					}
+
+					/*
+					.minus, .plus {
+						display: inline-block;
+						position: relative;
+						background: $ag-color;
+						padding: 0px 10px;
+						text-decoration: none;
+						color: white;
+						font-weight: bold;
+						font-size: 25px;
+						border-bottom: none;
+						vertical-align: middle;
+
+						width: 29px;
+						height: 29px;
+						display: inline-block;
+
+						&:after {
+							content: '';
+							display: block;  
+							position: absolute;
+							top: 10px;
+							margin-top: -10px;
+							width: 0;
+							height: 0;
+						}
+					}
+
+					.minus {
+
+						padding: 0px 10px 0px 4px;
+						
+						&:after {
+							right: 100%;
+							border-top: 15px solid transparent;
+							border-right: 15px solid $ag-color;
+							border-bottom: 15px solid transparent;
+							border-left: 15px solid transparent;
+						}
+					}
+
+					.plus {
+
+						padding: 0px 4px 0px 10px;
+						font-size: 22px;
+
+						&:after {	
+							left: 100%;
+							border-top: 15px solid transparent;
+							border-right: 15px solid transparent;
+							border-bottom: 15px solid transparent;
+							border-left: 15px solid $ag-color;
+						}
+					}
+					*/
+				
+					.minus, .plus {
+						display: inline-block;
+						height: 26px;
+						width: 36px;
+						border-bottom: none;
+						vertical-align: middle;
+					}
+				}
+			}
+
+			.product-info {
+				display: inline-block;
+				width: 50%;
+				vertical-align: top;
+
+				@include breakpoint(mobile) {
+					width: 100%;
+				}
+
+				.woocommerce-loop-product__title {
+					color: $yellow_orange;
+					font-family: Oswald;
+					font-size: 48px;
+					font-weight: 400;
+					font-style: normal;
+					letter-spacing: 0.01rem;
+					line-height: 1.1;
+					margin-top: 0;
+					text-transform: uppercase;
+					padding: 0;
+
+					-webkit-hyphens: auto;
+					-moz-hyphens: auto;
+					-ms-hyphens: auto;
+					hyphens: auto;
+
+					@include breakpoint(tablet-landscape) {
+						font-size: 45px;
+					}
+
+					@include breakpoint(mobile) {
+						text-align: center;
+					}
+				}
+
+				.price {
+					margin-top: 15px;
+    				margin-bottom: 10px;
+
+    				@include breakpoint(mobile) {
+						text-align: center;
+					}
+
+    				.woocommerce-Price-amount {
+						color: #483b39;
+						font-family: Oswald;
+						font-size: 32px;
+						font-weight: 400;
+						font-style: normal;
+						letter-spacing: 0.01rem;
+						line-height: 1.1;
+						margin-top: 20px;
+						text-transform: uppercase;
+					}
+				}
+
+				.add_to_cart_button {
+					background-color: $yellow_orange;
+					font-size: 12px;
+					padding: 11px 16px;
+					font-weight: 900;
+					text-transform: uppercase;
+					letter-spacing: 2px;
+					color: white;
+					border-radius: 5px;
+
+					@include breakpoint(mobile) {
+						display: block;
+						text-align: center;
+					}
+				}
+			}
+
+			&:nth-child(even) {
+
+				&:before {
+					height: 90%;
+					width: 5px;
+					display: block;
+					border-left: $dotted_border;
+					content: '';
+					left: -26px;
+
+					@include breakpoint(mobile,tablet) {
+						border-left: none;
+					}
+				}
+			}
+		}
+	}
+
+	/* non-sass */
+
+
+	.icon-tabs {}
+
+
+	/* TAB: ACTIVE */
+	.wpb-js-composer .icon-tabs .vc_tta-color-grey.vc_tta-style-modern .vc_tta-tab.vc_active>a
+	{
+		color: #534741 !important;
+		background-color: #fff5e9 !important; 
+	}
+
+	/* TAB: REST */
+	.wpb-js-composer .icon-tabs .vc_tta-color-grey.vc_tta-style-modern .vc_tta-tab>a
+	{
+		color: #c7b299 !important;  
+		background-color: #534741 !important;  
+	}
+
+	/* TAB: HOVER */
+	.wpb-js-composer .icon-tabs .vc_tta-color-grey.vc_tta-style-modern .vc_tta-tab>a:hover
+	{
+		color: #FFF !important; 
+	}
+	.wpb-js-composer .icon-tabs .vc_tta-color-grey.vc_tta-style-modern .vc_tta-tab.vc_active>a:hover
+	{
+		color: #534741 !important;
+	}
+
+
+	/* AGRICULTURE */
+
+	.tab-agriculture h1,
+	.tab-agriculture h5
+	{ 
+		color: #fcb531 !important; 
+	}
+
+	.wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-agriculture .vc_tta-panel-heading, 
+	.wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-agriculture .vc_tta-panel-body
+	{
+		background-color: #fff3dc !important;
+	}
+
+
+	/* ANIMALS */
+
+	.tab-animals h1,
+	.tab-education h1,
+	.tab-education h5
+	{ 
+		color: #f3733a !important; 
+	}
+
+	.wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-animals .vc_tta-panel-heading, 
+	.wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-animals .vc_tta-panel-body,
+	.wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-education .vc_tta-panel-heading, 
+	.wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-education .vc_tta-panel-body
+	{
+		background-color: #fde7dd !important;
+	}
+
+
+	/* BUSINESS */
+
+	.tab-business h1,
+	.tab-clean-water h1,
+	.tab-clean-water h5
+	{ 
+		color: #1da7b4 !important; 
+	}
+
+	.wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-business .vc_tta-panel-heading, 
+	.wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-business .vc_tta-panel-body,
+	.wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-clean-water .vc_tta-panel-heading, 
+	.wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-clean-water .vc_tta-panel-body
+	{
+		background-color: #d4f3f6 !important;
+	}
+
+
+	/* COMMUNITY */
+
+	.tab-community h1
+	{ 
+		color: #0d7978 !important; 
+	}
+
+	.wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-community .vc_tta-panel-heading, 
+	.wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-community .vc_tta-panel-body
+	{
+		background-color: #d1e7e7 !important;
+	}
+
+
+	/* HEALTH */
+
+	.tab-health h1,
+	.tab-health h5
+	{ 
+		color: #c32528 !important; 
+	}
+
+	.wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-health .vc_tta-panel-heading, 
+	.wpb-js-composer .vc_tta-color-grey.vc_tta-style-modern .vc_tta-panel.vc_active.tab-health .vc_tta-panel-body
+	{
+		background-color: #f5dada !important;
+	}
+
+
+
+
+	.icon-tabs .vc_col-sm-3 {
+		padding: 40px 60px; 
+	}
+
+
+
+
+	/* DOTTED BORDER */
+
+	.dotted-border-right {
+		border-right: 3px dotted #c7b299;
+	}
+
+	.dotted-border-bottom {
+		border-bottom: 3px dotted #c7b299;
+	}
+
+
+
+
+	@media (max-width: 767px) {
+
+		.dotted-border-right {
+			border-right: 0px dotted #c7b299;
+			border-bottom: 3px dotted #c7b299;
+		}
+
+	}
+}

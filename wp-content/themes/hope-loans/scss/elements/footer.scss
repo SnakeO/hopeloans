@@ -1,0 +1,24 @@
+#sfs-footer-wrapper {
+
+	#footer-content-row {
+		padding-bottom: 25px;
+
+		.col3 {
+			width: 20%;
+		}
+
+		.col4 {
+			width: 21.6%;
+		}
+
+		@include breakpoint(mobile) {
+
+			.col1, .col2, .col3, .col4 {
+
+				margin-bottom: 30px;
+				width: 47%;
+				float: right;
+			}
+		}
+	}
+}

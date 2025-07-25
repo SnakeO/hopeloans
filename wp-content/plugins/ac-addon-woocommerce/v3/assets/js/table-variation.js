@@ -1,0 +1,1 @@
+'use strict';jQuery(document).ready(function($){if(aca_wc_table_variation){jQuery('<a href="'+aca_wc_table_variation.button_back_link+'" class="page-title-action acp-wc-product-link">'+aca_wc_table_variation.button_back_label+'</a>').insertAfter('.wp-heading-inline')}});

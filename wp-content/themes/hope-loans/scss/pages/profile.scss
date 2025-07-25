@@ -1,0 +1,25 @@
+.profile {
+
+	#charitable-profile-form {
+
+		margin-bottom: 40px;
+
+		.charitable-form-header {
+			@include orange-heading-text();
+		}
+
+		.charitable-fieldset {
+			border: none;
+
+			input, select, textarea {
+				@include blue-input-text();
+			}
+		}
+
+		.button-primary {
+			@include red-button();
+		}
+	}
+	
+	
+}

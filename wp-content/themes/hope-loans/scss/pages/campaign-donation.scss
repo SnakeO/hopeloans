@@ -1,0 +1,31 @@
+.campaign-donation,
+.campaign-donation-page {
+
+	ul li:before {
+		display: none;
+	}
+
+	fieldset {
+		border: none !important;
+		padding: 0 !important;
+	}
+
+	input[type="text"], select, input[type="email"] {
+		@include blue-input-text();
+	}
+
+	.charitable-form-header {
+		color: $hope-project-health;
+		font-size: 32px;
+		font-family: Oswald;
+	}
+
+	.charitable-submit-field button {
+
+		@include red-button();
+	}
+
+	.charitable-form-processing {
+		display: inline-block;
+	}
+}
